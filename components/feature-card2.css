@@ -40,6 +40,9 @@
   .feature-card2-container {
     flex-direction: column;
   }
+  .feature-card2-root-class-name {
+    width: 100%;
+  }
 }
 @media(max-width: 479px) {
   .feature-card2-container {
