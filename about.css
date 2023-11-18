@@ -187,7 +187,7 @@
   display: contents;
 }
 .about-text32 {
-  color: rgb(255, 255, 255);
+  color: var(--dl-color-gray-white);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
