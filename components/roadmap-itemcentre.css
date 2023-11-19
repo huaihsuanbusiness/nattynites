@@ -93,12 +93,10 @@
 
 
 
-@media(max-width: 991px) {
-  .roadmap-itemcentre-root-class-name2 {
-    align-self: stretch;
-    margin-top: 0px;
-  }
-}
+
+
+
+
 @media(max-width: 767px) {
   .roadmap-itemcentre-container1 {
     width: var(--dl-size-size-small);
@@ -132,5 +130,17 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .roadmap-itemcentre-text {
+    font-size: 1em;
+  }
+  .roadmap-itemcentre-text1 {
+    font-size: 15px;
+  }
+  .roadmap-itemcentre-text2 {
+    font-size: 15px;
+  }
+  .roadmap-itemcentre-text3 {
+    font-size: 15px;
   }
 }
