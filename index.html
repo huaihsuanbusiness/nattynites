@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nattynites</title>
+    <meta property="og:title" content="Nattynites" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <section class="home-hero">
+          <div class="home-background">
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1589007758669-c58f38192d28?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDMyfHxyZXNvcnR8ZW58MHx8fHwxNzAwMTQxMTkzfDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+              class="home-image"
+            />
+          </div>
+          <header data-thq="thq-navbar" class="home-navbar">
+            <h2 class="home-text">Nattynites</h2>
+            <div
+              data-thq="thq-navbar-nav"
+              data-role="Nav"
+              class="home-desktop-menu"
+            >
+              <nav
+                data-thq="thq-navbar-nav-links"
+                data-role="Nav"
+                class="home-nav"
+              >
+                <a href="about.html" class="home-link navLink">About</a>
+                <a href="#title_project" class="home-link01 navLink">Project</a>
+                <a href="#title_NFT" class="home-link02 navLink">NFT</a>
+                <a href="#title_roadmap" class="home-link03 navLink">Roadmap</a>
+                <a href="#title_contact" class="home-link04 navLink">Connect</a>
+              </nav>
+              <button class="button">
+                <span>
+                  <span>Connect Wallet</span>
+                  <br />
+                  <span class="home-text04">(Coming soon)</span>
+                </span>
+                <svg viewBox="0 0 1024 1024" class="home-icon">
+                  <path
+                    d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon02">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="home-nav1"
+              >
+                <div class="home-container01">
+                  <h2 class="home-text05">Nattynites</h2>
+                  <div data-thq="thq-close-menu" class="home-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="home-icon04">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="home-nav2"
+                >
+                  <a href="about.html" class="home-navlink navLink">About</a>
+                  <a href="#title_project" class="home-link05 navLink">
+                    Project
+                  </a>
+                  <a href="#title_NFT" class="home-link06 navLink">NFT</a>
+                  <a href="#title_roadmap" class="home-link07 navLink">
+                    Roadmap
+                  </a>
+                  <a href="#title_contact" class="home-link08 navLink">
+                    Contact
+                  </a>
+                </nav>
+                <div class="home-icon-group">
+                  <div class="home-icons"></div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="home-hero-content">
+            <h1 class="home-text06">
+              <span>The New Era of</span>
+              <br />
+              <span>Real Estate Investment</span>
+            </h1>
+          </div>
+        </section>
+        <section class="home-notes">
+          <div class="home-first">
+            <div data-aos="fade-up-right" class="home-content">
+              <h2 class="home-header">
+                Nattynites is supercharging the real estate game, creating a
+                thrilling new frontier and vibrant ecosystem for investors in
+                real estate, REITs, and timeshares!
+              </h2>
+              <a href="about.html" class="home-register1 button button-style-2">
+                <span class="home-text10">Learn more</span>
+                <svg viewBox="0 0 1024 1024" class="home-icon06">
+                  <path
+                    d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <a
+              href="https://example.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Link
+            </a>
+          </div>
+          <div class="home-second">
+            <div data-aos="fade-up-left" class="home-content1">
+              <h2 class="home-header1">
+                Enjoy stable life-long passive income and luxury holiday
+                experience with Nattynites resort clubs.
+              </h2>
+              <button class="home-register2 button button-style-2">
+                <span class="home-text11">How it works</span>
+                <svg viewBox="0 0 1024 1024" class="home-icon08">
+                  <path
+                    d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <img
+              alt="image"
+              src="public/resort_2_thumb-1400w.jpeg"
+              class="home-image1 image-notes"
+            />
+          </div>
+        </section>
+        <section class="home-quote">
+          <div class="home-content2">
+            <h2 class="home-quoted">
+              Welcome to the first asset-backed redeemable NFT resort club,
+              ushering in the inevitable era of real estate investment.
+            </h2>
+          </div>
+          <img
+            alt="image"
+            src="public/quote-background.svg"
+            class="home-background1"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1639322537231-2f206e06af84?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI4fHxldGhlcmV1bXxlbnwwfHx8fDE3MDAxNDE4Nzd8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+            loading="eager"
+            class="home-background2"
+          />
+        </section>
+        <section class="home-speakers">
+          <div class="home-header2">
+            <div data-aos="fade-right" class="home-heading">
+              <h2 id="title_project" class="home-title">Our Projects</h2>
+            </div>
+          </div>
+          <div class="home-list">
+            <div class="home-row">
+              <div class="home-container02">
+                <img
+                  alt="image"
+                  src="public/resort_3_thumb-1400w.jpeg"
+                  class="home-image2"
+                />
+                <div class="home-container03">
+                  <span class="home-text12">
+                    <span class="home-text13">Pattaya</span>
+                    <br class="home-text14" />
+                    <span class="home-text15">Coming Soon</span>
+                  </span>
+                </div>
+              </div>
+              <div class="home-container04">
+                <img
+                  alt="image"
+                  src="public/resort_3_thumb-1400w.jpeg"
+                  class="home-image3"
+                />
+                <div class="home-container05">
+                  <span class="home-text16">
+                    <span class="home-text17">Hua Hin</span>
+                    <br class="home-text18" />
+                    <span class="home-text19">Coming Soon</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-watch">
+          <div class="home-features">
+            <h1 class="home-text20">
+              The Ultimate Integration of Real Estate, REIT, Timeshare and
+              Blockchain
+            </h1>
+            <div class="home-container06">
+              <div
+                class="feature-card2-feature-card feature-card2-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/save-200w.png"
+                  class="feature-card2-image"
+                />
+                <div class="feature-card2-container">
+                  <h2 class="feature-card2-text">
+                    <span>Minimise Losses</span>
+                  </h2>
+                  <span class="feature-card2-text1">
+                    <span>
+                      Maximize returns, minimise losses! Our portfolio trims up
+                      to 40% in income losses from taxes and commissions,
+                      offering a smarter investment path compared to traditional
+                      real estate.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card2-feature-card feature-card2-root-class-name3"
+              >
+                <img
+                  alt="image"
+                  src="public/exit-200h.png"
+                  class="feature-card2-image"
+                />
+                <div class="feature-card2-container">
+                  <h2 class="feature-card2-text"><span>Exit Anytime</span></h2>
+                  <span class="feature-card2-text1">
+                    <span>
+                      Transfer your NFT effortlessly—swap with a click or list
+                      for sale on the dynamic secondary market. Enjoy the
+                      borderless reach and robust liquidity for a seamless exit
+                      strategy
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card2-feature-card feature-card2-root-class-name2"
+              >
+                <img
+                  alt="image"
+                  src="public/passive-200w.png"
+                  class="feature-card2-image"
+                />
+                <div class="feature-card2-container">
+                  <h2 class="feature-card2-text">
+                    <span>Passive Income</span>
+                  </h2>
+                  <span class="feature-card2-text1">
+                    <span>
+                      Unlock financial freedom with passive income. Let your
+                      money grow while you focus on what matters most. Join the
+                      path to wealth through become the member of our exclusive
+                      clubs.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="feature-card2-feature-card feature-card2-root-class-name1"
+              >
+                <img
+                  alt="image"
+                  src="public/no%20knowledge-200h.png"
+                  class="feature-card2-image"
+                />
+                <div class="feature-card2-container">
+                  <h2 class="feature-card2-text">
+                    <span>No Prior Knowledge Needed</span>
+                  </h2>
+                  <span class="feature-card2-text1">
+                    <span>
+                      Investing made easy! No blockchain expertise required. Our
+                      portfolio comes with comprehensive documentation,
+                      top-notch customer service, and secure custody solutions.
+                      Leaving the technical details to us.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-features1">
+          <h1 id="title_NFT" class="home-text21">
+            <span class="home-text22">NFTs</span>
+            <br />
+          </h1>
+          <span class="home-text24">
+            <span class="home-text25">
+              Dive into luxury with our ERC-6672 NFT and protocol! Unlock a
+              world of excitement as you redeem exclusive discounts,
+              complimentary vouchers, and irresistible perks at partner
+              restaurants, bars, performances, and more. Elevate your experience
+              with VIP perks like yacht parties, exclusive club and the ultimate
+              resort stay. Embrace the extraordinary!
+            </span>
+            <br />
+            <br />
+          </span>
+          <div class="home-container07">
+            <div class="home-container08">
+              <div
+                class="feature-card1311111-feature-card feature-card1311111-root-class-name5"
+              >
+                <h2 class="feature-card1311111-text"><span>Bronze</span></h2>
+                <img
+                  alt="image"
+                  src="public/external/nft1-400h-200h-200h-200h.webp"
+                  class="feature-card1311111-image"
+                />
+                <span></span>
+                <span class="feature-card1311111-text2">
+                  <span>✔ Discount</span>
+                </span>
+                <span class="feature-card1311111-text3">
+                  <span>✔ Free stays</span>
+                </span>
+                <span class="feature-card1311111-text4">
+                  <span>✘ Dividend</span>
+                </span>
+                <span class="feature-card1311111-text5">
+                  <span>✘ VIP perks</span>
+                </span>
+              </div>
+              <div
+                class="feature-card1311111-feature-card feature-card1311111-root-class-name8"
+              >
+                <h2 class="feature-card1311111-text"><span>Silver</span></h2>
+                <img
+                  alt="image"
+                  src="public/nft2-400h.webp"
+                  class="feature-card1311111-image"
+                />
+                <span></span>
+                <span class="feature-card1311111-text2">
+                  <span>✔ Discount</span>
+                </span>
+                <span class="feature-card1311111-text3">
+                  <span>✔ Free stays</span>
+                </span>
+                <span class="feature-card1311111-text4">
+                  <span>✔ Dividend</span>
+                </span>
+                <span class="feature-card1311111-text5">
+                  <span>✘ VIP perks</span>
+                </span>
+              </div>
+              <div
+                class="feature-card1311111-feature-card feature-card1311111-root-class-name4"
+              >
+                <h2 class="feature-card1311111-text"><span>Gold</span></h2>
+                <img
+                  alt="image"
+                  src="public/nft3-400h.webp"
+                  class="feature-card1311111-image"
+                />
+                <span></span>
+                <span class="feature-card1311111-text2">
+                  <span>✔ Discount</span>
+                </span>
+                <span class="feature-card1311111-text3">
+                  <span>✔ Free stays</span>
+                </span>
+                <span class="feature-card1311111-text4">
+                  <span>✔ Dividend</span>
+                </span>
+                <span class="feature-card1311111-text5">
+                  <span>✘ VIP perks</span>
+                </span>
+              </div>
+              <div
+                class="feature-card1311111-feature-card feature-card1311111-root-class-name9"
+              >
+                <h2 class="feature-card1311111-text"><span>Platinum</span></h2>
+                <img
+                  alt="image"
+                  src="public/nft4-400h.webp"
+                  class="feature-card1311111-image"
+                />
+                <span></span>
+                <span class="feature-card1311111-text2">
+                  <span>✔ Discount</span>
+                </span>
+                <span class="feature-card1311111-text3">
+                  <span>✔ Free stays</span>
+                </span>
+                <span class="feature-card1311111-text4">
+                  <span>✔ Dividend</span>
+                </span>
+                <span class="feature-card1311111-text5">
+                  <span>✔ VIP Perks</span>
+                </span>
+              </div>
+              <div
+                class="feature-card1311111-feature-card feature-card1311111-root-class-name10"
+              >
+                <h2 class="feature-card1311111-text"><span>Diamond</span></h2>
+                <img
+                  alt="image"
+                  src="public/nft5%20copy-400h.webp"
+                  class="feature-card1311111-image"
+                />
+                <span></span>
+                <span class="feature-card1311111-text2">
+                  <span>✔ Discount</span>
+                </span>
+                <span class="feature-card1311111-text3">
+                  <span>✔ Free stays</span>
+                </span>
+                <span class="feature-card1311111-text4">
+                  <span>✔ Dividend</span>
+                </span>
+                <span class="feature-card1311111-text5">
+                  <span>✔ VIP Perks</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <h1 class="home-text28">Story</h1>
+          <span class="home-text29">
+            <br />
+            <br />
+            <span>
+              In a future shrouded in shadows, five intrepid girls unravel the
+              cryptic threads of an invitation leading to a concealed holiday
+              retreat. Beneath the veneer of tranquility, this clandestine haven
+              pulses with immersive adventure and irresistible allure. As the
+              girls navigate its enigmatic depths, the resort becomes both
+              sanctuary and seduction, a labyrinth of secrets that tests their
+              resilience.
+            </span>
+            <br />
+            <br />
+            <span>
+              Amid lush landscapes and hidden passages, unbreakable bonds form,
+              unlocking a power that blurs the boundaries of reality and
+              fantasy. This journey promises not just an escape but an odyssey
+              of transformation, where secrets, suspense, and the allure of the
+              unknown intertwine to unveil an extraordinary destiny for those
+              daring enough to embrace its mysteries...
+            </span>
+          </span>
+        </div>
+        <div class="home-container09">
+          <h1 id="title_roadmap" class="home-text36">Roadmap</h1>
+        </div>
+        <div class="home-container10">
+          <div
+            class="roadmap-itemleft-container roadmap-itemleft-root-class-name2"
+          >
+            <div class="roadmap-itemleft-container1">
+              <div class="roadmap-itemleft-line"></div>
+              <div class="roadmap-itemleft-container2">
+                <svg viewBox="0 0 1024 1024" class="roadmap-itemleft-icon">
+                  <path
+                    d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="roadmap-itemleft-line1"></div>
+            </div>
+            <div class="roadmap-itemleft-container3">
+              <h1 class="roadmap-itemleft-text"><span>Q4 2023</span></h1>
+              <span class="roadmap-itemleft-text1">
+                <span>Nattynites Establishment</span>
+              </span>
+              <span class="roadmap-itemleft-text2">
+                <span>White Paper Released</span>
+              </span>
+              <span class="roadmap-itemleft-text3">
+                <span>Strategic Partnership</span>
+              </span>
+            </div>
+          </div>
+          <div
+            class="roadmap-itemcentre1-container roadmap-itemcentre1-root-class-name5"
+          >
+            <div class="roadmap-itemcentre1-container1">
+              <div class="roadmap-itemcentre1-line"></div>
+              <div class="roadmap-itemcentre1-container2">
+                <svg viewBox="0 0 1024 1024" class="roadmap-itemcentre1-icon">
+                  <path
+                    d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="roadmap-itemcentre1-line1"></div>
+              <div class="roadmap-itemcentre1-line2"></div>
+              <div class="roadmap-itemcentre1-line3"></div>
+            </div>
+            <div class="roadmap-itemcentre1-container3">
+              <h1 class="roadmap-itemcentre1-text"><span>Q1 2024</span></h1>
+              <span class="roadmap-itemcentre1-text1">
+                <span>Community launched</span>
+              </span>
+              <span class="roadmap-itemcentre1-text2">
+                <span>Marketing &amp; PR</span>
+              </span>
+              <span class="roadmap-itemcentre1-text3">
+                <span>Resort Acquisition Procedures</span>
+              </span>
+            </div>
+          </div>
+          <div
+            class="roadmap-itemcentre1-container roadmap-itemcentre1-root-class-name6"
+          >
+            <div class="roadmap-itemcentre1-container1">
+              <div class="roadmap-itemcentre1-line"></div>
+              <div class="roadmap-itemcentre1-container2">
+                <svg viewBox="0 0 1024 1024" class="roadmap-itemcentre1-icon">
+                  <path
+                    d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="roadmap-itemcentre1-line1"></div>
+              <div class="roadmap-itemcentre1-line2"></div>
+              <div class="roadmap-itemcentre1-line3"></div>
+            </div>
+            <div class="roadmap-itemcentre1-container3">
+              <h1 class="roadmap-itemcentre1-text"><span>Q2 2024</span></h1>
+              <span class="roadmap-itemcentre1-text1">
+                <span>NFT issuance</span>
+              </span>
+              <span class="roadmap-itemcentre1-text2">
+                <span>Audit Complete</span>
+              </span>
+              <span class="roadmap-itemcentre1-text3">
+                <span>Community Airdrop</span>
+              </span>
+            </div>
+          </div>
+          <div
+            class="roadmap-itemright5-container roadmap-itemright5-root-class-name3"
+          >
+            <div class="roadmap-itemright5-container1">
+              <div class="roadmap-itemright5-line"></div>
+              <div class="roadmap-itemright5-container2">
+                <svg viewBox="0 0 1024 1024" class="roadmap-itemright5-icon">
+                  <path
+                    d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="roadmap-itemright5-line1"></div>
+            </div>
+            <div class="roadmap-itemright5-container3">
+              <h1 class="roadmap-itemright5-text"><span>Q3 2024</span></h1>
+              <span class="roadmap-itemright5-text1">
+                <span>Launchpads Listing</span>
+              </span>
+              <span class="roadmap-itemright5-text2">
+                <span>Opensea/ Blur Listing</span>
+              </span>
+              <span class="roadmap-itemright5-text3">
+                <span>Swap Platform Development</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="home-steps">
+          <div class="home-container11">
+            <div class="home-container12">
+              <div
+                class="roadmap-itemleft-container roadmap-itemleft-root-class-name3"
+              >
+                <div class="roadmap-itemleft-container1">
+                  <div class="roadmap-itemleft-line"></div>
+                  <div class="roadmap-itemleft-container2">
+                    <svg viewBox="0 0 1024 1024" class="roadmap-itemleft-icon">
+                      <path
+                        d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="roadmap-itemleft-line1"></div>
+                </div>
+                <div class="roadmap-itemleft-container3">
+                  <h1 class="roadmap-itemleft-text"><span>Q4 2024</span></h1>
+                  <span class="roadmap-itemleft-text1">
+                    <span>No.2 Acquisition Procedures</span>
+                  </span>
+                  <span class="roadmap-itemleft-text2">
+                    <span>No.2 NFT development</span>
+                  </span>
+                  <span class="roadmap-itemleft-text3">
+                    <span>No.1 Resort Grand Opening</span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="roadmap-itemcentre1-container roadmap-itemcentre1-root-class-name7"
+              >
+                <div class="roadmap-itemcentre1-container1">
+                  <div class="roadmap-itemcentre1-line"></div>
+                  <div class="roadmap-itemcentre1-container2">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="roadmap-itemcentre1-icon"
+                    >
+                      <path
+                        d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="roadmap-itemcentre1-line1"></div>
+                  <div class="roadmap-itemcentre1-line2"></div>
+                  <div class="roadmap-itemcentre1-line3"></div>
+                </div>
+                <div class="roadmap-itemcentre1-container3">
+                  <h1 class="roadmap-itemcentre1-text"><span>Q1 2025</span></h1>
+                  <span class="roadmap-itemcentre1-text1">
+                    <span>No.2 NFT Issuance</span>
+                  </span>
+                  <span class="roadmap-itemcentre1-text2">
+                    <span>No.3 Acquisition Procedures</span>
+                  </span>
+                  <span class="roadmap-itemcentre1-text3">
+                    <span>Swap Platform Released</span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="roadmap-itemcentre1-container roadmap-itemcentre1-root-class-name8"
+              >
+                <div class="roadmap-itemcentre1-container1">
+                  <div class="roadmap-itemcentre1-line"></div>
+                  <div class="roadmap-itemcentre1-container2">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="roadmap-itemcentre1-icon"
+                    >
+                      <path
+                        d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="roadmap-itemcentre1-line1"></div>
+                  <div class="roadmap-itemcentre1-line2"></div>
+                  <div class="roadmap-itemcentre1-line3"></div>
+                </div>
+                <div class="roadmap-itemcentre1-container3">
+                  <h1 class="roadmap-itemcentre1-text"><span>Q2 2025</span></h1>
+                  <span class="roadmap-itemcentre1-text1">
+                    <span>No.2 Resort Grand Opening</span>
+                  </span>
+                  <span class="roadmap-itemcentre1-text2"><span></span></span>
+                  <span class="roadmap-itemcentre1-text3">
+                    <span>Real Estate Tokenisation Platform Development</span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="roadmap-itemright5-container roadmap-itemright5-root-class-name4"
+              >
+                <div class="roadmap-itemright5-container1">
+                  <div class="roadmap-itemright5-line"></div>
+                  <div class="roadmap-itemright5-container2">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="roadmap-itemright5-icon"
+                    >
+                      <path
+                        d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="roadmap-itemright5-line1"></div>
+                </div>
+                <div class="roadmap-itemright5-container3">
+                  <h1 class="roadmap-itemright5-text"><span>TBD</span></h1>
+                  <span class="roadmap-itemright5-text1">
+                    <span>Expand Across ASEAN</span>
+                  </span>
+                  <span class="roadmap-itemright5-text2">
+                    <span>Tokenisation Platform Release</span>
+                  </span>
+                  <span class="roadmap-itemright5-text3">
+                    <span>Lead the medium-scale resort RWA market</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="home-sponsors">
+          <div class="home-features2">
+            <h1 class="home-text37">Partners and Advisors</h1>
+            <div class="home-container13"></div>
+          </div>
+          <div class="home-container14">
+            <div
+              class="feature-card2-feature-card feature-card2-root-class-name4"
+            >
+              <img
+                alt="image"
+                src="public/jh-200h.png"
+                class="feature-card2-image"
+              />
+              <div class="feature-card2-container">
+                <h2 class="feature-card2-text">
+                  <span>
+                    Jian Hua International Real Estate &amp; Consultant
+                  </span>
+                </h2>
+                <span class="feature-card2-text1">
+                  <span>
+                    Luxury resort, condo, industrial, and commercial property
+                    specialist in Thailand.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="feature-card2-feature-card feature-card2-root-class-name5"
+            >
+              <img
+                alt="image"
+                src="public/re-200h.png"
+                class="feature-card2-image"
+              />
+              <div class="feature-card2-container">
+                <h2 class="feature-card2-text"><span>RE: DREAMER Lab</span></h2>
+                <span class="feature-card2-text1">
+                  <span>
+                    ERC-6672 creator and RWA redeemable protocol development.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="feature-card2-feature-card feature-card2-root-class-name7"
+            >
+              <img
+                alt="image"
+                src="public/josh-200h.webp"
+                class="feature-card2-image"
+              />
+              <div class="feature-card2-container">
+                <h2 class="feature-card2-text"><span>Dr. Josh K.</span></h2>
+                <span class="feature-card2-text1">
+                  <span>
+                    Commerce Development Research Institute (TW) Director/
+                    Global Marketing &amp; Consulting Department
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="feature-card2-feature-card feature-card2-root-class-name6"
+            >
+              <img
+                alt="image"
+                src="public/xavier-200w.webp"
+                class="feature-card2-image"
+              />
+              <div class="feature-card2-container">
+                <h2 class="feature-card2-text"><span>Mr. Xavier L.</span></h2>
+                <span class="feature-card2-text1">
+                  <span>KitchBot (CA, USA) CMO&amp; Co-founder</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-why">
+          <div class="home-header3">
+            <div class="home-section-numeral">
+              <div class="home-divide"></div>
+              <p class="home-text38">04</p>
+            </div>
+            <div data-aos="fade-right" class="home-heading1">
+              <h2 class="home-title1">Why Nattynites</h2>
+            </div>
+          </div>
+          <div class="home-brands">
+            <div class="home-row1">
+              <div class="home-item">
+                <div class="home-details">
+                  <h3 class="home-title2">Custody</h3>
+                  <p class="home-description">
+                    Opt for our platform to effortlessly invest in NFTs using
+                    credit cards. With secure credit card payment options and
+                    custody services, we ensure a smooth and hassle-free entry
+                    into the NFT market for our clients.
+                  </p>
+                </div>
+              </div>
+              <div class="home-item1">
+                <div class="home-details1">
+                  <h3 class="home-title3">Transparency</h3>
+                  <p class="home-description1">
+                    Count on us for transparent and reliable investments. We
+                    prioritize openness in our operations, offering clients a
+                    clear view of their portfolios. Our unwavering commitment to
+                    reliability ensures clients can navigate the investment
+                    landscape with confidence and trust in our platform.
+                  </p>
+                </div>
+              </div>
+              <div class="home-item2">
+                <div class="home-details2">
+                  <h3 class="home-title4">Ecosystem</h3>
+                  <p class="home-description2">
+                    Join our thriving ecosystem for a true sense of belonging.
+                    Engage in our vibrant community, redeem NFT products with
+                    our diverse partners, and enjoy the ultimate NFT holding
+                    experience. Discover community, innovation, and a genuine
+                    feeling of belonging with us.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-black">
+          <img alt="image" src="public/black-vector.svg" class="home-image4" />
+          <section class="home-join">
+            <h2 class="home-title5">
+              <span>We are Nattynites,</span>
+              <br />
+              <span>would you care for some naughty nights with us?</span>
+            </h2>
+          </section>
+        </section>
+        <section class="home-subscribe">
+          <div class="home-main">
+            <h2 class="home-header4">
+              Subscribe to our newsletter for the latest Nattynites news and
+              airdrop
+            </h2>
+            <div class="home-content3">
+              <span class="home-text42">
+                <span>
+                  By submitting, you agree to receive email communications from
+                  Nattynites,
+                </span>
+                <br />
+                <span>
+                  including upcoming promotions, airdrop, &nbsp;and access to
+                  exclusive invite-only events.
+                </span>
+              </span>
+            </div>
+          </div>
+        </section>
+        <footer class="home-footer">
+          <img
+            alt="image"
+            src="public/logo-glegoo-horizontal-400w.png"
+            class="home-image5"
+          />
+          <div class="home-content4">
+            <div id="title_contact" class="home-details3">
+              <h2 class="home-title6">Nattynites</h2>
+              <p class="home-description3">nattynites@gmail.com</p>
+            </div>
+            <span class="home-copyright">
+              Privacy — Terms &amp; Conditions — Code of Conduct © 2023
+              Nattynites All Rights Reserved
+            </span>
+          </div>
+        </footer>
+        <div>
+          <div class="home-container16">
+            <script>
+              ScrollReveal().reveal('.speaker');
+              ScrollReveal().reveal('.image-notes');
+            </script>
+          </div>
+        </div>
+        <div>
+          <div class="home-container18">
+            <style>
+              #scrollbar::-webkit-scrollbar-track
+              {
+              	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+              	border-radius: 10px;
+              	background-color: #F5F5F5;
+              }
+
+              #scrollbar::-webkit-scrollbar
+              {
+              	height: 12px;
+              	background-color: #F5F5F5;
+              	border-radius: 10px;
+              }
+
+              #scrollbar::-webkit-scrollbar-thumb
+              {
+              	border-radius: 10px;
+              	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+              	background-color: #555;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
