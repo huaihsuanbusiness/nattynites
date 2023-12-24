@@ -47,12 +47,16 @@
   align-items: center;
   justify-content: space-between;
 }
+.programs-navlink {
+  display: contents;
+}
 .programs-text {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 45px;
+  text-decoration: none;
 }
 .programs-desktop-menu {
   gap: var(--dl-space-space-threeunits);
@@ -148,7 +152,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.programs-navlink {
+.programs-navlink1 {
   text-decoration: none;
 }
 .programs-link4 {
@@ -778,7 +782,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   background-color: #000000;
 }
-.programs-navlink1 {
+.programs-navlink2 {
   display: contents;
 }
 .programs-image13 {
@@ -1061,7 +1065,7 @@
     gap: var(--dl-space-space-unit);
     color: #ffffff;
   }
-  .programs-navlink {
+  .programs-navlink1 {
     color: #ffffff;
   }
   .programs-link4 {
@@ -1130,7 +1134,7 @@
   .programs-nav2 {
     color: #ffffff;
   }
-  .programs-navlink {
+  .programs-navlink1 {
     color: #ffffff;
   }
   .programs-link4 {
