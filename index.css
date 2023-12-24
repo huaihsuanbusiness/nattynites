@@ -380,7 +380,6 @@
 }
 .home-text09 {
   color: #ffffff;
-  font-size: 40px;
 }
 .home-notes {
   width: 100%;
@@ -1025,7 +1024,7 @@
     align-self: center;
   }
   .home-text06 {
-    width: auto;
+    width: 100%;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -1662,8 +1661,8 @@
     max-width: auto;
   }
   .home-text06 {
-    width: 466px;
-    font-size: 50px;
+    width: 100%;
+    font-size: 40px;
   }
   .home-content {
     height: auto;
