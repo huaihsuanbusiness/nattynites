@@ -74,6 +74,9 @@
     width: auto;
     height: auto;
   }
+  .feature-card1311111-text {
+    font-size: 1.5rem;
+  }
   .feature-card1311111-image {
     width: var(--dl-size-size-medium);
     height: var(--dl-size-size-large);

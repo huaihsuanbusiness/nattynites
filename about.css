@@ -130,12 +130,16 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.about-navlink1 {
+  display: contents;
+}
 .about-text05 {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 45px;
+  text-decoration: none;
 }
 .about-menu-close {
   display: flex;
@@ -152,13 +156,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.about-navlink1 {
-  text-decoration: none;
-}
 .about-navlink2 {
   text-decoration: none;
 }
 .about-navlink3 {
+  text-decoration: none;
+}
+.about-navlink4 {
   text-decoration: none;
 }
 .about-link4 {
@@ -218,7 +222,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   background-color: #000000;
 }
-.about-navlink4 {
+.about-navlink5 {
   display: contents;
 }
 .about-image1 {
@@ -248,7 +252,7 @@
   align-items: center;
   flex-direction: column;
 }
-.about-navlink5 {
+.about-navlink6 {
   display: contents;
 }
 .about-title {
@@ -336,16 +340,6 @@
     height: 173px;
     align-self: center;
   }
-  .about-navlink1 {
-    color: rgb(255, 255, 255);
-    width: 100%;
-    font-size: 20px;
-    align-self: center;
-    text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
-    text-decoration: none;
-  }
   .about-navlink2 {
     color: rgb(255, 255, 255);
     width: 100%;
@@ -357,6 +351,16 @@
     text-decoration: none;
   }
   .about-navlink3 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    text-decoration: none;
+  }
+  .about-navlink4 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 20px;
@@ -433,13 +437,13 @@
   .about-nav2 {
     color: #ffffff;
   }
-  .about-navlink1 {
-    color: #ffffff;
-  }
   .about-navlink2 {
     color: #ffffff;
   }
   .about-navlink3 {
+    color: #ffffff;
+  }
+  .about-navlink4 {
     color: #ffffff;
   }
   .about-link4 {
