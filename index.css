@@ -385,10 +385,6 @@
   padding-bottom: var(--dl-space-space-threeunits);
   background-color: rgba(0, 0, 0, 0.7);
 }
-.home-text09 {
-  color: #ffffff;
-  font-size: 40px;
-}
 .home-notes {
   width: 100%;
   display: flex;
@@ -1680,6 +1676,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 1.1;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
     background-color: rgba(0, 0, 0, 0.7);
   }
   .home-text07 {
