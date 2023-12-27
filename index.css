@@ -403,7 +403,7 @@
 }
 .home-text11 {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 30px;
 }
 .home-notes {
   width: 100%;
@@ -434,14 +434,16 @@
   width: 1250px;
   font-size: 30px;
   align-self: center;
-  font-style: normal;
   margin-top: var(--dl-space-space-fiveunits);
-  font-weight: 600;
   line-height: 60px;
 }
 .home-text12 {
-  color: #c6a577;
-  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+.home-text14 {
+  font-style: normal;
+  font-weight: 600;
 }
 .home-register1 {
   color: #ffffff;
@@ -586,9 +588,6 @@
   font-size: 40px;
   align-self: center;
   text-align: center;
-}
-.home-text23 {
-  font-size: 20px;
 }
 .home-container04 {
   flex: 0 0 auto;
@@ -1067,7 +1066,7 @@
   }
   .home-text11 {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
   }
   .home-first {
     flex-direction: column;
@@ -1378,13 +1377,16 @@
     background-color: rgba(0, 0, 0, 0.7);
   }
   .home-text07 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .home-text08 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .home-text09 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .home-text10 {
+    font-size: 30px;
   }
   .home-text11 {
     color: #ffffff;
@@ -1393,6 +1395,23 @@
   .home-content {
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-header {
+    color: rgb(255, 255, 255);
+  }
+  .home-text12 {
+    color: #c6a577;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text13 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text14 {
+    font-style: inherit;
+    font-weight: inherit;
   }
   .home-register1 {
     width: 100%;
@@ -1732,13 +1751,16 @@
     background-color: rgba(0, 0, 0, 0.7);
   }
   .home-text07 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .home-text08 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .home-text09 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .home-text10 {
+    font-size: 30px;
   }
   .home-text11 {
     color: #ffffff;

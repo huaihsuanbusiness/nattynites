@@ -919,6 +919,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .programs-container19 {
+    height: 400px;
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
@@ -946,6 +947,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .programs-container25 {
+    height: 400px;
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
@@ -976,6 +978,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .programs-container31 {
+    height: 400px;
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
