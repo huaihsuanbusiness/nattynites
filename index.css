@@ -438,8 +438,13 @@
   line-height: 60px;
 }
 .home-text12 {
+  color: #c6a577;
+  font-size: 40px;
   font-style: normal;
   font-weight: 600;
+}
+.home-text13 {
+  color: #c6a577;
 }
 .home-text14 {
   font-style: normal;
