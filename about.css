@@ -212,6 +212,22 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
+.about-text08 {
+  color: #c6a577;
+  font-size: 40px;
+}
+.about-text17 {
+  color: #c6a577;
+  font-size: 40px;
+}
+.about-text24 {
+  color: #c6a577;
+  font-size: 40px;
+}
+.about-text31 {
+  color: #c6a577;
+  font-size: 40px;
+}
 .about-footer {
   width: 100%;
   display: flex;
