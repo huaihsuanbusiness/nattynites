@@ -594,6 +594,9 @@
   align-self: center;
   text-align: center;
 }
+.home-text23 {
+  font-size: 20px;
+}
 .home-container04 {
   flex: 0 0 auto;
   width: auto;
