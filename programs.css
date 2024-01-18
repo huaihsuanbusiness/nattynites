@@ -86,10 +86,6 @@
   font-size: 30px;
   text-decoration: none;
 }
-.programs-link4 {
-  font-size: 30px;
-  text-decoration: none;
-}
 .programs-text04 {
   font-size: 10px;
 }
@@ -169,10 +165,10 @@
 .programs-navlink4 {
   text-decoration: none;
 }
-.programs-link5 {
+.programs-link4 {
   text-decoration: none;
 }
-.programs-link6 {
+.programs-link5 {
   text-decoration: none;
 }
 .programs-icon-group {
@@ -1111,7 +1107,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     text-decoration: none;
   }
-  .programs-link5 {
+  .programs-link4 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 20px;
@@ -1121,7 +1117,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     text-decoration: none;
   }
-  .programs-link6 {
+  .programs-link5 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 20px;
@@ -1197,10 +1193,10 @@
   .programs-navlink4 {
     color: #ffffff;
   }
-  .programs-link5 {
+  .programs-link4 {
     color: #ffffff;
   }
-  .programs-link6 {
+  .programs-link5 {
     color: #ffffff;
   }
   .programs-icon-group {

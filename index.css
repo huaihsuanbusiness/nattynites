@@ -26,12 +26,12 @@
 }
 .feature-card2-text1 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: var(--dl-space-space-oneandhalfunits);
 }
 .feature-card2-text2 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: var(--dl-space-space-oneandhalfunits);
 }
 
@@ -284,10 +284,6 @@
   font-size: 30px;
   text-decoration: none;
 }
-.home-link4 {
-  font-size: 30px;
-  text-decoration: none;
-}
 .home-text04 {
   font-size: 10px;
 }
@@ -367,10 +363,10 @@
 .home-navlink4 {
   text-decoration: none;
 }
-.home-link5 {
+.home-link4 {
   text-decoration: none;
 }
-.home-link6 {
+.home-link5 {
   text-decoration: none;
 }
 .home-icon-group {
@@ -444,19 +440,6 @@
   margin-top: var(--dl-space-space-fiveunits);
   line-height: 60px;
 }
-.home-text12 {
-  color: #c6a577;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-}
-.home-text13 {
-  color: #c6a577;
-}
-.home-text14 {
-  font-style: normal;
-  font-weight: 600;
-}
 .home-register1 {
   color: #ffffff;
   text-decoration: none;
@@ -498,10 +481,6 @@
   margin-top: var(--dl-space-space-threeunits);
   font-weight: 600;
   line-height: 60px;
-}
-.home-text16 {
-  color: #c6a577;
-  font-size: 40px;
 }
 .home-register2 {
   color: #ffffff;
@@ -696,7 +675,7 @@
 }
 .home-text34 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
 }
 .home-container07 {
   flex: 0 0 auto;
@@ -858,7 +837,7 @@
   flex-direction: column;
 }
 .home-text44 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 14px;
 }
 .home-footer {
@@ -1206,7 +1185,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     text-decoration: none;
   }
-  .home-link5 {
+  .home-link4 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 20px;
@@ -1216,7 +1195,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     text-decoration: none;
   }
-  .home-link6 {
+  .home-link5 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 20px;
@@ -1534,10 +1513,10 @@
   .home-navlink4 {
     color: #ffffff;
   }
-  .home-link5 {
+  .home-link4 {
     color: #ffffff;
   }
-  .home-link6 {
+  .home-link5 {
     color: #ffffff;
   }
   .home-icon-group {
@@ -1590,7 +1569,19 @@
   }
   .home-text12 {
     color: #c6a577;
-    font-size: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text13 {
+    color: #c6a577;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text14 {
+    font-size: 15px;
+    font-style: inherit;
+    font-weight: inherit;
   }
   .home-register1 {
     width: auto;
@@ -1626,7 +1617,7 @@
   }
   .home-text16 {
     color: #c6a577;
-    font-size: 30px;
+    font-size: 20px;
   }
   .home-text18 {
     font-size: 15px;
