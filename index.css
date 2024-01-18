@@ -493,7 +493,7 @@
   color: #c6a577;
 }
 .home-text18 {
-  font-size: 15px;
+  font-size: 20px;
 }
 .home-register2 {
   color: #ffffff;
@@ -759,6 +759,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  padding: var(--dl-space-space-unit);
   max-width: 100%;
   align-items: center;
   flex-direction: column;
