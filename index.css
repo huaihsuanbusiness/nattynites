@@ -26,12 +26,12 @@
 }
 .feature-card2-text1 {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: var(--dl-space-space-oneandhalfunits);
 }
 .feature-card2-text2 {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: var(--dl-space-space-oneandhalfunits);
 }
 
@@ -441,6 +441,12 @@
   margin-top: var(--dl-space-space-fiveunits);
   line-height: 60px;
 }
+.home-text12 {
+  color: #c6a577;
+}
+.home-text14 {
+  font-size: 20px;
+}
 .home-register1 {
   color: #ffffff;
   text-decoration: none;
@@ -482,6 +488,12 @@
   margin-top: var(--dl-space-space-threeunits);
   font-weight: 600;
   line-height: 60px;
+}
+.home-text16 {
+  color: #c6a577;
+}
+.home-text18 {
+  font-size: 15px;
 }
 .home-register2 {
   color: #ffffff;
@@ -795,7 +807,7 @@
   flex-direction: column;
 }
 .home-title1 {
-  color: rgb(255, 255, 255);
+  color: var(--dl-color-scheme-white);
   width: auto;
   font-size: 40px;
   max-width: auto;
