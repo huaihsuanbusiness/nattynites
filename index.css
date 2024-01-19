@@ -980,7 +980,7 @@
   }
   .home-image1 {
     width: 327px;
-    height: 258px;
+    height: var(--dl-size-size-xxlarge);
   }
   .home-speakers {
     padding-top: var(--dl-space-space-twounits);
@@ -998,7 +998,12 @@
     text-align: center;
   }
   .home-row {
-    flex-direction: column;
+    width: auto;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
     grid-template-columns: 1fr;
   }
   .home-container04 {
@@ -1021,6 +1026,7 @@
     height: 100%;
     margin: auto;
     position: absolute;
+    justify-content: flex-start;
   }
   .home-text14 {
     color: rgb(255, 255, 255);
@@ -1037,6 +1043,7 @@
     height: 50%;
     position: relative;
     align-self: center;
+    margin-top: var(--dl-space-space-unit);
     justify-content: flex-start;
   }
   .home-image3 {
@@ -1049,10 +1056,13 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    height: 467px;
-    margin: auto;
+    height: auto;
+    margin: 0px;
     position: absolute;
-    margin-bottom: auto;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     padding-bottom: 0px;
   }
   .home-text18 {
@@ -1572,7 +1582,8 @@
     line-height: 33px;
   }
   .home-row {
-    height: 434px;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     grid-template-columns: 1fr;
   }
@@ -1618,7 +1629,7 @@
   .home-container06 {
     height: auto;
     position: relative;
-    margin-top: var(--dl-space-space-twounits);
+    margin-top: var(--dl-space-space-unit);
   }
   .home-image3 {
     height: 200px;
@@ -1631,8 +1642,12 @@
     height: auto;
     margin: auto;
     position: absolute;
+    margin-top: var(--dl-space-space-unit);
     text-align: center;
     align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     padding-bottom: 0px;
     justify-content: flex-start;
   }
