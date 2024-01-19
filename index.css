@@ -23,6 +23,7 @@
 .feature-card3-text1 {
   color: #ffffff;
   font-size: 20px;
+  line-height: 2;
   margin-left: var(--dl-space-space-oneandhalfunits);
 }
 
@@ -296,7 +297,7 @@
   margin: auto;
   display: flex;
   position: absolute;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   background-color: #101010;
@@ -313,6 +314,7 @@
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
 }
 .home-container01 {
