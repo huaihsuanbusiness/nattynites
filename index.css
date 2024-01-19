@@ -317,6 +317,9 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
 }
+.home-navlink {
+  display: contents;
+}
 .home-container01 {
   flex: 0 0 auto;
   width: auto;
@@ -325,15 +328,12 @@
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
-}
-.home-navlink {
-  display: contents;
+  text-decoration: none;
 }
 .home-image1 {
   width: auto;
   height: var(--dl-size-size-small);
   object-fit: cover;
-  text-decoration: none;
 }
 .home-text {
   color: #ffffff;

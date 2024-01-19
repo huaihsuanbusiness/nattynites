@@ -47,6 +47,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.programs-navlink {
+  display: contents;
+}
 .programs-container01 {
   flex: 0 0 auto;
   width: auto;
@@ -55,15 +58,12 @@
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
-}
-.programs-navlink {
-  display: contents;
+  text-decoration: none;
 }
 .programs-image01 {
   width: auto;
   height: var(--dl-size-size-small);
   object-fit: cover;
-  text-decoration: none;
 }
 .programs-text {
   color: #ffffff;

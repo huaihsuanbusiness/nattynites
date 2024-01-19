@@ -47,6 +47,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.nft-navlink {
+  display: contents;
+}
 .nft-container1 {
   flex: 0 0 auto;
   width: auto;
@@ -55,15 +58,12 @@
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
-}
-.nft-navlink {
-  display: contents;
+  text-decoration: none;
 }
 .nft-image1 {
   width: auto;
   height: var(--dl-size-size-small);
   object-fit: cover;
-  text-decoration: none;
 }
 .nft-text {
   color: #ffffff;
