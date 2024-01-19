@@ -50,9 +50,12 @@
 .nft-navlink {
   display: contents;
 }
-.nft-image1 {
-  width: 200px;
-  object-fit: cover;
+.nft-text {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
   text-decoration: none;
 }
 .nft-desktop-menu {
@@ -87,7 +90,7 @@
   padding-top: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.nft-text3 {
+.nft-text4 {
   font-size: 10px;
 }
 .nft-icon {
@@ -134,7 +137,7 @@
 .nft-navlink1 {
   display: contents;
 }
-.nft-text4 {
+.nft-text5 {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
@@ -189,7 +192,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.nft-text5 {
+.nft-text6 {
   color: rgb(198, 165, 119);
   width: 100%;
   z-index: 100;
@@ -217,7 +220,7 @@
 .nft-navlink5 {
   display: contents;
 }
-.nft-image2 {
+.nft-image1 {
   top: 50px;
   right: 126px;
   width: 374px;
@@ -271,7 +274,10 @@
   .nft-navbar {
     width: 958px;
   }
-  .nft-text5 {
+  .nft-text {
+    align-self: center;
+  }
+  .nft-text6 {
     width: auto;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -312,7 +318,7 @@
   .nft-container1 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .nft-text4 {
+  .nft-text5 {
     color: #ffffff;
   }
   .nft-nav2 {
@@ -370,7 +376,7 @@
     gap: var(--dl-space-space-oneandhalfunits);
     width: auto;
   }
-  .nft-text5 {
+  .nft-text6 {
     width: 100%;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -379,7 +385,7 @@
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .nft-image2 {
+  .nft-image1 {
     right: 0px;
     width: 204px;
     height: 83px;
@@ -409,7 +415,7 @@
   .nft-nav1 {
     height: 100%;
   }
-  .nft-text4 {
+  .nft-text5 {
     color: #ffffff;
     font-size: 32px;
     font-style: normal;
@@ -439,11 +445,11 @@
     height: 138px;
     max-width: auto;
   }
-  .nft-text5 {
+  .nft-text6 {
     width: 466px;
     font-size: 50px;
   }
-  .nft-image2 {
+  .nft-image1 {
     top: 29px;
     right: 0px;
     width: 184px;
