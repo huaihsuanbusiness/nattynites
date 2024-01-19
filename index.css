@@ -43,6 +43,7 @@
   }
   .feature-card3-text1 {
     font-size: 15px;
+    line-height: 2;
   }
 }
 @media(max-width: 767px) {
