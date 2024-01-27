@@ -333,11 +333,15 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: 0px;
 }
+.feature-card21-link {
+  display: contents;
+}
 .feature-card21-icon {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   align-self: flex-end;
+  text-decoration: none;
 }
 .feature-card21-text1 {
   color: #ffffff;
