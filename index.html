@@ -78,6 +78,15 @@
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
 
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
       ScrollReveal({ reset: true });
@@ -117,20 +126,68 @@
                 <a href="about.html" class="home-link navLink">About</a>
                 <a href="programs.html" class="home-link1 navLink">Programs</a>
                 <a href="nft.html" class="home-link2 navLink">NFT</a>
-                <a
-                  href="https://medium.com/@nattynites"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link3 navLink"
+                <div
+                  data-thq="thq-dropdown"
+                  class="home-thq-dropdown list-item"
                 >
-                  Blog
-                </a>
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="home-dropdown-toggle"
+                  >
+                    <div
+                      data-thq="thq-dropdown-arrow"
+                      class="home-dropdown-arrow"
+                    ></div>
+                    <span class="home-link3 navLink">Docs</span>
+                  </div>
+                  <ul data-thq="thq-dropdown-list" class="home-dropdown-list">
+                    <li data-thq="thq-dropdown" class="home-dropdown list-item">
+                      <a
+                        href="https://medium.com/@nattynites"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          class="home-dropdown-toggle1"
+                        >
+                          <span class="home-text01">Blog</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      class="home-dropdown1 list-item"
+                    >
+                      <a
+                        href="https://drive.google.com/file/d/1w9mH-82Gtr2T1ov5gTwdFtDz8bu6vja1/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          class="home-dropdown-toggle2"
+                        >
+                          <span class="home-text02">LitePaper</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      class="home-dropdown2 list-item"
+                    ></li>
+                    <li
+                      data-thq="thq-dropdown"
+                      class="home-dropdown3 list-item"
+                    ></li>
+                  </ul>
+                </div>
               </nav>
               <button class="home-register button">
                 <span>
                   <span>Connect Wallet</span>
                   <br />
-                  <span class="home-text04">(Coming soon)</span>
+                  <span class="home-text06">(Coming soon)</span>
                 </span>
                 <svg viewBox="0 0 1024 1024" class="home-icon">
                   <path
@@ -154,7 +211,7 @@
               >
                 <div class="home-container02">
                   <a href="index.html" class="home-navlink1">
-                    <h2 class="home-text05">Nattynites</h2>
+                    <h2 class="home-text07">Nattynites</h2>
                   </a>
                   <div data-thq="thq-close-menu" class="home-menu-close">
                     <svg viewBox="0 0 1024 1024" class="home-icon04">
@@ -178,9 +235,18 @@
                     href="https://medium.com/@nattynites"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="home-link4 navLink"
+                    class="home-link6 navLink"
                   >
                     Blog
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1w9mH-82Gtr2T1ov5gTwdFtDz8bu6vja1/view?usp=drive_link"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link7 navLink"
+                  >
+                    <span class="home-text08">Litepaper</span>
+                    <br />
                   </a>
                 </nav>
                 <div class="home-icon-group">
@@ -190,12 +256,12 @@
             </div>
           </header>
           <div class="home-hero-content">
-            <h1 class="home-text06">
-              <span class="home-text07">Nattynites</span>
-              <br class="home-text08" />
-              <span class="home-text09">Elite Member Clubs</span>
-              <br class="home-text10" />
-              <span class="home-text11">Redefining Luxury and Investment</span>
+            <h1 class="home-text10">
+              <span class="home-text11">Nattynites</span>
+              <br class="home-text12" />
+              <span class="home-text13">Elite Member Clubs</span>
+              <br class="home-text14" />
+              <span class="home-text15">Redefining Luxury and Investment</span>
             </h1>
           </div>
         </section>
@@ -223,7 +289,7 @@
                     href="about.html"
                     class="home-register1 button button-style-2"
                   >
-                    <span class="home-text12">Learn more</span>
+                    <span class="home-text16">Learn more</span>
                     <svg viewBox="0 0 1024 1024" class="home-icon06">
                       <path
                         d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
@@ -257,7 +323,7 @@
                     href="programs.html"
                     class="home-register2 button button-style-2"
                   >
-                    <span class="home-text13">See programs</span>
+                    <span class="home-text17">See programs</span>
                     <svg viewBox="0 0 1024 1024" class="home-icon08">
                       <path
                         d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
@@ -292,10 +358,10 @@
                     class="home-image03"
                   />
                   <div class="home-container07">
-                    <span class="home-text14">
-                      <span class="home-text15">Indonesia</span>
-                      <br class="home-text16" />
-                      <span class="home-text17">Coming Soon</span>
+                    <span class="home-text18">
+                      <span class="home-text19">Indonesia</span>
+                      <br class="home-text20" />
+                      <span class="home-text21">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -306,10 +372,10 @@
                     class="home-image04"
                   />
                   <div class="home-container09">
-                    <span class="home-text18">
-                      <span class="home-text19">Japan</span>
-                      <br class="home-text20" />
-                      <span class="home-text21">Coming Soon</span>
+                    <span class="home-text22">
+                      <span class="home-text23">Japan</span>
+                      <br class="home-text24" />
+                      <span class="home-text25">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -320,10 +386,10 @@
                     class="home-image05"
                   />
                   <div class="home-container11">
-                    <span class="home-text22">
-                      <span class="home-text23">Malaysia</span>
-                      <br class="home-text24" />
-                      <span class="home-text25">Coming Soon</span>
+                    <span class="home-text26">
+                      <span class="home-text27">Malaysia</span>
+                      <br class="home-text28" />
+                      <span class="home-text29">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -334,10 +400,10 @@
                     class="home-image06"
                   />
                   <div class="home-container13">
-                    <span class="home-text26">
-                      <span class="home-text27">Philippines</span>
-                      <br class="home-text28" />
-                      <span class="home-text29">Coming Soon</span>
+                    <span class="home-text30">
+                      <span class="home-text31">Philippines</span>
+                      <br class="home-text32" />
+                      <span class="home-text33">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -350,10 +416,10 @@
                     class="home-image07"
                   />
                   <div class="home-container15">
-                    <span class="home-text30">
-                      <span class="home-text31">Singapore</span>
-                      <br class="home-text32" />
-                      <span class="home-text33">Coming Soon</span>
+                    <span class="home-text34">
+                      <span class="home-text35">Singapore</span>
+                      <br class="home-text36" />
+                      <span class="home-text37">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -364,10 +430,10 @@
                     class="home-image08"
                   />
                   <div class="home-container17">
-                    <span class="home-text34">
-                      <span class="home-text35">Taiwan</span>
-                      <br class="home-text36" />
-                      <span class="home-text37">Coming Soon</span>
+                    <span class="home-text38">
+                      <span class="home-text39">Taiwan</span>
+                      <br class="home-text40" />
+                      <span class="home-text41">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -378,10 +444,10 @@
                     class="home-image09"
                   />
                   <div class="home-container19">
-                    <span class="home-text38">
-                      <span class="home-text39">Thailand</span>
-                      <br class="home-text40" />
-                      <span class="home-text41">Coming Soon</span>
+                    <span class="home-text42">
+                      <span class="home-text43">Thailand</span>
+                      <br class="home-text44" />
+                      <span class="home-text45">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -392,10 +458,10 @@
                     class="home-image10"
                   />
                   <div class="home-container21">
-                    <span class="home-text42">
-                      <span class="home-text43">Vietnam</span>
-                      <br class="home-text44" />
-                      <span class="home-text45">Coming Soon</span>
+                    <span class="home-text46">
+                      <span class="home-text47">Vietnam</span>
+                      <br class="home-text48" />
+                      <span class="home-text49">Coming Soon</span>
                     </span>
                   </div>
                 </div>
@@ -405,7 +471,7 @@
         </section>
         <section class="home-watch">
           <div class="home-features">
-            <h1 class="home-text46">
+            <h1 class="home-text50">
               <span>The Ultimate Integration of</span>
               <span>&nbsp;Blockchain and Your Luxury Vacation</span>
               <br />
@@ -517,12 +583,12 @@
           </div>
         </section>
         <div class="home-features1">
-          <h1 id="title_NFT" class="home-text50">
-            <span class="home-text51">NFTs</span>
+          <h1 id="title_NFT" class="home-text54">
+            <span class="home-text55">NFTs</span>
             <br />
           </h1>
-          <span class="home-text53">
-            <span class="home-text54">
+          <span class="home-text57">
+            <span class="home-text58">
               Dive into luxury with our ERC-6672 NFT and protocol! Unlock a
               world of excitement as you redeem exclusive discounts,
               complimentary vouchers, and irresistible perks at partner
@@ -588,7 +654,7 @@
             </div>
           </div>
           <a href="nft.html" class="home-register3 button button-style-2">
-            <span class="home-text57">Explore more</span>
+            <span class="home-text61">Explore more</span>
             <svg viewBox="0 0 1024 1024" class="home-icon10">
               <path
                 d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
@@ -597,7 +663,7 @@
           </a>
         </div>
         <div class="home-container25">
-          <h1 id="title_roadmap" class="home-text58">Roadmap</h1>
+          <h1 id="title_roadmap" class="home-text62">Roadmap</h1>
           <img
             alt="image"
             src="public/blue%20modern%20futuristic%20roadmap%20brainstorm.svg"
@@ -606,7 +672,7 @@
         </div>
         <section class="home-sponsors">
           <div class="home-features2">
-            <h1 class="home-text59">Partners and Teams</h1>
+            <h1 class="home-text63">Partners and Teams</h1>
             <div class="home-container26"></div>
           </div>
           <div class="home-container27">
