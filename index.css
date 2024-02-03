@@ -712,6 +712,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-link6 {
+  text-decoration: none;
+}
 .home-navlink2 {
   text-decoration: none;
 }
@@ -721,10 +724,10 @@
 .home-navlink4 {
   text-decoration: none;
 }
-.home-link6 {
+.home-link7 {
   text-decoration: none;
 }
-.home-link7 {
+.home-link8 {
   text-decoration: none;
 }
 .home-icon-group {
@@ -1986,6 +1989,16 @@
     height: 173px;
     align-self: center;
   }
+  .home-link6 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    text-decoration: none;
+  }
   .home-navlink2 {
     color: rgb(255, 255, 255);
     width: 100%;
@@ -2016,7 +2029,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     text-decoration: none;
   }
-  .home-link6 {
+  .home-link7 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 20px;
@@ -2026,7 +2039,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     text-decoration: none;
   }
-  .home-link7 {
+  .home-link8 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 20px;
@@ -2531,6 +2544,10 @@
   .home-nav2 {
     color: #ffffff;
   }
+  .home-link6 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
   .home-navlink2 {
     color: #ffffff;
   }
@@ -2540,11 +2557,11 @@
   .home-navlink4 {
     color: #ffffff;
   }
-  .home-link6 {
+  .home-link7 {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  .home-link7 {
+  .home-link8 {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
