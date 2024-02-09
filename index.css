@@ -3041,7 +3041,8 @@
     font-size: 30px;
   }
   .home-image11 {
-    height: 178px;
+    width: 100%;
+    height: 100%;
   }
   .home-sponsors {
     padding-top: 4px;
