@@ -61,8 +61,8 @@
   text-decoration: none;
 }
 .programs-image01 {
-  width: auto;
-  height: var(--dl-size-size-small);
+  width: var(--dl-size-size-xlarge);
+  height: auto;
   object-fit: cover;
 }
 .programs-desktop-menu {
@@ -944,72 +944,43 @@
   background-color: #000000;
 }
 .programs-container42 {
-  flex: 4;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.programs-container43 {
+  flex: 0 0 auto;
   width: 100%;
   display: flex;
   position: relative;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-}
-.programs-content {
-  gap: var(--dl-space-space-threeunits);
-  top: 0px;
-  flex: 1;
-  left: 0px;
-  width: auto;
-  bottom: 0px;
-  margin: auto;
-  display: flex;
-  position: absolute;
-  max-width: auto;
-  align-self: center;
   align-items: flex-start;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
-  flex-direction: column;
 }
-.programs-details {
-  gap: var(--dl-space-space-unit);
-  width: auto;
+.programs-container44 {
+  flex: 0 0 auto;
+  width: 100%;
   display: flex;
-  max-width: auto;
-  align-self: flex-start;
+  align-self: center;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
-}
-.programs-title {
-  color: #ffffff;
-  width: 100%;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 45px;
+  justify-content: center;
 }
 .programs-description {
   color: rgb(255, 255, 255);
-  width: 100%;
-  font-size: 18px;
-  line-height: 27px;
-}
-.programs-copyright {
-  color: rgb(255, 255, 255);
-  width: 100%;
-  font-size: 14px;
-  line-height: 21px;
-}
-.programs-container43 {
-  top: 0px;
-  left: 0px;
-  right: 0px;
   width: auto;
-  bottom: 0px;
-  height: auto;
-  margin: auto;
-  display: flex;
-  position: absolute;
+  font-size: 18px;
   align-self: center;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 0px;
+}
+.programs-container45 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   justify-content: center;
 }
@@ -1061,6 +1032,14 @@
   margin-right: var(--dl-space-space-threeunits);
   margin-bottom: auto;
   text-decoration: none;
+}
+.programs-copyright {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  line-height: 21px;
 }
 @media(max-width: 991px) {
   .programs-image {
@@ -1284,6 +1263,9 @@
   .programs-navbar {
     width: 100%;
   }
+  .programs-image01 {
+    width: var(--dl-size-size-large);
+  }
   .programs-desktop-menu {
     display: none;
   }
@@ -1401,15 +1383,6 @@
     padding-top: var(--dl-space-space-fiveunits);
     padding-bottom: var(--dl-space-space-fiveunits);
   }
-  .programs-content {
-    gap: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-  }
-  .programs-title {
-    font-size: 24px;
-    line-height: 34px;
-  }
   .programs-description {
     font-size: 14px;
     line-height: 21px;
@@ -1423,6 +1396,9 @@
 @media(max-width: 479px) {
   .programs-navbar {
     width: 100%;
+  }
+  .programs-image01 {
+    width: var(--dl-size-size-large);
   }
   .programs-mobile-menu {
     padding: 16px;
@@ -1720,9 +1696,25 @@
     margin-top: var(--dl-space-space-unit);
     line-height: 1.5;
   }
-  .programs-copyright {
+  .programs-footer {
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .programs-container42 {
     width: auto;
-    font-size: 10px;
+  }
+  .programs-description {
+    align-self: center;
+    text-align: center;
+  }
+  .programs-container45 {
+    width: auto;
+    margin: var(--dl-space-space-halfunit);
+    position: static;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
   .programs-icon10 {
     width: 24px;
@@ -1736,9 +1728,16 @@
   .programs-image15 {
     top: 0px;
     right: 0px;
-    width: var(--dl-size-size-large);
+    width: var(--dl-size-size-medium);
     bottom: 0px;
     height: auto;
-    margin: var(--dl-space-space-unit);
+    position: static;
+    margin-top: var(--dl-space-space-unit);
+    margin-right: auto;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .programs-copyright {
+    width: auto;
+    font-size: 10px;
   }
 }
