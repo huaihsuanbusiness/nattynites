@@ -329,12 +329,12 @@
 }
 .about-text09 {
   color: var(--dl-color-gray-white);
-  margin: var(--dl-space-space-sixunits);
   font-size: 30px;
-  margin-top: var(--dl-space-space-threeunits);
-  margin-left: var(--dl-space-space-threeunits);
-  margin-right: var(--dl-space-space-threeunits);
-  margin-bottom: var(--dl-space-space-threeunits);
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  margin-left: var(--dl-space-space-sixunits);
+  margin-right: var(--dl-space-space-sixunits);
+  margin-bottom: var(--dl-space-space-sixunits);
 }
 .about-text10 {
   color: #c6a577;
