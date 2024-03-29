@@ -61,7 +61,7 @@
   text-decoration: none;
 }
 .nft-image01 {
-  width: var(--dl-size-size-xlarge);
+  width: var(--dl-size-size-large);
   height: auto;
   object-fit: cover;
 }
