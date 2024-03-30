@@ -1,0 +1,32 @@
+.partnershipsubmitted-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-black);
+}
+.partnershipsubmitted-container1 {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  bottom: 0px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.partnershipsubmitted-text {
+  color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.partnershipsubmitted-navlink {
+  text-decoration: none;
+}
