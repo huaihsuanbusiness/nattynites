@@ -12,4 +12,10 @@
   width: 200px;
   height: 100px;
   display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+}
+.partnership-button {
+  margin-top: var(--dl-space-space-fourunits);
 }

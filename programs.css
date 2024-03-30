@@ -392,7 +392,11 @@
   height: 400px;
   align-self: center;
   object-fit: cover;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-fourunits);
 }
 .programs-container07 {
   width: 100%;
@@ -406,8 +410,8 @@
   position: relative;
   align-self: center;
   align-items: stretch;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-fourunits);
+  margin-right: var(--dl-space-space-fourunits);
   flex-direction: row;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -613,7 +617,9 @@
   height: 400px;
   align-self: center;
   object-fit: cover;
+  padding-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-fourunits);
 }
 .programs-container17 {
   width: 100%;
@@ -627,8 +633,10 @@
   position: relative;
   align-self: center;
   align-items: stretch;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
   flex-direction: row;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1406,8 +1414,8 @@
   }
   .programs-image03 {
     width: 100%;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
   .programs-container07 {
     align-items: center;
@@ -1441,8 +1449,8 @@
   }
   .programs-image04 {
     width: 100%;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
   .programs-container17 {
     align-items: center;
@@ -1451,7 +1459,9 @@
   .programs-row1 {
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
     grid-template-columns: 1fr 1fr;
   }
   .programs-container18 {
