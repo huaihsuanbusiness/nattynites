@@ -753,8 +753,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .nft-navlink1 {
@@ -763,8 +763,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .nft-navlink2 {
@@ -773,8 +773,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .nft-navlink3 {
@@ -783,8 +783,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .nft-navlink4 {
@@ -793,8 +793,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .nft-text06 {
@@ -810,8 +810,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .nft-link09 {
@@ -820,8 +820,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .nft-text08 {

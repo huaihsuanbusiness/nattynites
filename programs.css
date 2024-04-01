@@ -1743,8 +1743,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .programs-navlink1 {
@@ -1753,8 +1753,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .programs-navlink2 {
@@ -1763,8 +1763,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .programs-navlink3 {
@@ -1773,8 +1773,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .programs-navlink4 {
@@ -1783,8 +1783,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .programs-text06 {
@@ -1800,8 +1800,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .programs-link09 {
@@ -1810,8 +1810,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .programs-text08 {

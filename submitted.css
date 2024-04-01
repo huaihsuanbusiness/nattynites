@@ -492,6 +492,8 @@
     width: 250px;
     height: 173px;
     align-self: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
   .submitted-link07 {
     color: rgb(255, 255, 255);
@@ -499,8 +501,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .submitted-navlink1 {
@@ -509,8 +511,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .submitted-navlink2 {
@@ -519,8 +521,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .submitted-navlink3 {
@@ -529,8 +531,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .submitted-navlink4 {
@@ -539,8 +541,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .submitted-text06 {
@@ -556,8 +558,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .submitted-link09 {
@@ -566,8 +568,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .submitted-text08 {

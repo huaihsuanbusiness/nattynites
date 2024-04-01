@@ -609,8 +609,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-navlink1 {
@@ -619,8 +619,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-navlink2 {
@@ -629,8 +629,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-navlink3 {
@@ -639,8 +639,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-navlink4 {
@@ -649,8 +649,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-text06 {
@@ -666,8 +666,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-link09 {
@@ -676,8 +676,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-text08 {
@@ -699,6 +699,9 @@
     width: 100%;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+  }
+  .about-text11 {
+    margin: var(--dl-space-space-twounits);
   }
   .about-footer {
     height: auto;
@@ -755,19 +758,29 @@
   }
   .about-link07 {
     color: rgb(255, 255, 255);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-navlink1 {
     color: #ffffff;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
   .about-navlink2 {
     color: #ffffff;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
   .about-navlink3 {
     color: #ffffff;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
   .about-navlink4 {
     color: rgb(255, 255, 255);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-text06 {
@@ -776,10 +789,14 @@
   }
   .about-link08 {
     color: rgb(255, 255, 255);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-link09 {
     color: rgb(255, 255, 255);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .about-text08 {
@@ -803,6 +820,8 @@
     height: 100%;
     font-size: 15px;
     margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
   .about-text12 {

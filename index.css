@@ -36,7 +36,9 @@
 
 
 
-
+.feature-card3-root-class-name10 {
+  margin-right: 0px;
+}
 
 @media(max-width: 991px) {
   .feature-card3-text {
@@ -839,9 +841,12 @@
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   display: flex;
-  padding: 0px;
   align-items: flex-start;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
+  padding-bottom: 0px;
 }
 .home-register1 {
   color: #ffffff;
@@ -889,7 +894,7 @@
 .home-image03 {
   flex: 1;
   width: auto;
-  height: 428px;
+  height: 400px;
   align-self: center;
 }
 .home-watch {
@@ -2216,8 +2221,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .home-navlink1 {
@@ -2226,8 +2231,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .home-navlink2 {
@@ -2236,8 +2241,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .home-navlink3 {
@@ -2246,8 +2251,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .home-navlink4 {
@@ -2256,8 +2261,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .home-text06 {
@@ -2273,8 +2278,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .home-link09 {
@@ -2283,8 +2288,8 @@
     font-size: 20px;
     align-self: center;
     text-align: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
     text-decoration: none;
   }
   .home-text08 {
