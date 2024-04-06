@@ -18,6 +18,7 @@
   padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
 .partnership-navlink {

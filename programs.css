@@ -45,6 +45,8 @@
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
+  padding-top: 0px;
+  padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
 .programs-navlink {
