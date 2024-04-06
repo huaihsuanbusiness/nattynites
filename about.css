@@ -372,21 +372,24 @@
 .about-text28 {
   font-size: 20px;
 }
-.about-text32 {
+.about-text29 {
+  font-size: 20px;
+}
+.about-text31 {
   color: #c6a577;
   font-size: 40px;
+}
+.about-text34 {
+  font-size: 20px;
 }
 .about-text35 {
   font-size: 20px;
 }
-.about-text36 {
-  font-size: 20px;
-}
-.about-text39 {
+.about-text38 {
   color: #c6a577;
   font-size: 40px;
 }
-.about-text42 {
+.about-text41 {
   font-size: 20px;
 }
 .about-footer {
@@ -867,18 +870,16 @@
   .about-text27 {
     color: #c6a577;
   }
-  .about-text28 {
-    color: #ffffff;
-  }
   .about-text29 {
-    color: #ffffff;
+    color: #c6a577;
   }
   .about-text30 {
     color: #c6a577;
+    font-size: 40px;
   }
   .about-text31 {
     color: #c6a577;
-    font-size: 40px;
+    font-size: 30px;
   }
   .about-text32 {
     color: #c6a577;
@@ -886,22 +887,22 @@
   }
   .about-text33 {
     color: #c6a577;
-    font-size: 30px;
   }
   .about-text34 {
-    color: #c6a577;
+    color: #ffffff;
   }
   .about-text35 {
     color: #ffffff;
   }
   .about-text36 {
-    color: #ffffff;
+    color: #c6a577;
   }
   .about-text37 {
     color: #c6a577;
   }
   .about-text38 {
     color: #c6a577;
+    font-size: 30px;
   }
   .about-text39 {
     color: #c6a577;
@@ -909,12 +910,8 @@
   }
   .about-text40 {
     color: #c6a577;
-    font-size: 30px;
   }
   .about-text41 {
-    color: #c6a577;
-  }
-  .about-text42 {
     color: #ffffff;
   }
   .about-footer {
