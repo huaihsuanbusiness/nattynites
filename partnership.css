@@ -518,6 +518,15 @@
   line-height: 27px;
   margin-left: 0px;
 }
+.partnership-description1 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 0px;
+}
 .partnership-container14 {
   width: auto;
   height: auto;
@@ -614,9 +623,17 @@
   .partnership-description {
     line-height: 27px;
   }
+  .partnership-description1 {
+    color: rgb(255, 255, 255);
+  }
   .partnership-image2 {
     right: 0px;
     width: var(--dl-size-size-xlarge);
+  }
+  .partnership-copyright {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 @media(max-width: 767px) {
@@ -767,6 +784,10 @@
     font-size: 14px;
     line-height: 21px;
   }
+  .partnership-description1 {
+    font-size: 14px;
+    line-height: 21px;
+  }
   .partnership-image2 {
     right: 0px;
     width: var(--dl-size-size-large);
@@ -880,6 +901,10 @@
     width: auto;
   }
   .partnership-description {
+    align-self: center;
+    text-align: center;
+  }
+  .partnership-description1 {
     align-self: center;
     text-align: center;
   }

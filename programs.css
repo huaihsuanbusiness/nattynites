@@ -1340,6 +1340,15 @@
   line-height: 27px;
   margin-left: 0px;
 }
+.programs-description1 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 0px;
+}
 .programs-container59 {
   width: auto;
   height: auto;
@@ -1674,9 +1683,17 @@
   .programs-description {
     line-height: 27px;
   }
+  .programs-description1 {
+    color: rgb(255, 255, 255);
+  }
   .programs-image15 {
     right: 0px;
     width: var(--dl-size-size-xlarge);
+  }
+  .programs-copyright {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 @media(max-width: 767px) {
@@ -1892,6 +1909,10 @@
     padding-bottom: var(--dl-space-space-fiveunits);
   }
   .programs-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .programs-description1 {
     font-size: 14px;
     line-height: 21px;
   }
@@ -2362,6 +2383,10 @@
     width: auto;
   }
   .programs-description {
+    align-self: center;
+    text-align: center;
+  }
+  .programs-description1 {
     align-self: center;
     text-align: center;
   }

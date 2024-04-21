@@ -530,6 +530,15 @@
   line-height: 27px;
   margin-left: 0px;
 }
+.nft-description1 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 0px;
+}
 .nft-container11 {
   width: auto;
   height: auto;
@@ -683,9 +692,17 @@
   .nft-description {
     line-height: 27px;
   }
+  .nft-description1 {
+    color: rgb(255, 255, 255);
+  }
   .nft-image15 {
     right: 0px;
     width: var(--dl-size-size-xlarge);
+  }
+  .nft-copyright {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 @media(max-width: 767px) {
@@ -934,6 +951,10 @@
     font-size: 14px;
     line-height: 21px;
   }
+  .nft-description1 {
+    font-size: 14px;
+    line-height: 21px;
+  }
   .nft-image15 {
     right: 0px;
     width: var(--dl-size-size-large);
@@ -1129,6 +1150,10 @@
     width: auto;
   }
   .nft-description {
+    align-self: center;
+    text-align: center;
+  }
+  .nft-description1 {
     align-self: center;
     text-align: center;
   }
