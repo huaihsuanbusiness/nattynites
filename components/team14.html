@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nattynites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+        null
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/logo_original square.webp"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./team14.css" rel="stylesheet" />
+      <div class="thq-section-padding_2">
+        <div class="team14-max-width thq-section-max-width">
+          <div class="team14-section-title">
+            <div class="team14-content">
+              <h2 class="team14-text thq-heading-2">
+                <span>Meet our team</span>
+              </h2>
+            </div>
+          </div>
+          <div
+            data-thq="slider"
+            data-loop="true"
+            data-autoplay="true"
+            data-navigation="true"
+            data-pagination="true"
+            class="team14-slider swiper"
+          >
+            <div data-thq="slider-wrapper" class="swiper-wrapper">
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide swiper-slide"
+              >
+                <div class="team14-card">
+                  <img
+                    alt="Member Alt"
+                    src="public/img_6207-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content01">
+                    <div class="team14-title">
+                      <span class="team14-text01 thq-body-small">
+                        <span>Daniel Huang</span>
+                      </span>
+                      <span class="team14-text02 thq-body-small">
+                        <span>CEO</span>
+                      </span>
+                    </div>
+                    <span class="team14-text03 thq-body-small">
+                      <span>5+ years Sr. Software Engineer</span>
+                    </span>
+                    <span class="team14-textm12">
+                      <span>Web3 Specialist / Investor</span>
+                    </span>
+                    <span class="team14-text04">
+                      <span>Entrepreneurial Researcher</span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons">
+                    <a
+                      href="https://www.linkedin.com/in/huanghuaihsuan/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team14-link"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team14-icon thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="team14-card01">
+                  <img
+                    alt="Member Alt"
+                    src="public/rio_small-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content02">
+                    <div class="team14-title01">
+                      <span class="team14-text05 thq-body-small">
+                        <span>Rio Ogawa</span>
+                      </span>
+                      <span class="team14-text06 thq-body-small">
+                        <span>CMO</span>
+                      </span>
+                    </div>
+                    <span class="team14-text07 thq-body-small">
+                      <span>6+ years Web3 Marketer</span>
+                    </span>
+                    <span class="team14-text08">
+                      <span>NFT / Gaming Projects Venture Builder</span>
+                    </span>
+                    <span class="team14-text09">
+                      <span>Community / KOL / Social Media Specialist</span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons1">
+                    <a
+                      href="https://www.linkedin.com/in/rio-ogawa/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team14-link1"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team14-icon02 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="team14-card02">
+                  <img
+                    alt="Member Alt"
+                    src="public/agus-1400w.jpeg"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content03">
+                    <div class="team14-title02">
+                      <span class="team14-text10 thq-body-small">
+                        <span>Agus Sentosa</span>
+                      </span>
+                      <span class="team14-text11 thq-body-small">
+                        <span>CPO</span>
+                      </span>
+                    </div>
+                    <span class="team14-text12 thq-body-small">
+                      <span>Fintech Specialist</span>
+                    </span>
+                    <span class="team14-text13">
+                      <span>Product Leader &amp; Mentor</span>
+                    </span>
+                    <span class="team14-text14">
+                      <span>Stakeholder Management</span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons2">
+                    <a
+                      href="https://www.linkedin.com/in/agussentosa/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team14-link2"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team14-icon04 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="team14-card03">
+                  <img
+                    alt="Member Alt"
+                    src="public/photo_2024-03-18%2015.02.50-1400w.jpeg"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content04">
+                    <div class="team14-title03">
+                      <span class="team14-text15 thq-body-small">
+                        <span>Kathy Thach</span>
+                      </span>
+                      <span class="team14-text16 thq-body-small">
+                        <span>Head of Commercial</span>
+                      </span>
+                    </div>
+                    <span class="team14-text17 thq-body-small">
+                      <span>
+                        Specialist in OTA partnerships with 15 years experience
+                      </span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons3"></div>
+                </div>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide1 swiper-slide"
+              >
+                <div class="team14-card04">
+                  <img
+                    alt="Member Alt"
+                    src="public/josh-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content05">
+                    <div class="team14-title04">
+                      <span class="team14-text18 thq-body-small">
+                        <span>Dr. Josh K.</span>
+                        <br />
+                      </span>
+                      <span class="team14-text21">
+                        <span>Advisory Team</span>
+                      </span>
+                    </div>
+                    <span class="team14-text22">
+                      <span>
+                        Director @ Commerce Development Research Institute (TW)
+                      </span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons4"></div>
+                </div>
+                <div class="team14-card05">
+                  <img
+                    alt="Member Alt"
+                    src="public/xavier-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content06">
+                    <div class="team14-title05">
+                      <span class="team14-text23">
+                        <span>Mr. Xavier L.</span>
+                      </span>
+                      <span class="team14-text24 thq-body-small">
+                        <span>Advisory Team</span>
+                        <br />
+                      </span>
+                    </div>
+                    <span class="team14-text27 thq-body-small">
+                      <span>CMO&amp; Co-founder @ KitchBot</span>
+                      <br />
+                      <span>(CA, USA)</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="team14-card06">
+                  <img
+                    alt="Member Alt"
+                    src="public/bom%20image%20small-1400w.jpg"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content07">
+                    <div class="team14-title06">
+                      <span class="team14-text31">
+                        <span>Mr. Bom Sri.</span>
+                      </span>
+                      <span class="team14-text32 thq-body-small">
+                        <span>Advisory Team</span>
+                        <br />
+                      </span>
+                    </div>
+                    <span class="team14-text35">
+                      <span>
+                        COO @ Putahracsa Hua Hin Resort COO @ Theatre Residence
+                        (TH)
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-thq="slider-pagination"
+              class="team14-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+            >
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+            </div>
+            <div data-thq="slider-button-prev" class="swiper-button-prev"></div>
+            <div data-thq="slider-button-next" class="swiper-button-next"></div>
+          </div>
+          <div
+            data-thq="slider"
+            data-navigation="true"
+            data-pagination="true"
+            class="team14-slider1 swiper"
+          >
+            <div data-thq="slider-wrapper" class="swiper-wrapper">
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide2 swiper-slide"
+              >
+                <div class="team14-card07">
+                  <img
+                    alt="Member Alt"
+                    src="public/img_6207-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content08">
+                    <div class="team14-title07">
+                      <span class="team14-text36 thq-body-small">
+                        <span>Full name</span>
+                        <span>Daniel Huang</span>
+                      </span>
+                      <span class="team14-text38 thq-body-small">
+                        <span>CEO</span>
+                      </span>
+                    </div>
+                    <span class="team14-text39 thq-body-small">
+                      <span>5+ years Sr. Software Engineer</span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons5">
+                    <a
+                      href="https://www.linkedin.com/in/huanghuaihsuan/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team14-link3"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team14-icon06 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide3 swiper-slide"
+              >
+                <div class="team14-card08">
+                  <img
+                    alt="Member Alt"
+                    src="public/rio_small-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content09">
+                    <div class="team14-title08">
+                      <span class="team14-text40 thq-body-small">
+                        Full name
+                      </span>
+                      <span class="team14-text41 thq-body-small">
+                        <span>CMO</span>
+                      </span>
+                    </div>
+                    <span class="team14-text42 thq-body-small">
+                      <span>6+ years Web3 Marketer</span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons6">
+                    <a
+                      href="https://www.linkedin.com/in/rio-ogawa/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team14-link4"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team14-icon08 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide4 swiper-slide"
+              >
+                <div class="team14-card09">
+                  <img
+                    alt="Member Alt"
+                    src="public/agus-1400w.jpeg"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content10">
+                    <div class="team14-title09">
+                      <span class="team14-text43 thq-body-small">
+                        <span>Agus Sentosa</span>
+                      </span>
+                      <span class="team14-text44 thq-body-small">
+                        <span>CPO</span>
+                      </span>
+                    </div>
+                    <span class="team14-text45 thq-body-small">
+                      <span>Fintech Specialist</span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons7">
+                    <a
+                      href="https://www.linkedin.com/in/agussentosa/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="team14-link5"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="team14-icon10 thq-icon-small"
+                      >
+                        <path
+                          d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide5 swiper-slide"
+              >
+                <div class="team14-card10">
+                  <img
+                    alt="Member Alt"
+                    src="public/photo_2024-03-18%2015.02.50-1400w.jpeg"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content11">
+                    <div class="team14-title10">
+                      <span class="team14-text46 thq-body-small">
+                        <span>Kathy Thach</span>
+                      </span>
+                      <span class="team14-text47 thq-body-small">
+                        <span>Head of Commercial</span>
+                      </span>
+                    </div>
+                    <span class="team14-text48 thq-body-small">
+                      <span>
+                        Specialist in OTA partnerships with 15 years experience
+                      </span>
+                    </span>
+                  </div>
+                  <div class="team14-social-icons8">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="thq-icon-small"
+                    >
+                      <path
+                        d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide6 swiper-slide"
+              >
+                <div class="team14-card11">
+                  <img
+                    alt="Member Alt"
+                    src="public/josh-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content12">
+                    <div class="team14-title11">
+                      <span class="team14-text49 thq-body-small">
+                        <span>Full name</span>
+                      </span>
+                      <span class="team14-text50 thq-body-small">
+                        <span>Advisory Team</span>
+                      </span>
+                    </div>
+                    <span class="team14-text51 thq-body-small">
+                      <span>
+                        Director @ Commerce Development Research Institute (TW)
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide7 swiper-slide"
+              >
+                <div class="team14-card12">
+                  <img
+                    alt="Member Alt"
+                    src="public/xavier-1400w.webp"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content13">
+                    <div class="team14-title12">
+                      <span class="team14-text52 thq-body-small">
+                        <span>Mr. Xavier L.</span>
+                      </span>
+                      <span class="team14-text53 thq-body-small">
+                        <span>Job title</span>
+                      </span>
+                    </div>
+                    <span class="team14-text54 thq-body-small">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="team14-slider-slide8 swiper-slide"
+              >
+                <div class="team14-card13">
+                  <img
+                    alt="Member Alt"
+                    src="public/bom%20image%20small-1400w.jpg"
+                    class="thq-img-ratio-1-1"
+                  />
+                  <div class="team14-content14">
+                    <div class="team14-title13">
+                      <span class="team14-text55 thq-body-small">
+                        <span>Mr. Bom Sri.</span>
+                      </span>
+                      <span class="team14-text56 thq-body-small">
+                        Job title
+                      </span>
+                    </div>
+                    <span class="team14-text57 thq-body-small">
+                      <span>
+                        COO @ Putahracsa Hua Hin Resort COO @ Theatre Residence
+                        (TH)
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-thq="slider-pagination"
+              class="team14-slider-pagination1 swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+            >
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+            </div>
+            <div data-thq="slider-button-prev" class="swiper-button-prev"></div>
+            <div data-thq="slider-button-next" class="swiper-button-next"></div>
+          </div>
+          <span class="team14-text58 thq-body-small">
+            <span>Join our team and make a difference in your career!</span>
+          </span>
+          <a href="recruitment.html" class="team14-button">
+            <span class="team14-text59 navLink">
+              <span>Open Positions</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

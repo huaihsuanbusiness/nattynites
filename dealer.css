@@ -1,0 +1,1402 @@
+.hero21-header5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.hero21-image {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  object-fit: cover;
+}
+.hero21-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.hero21-max-width {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero21-column {
+  gap: 24px;
+  width: auto;
+  display: flex;
+  z-index: 1;
+  max-width: 560px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero21-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero21-text {
+  font-size: 50px;
+}
+.hero21-text1 {
+  font-size: 30px;
+  font-family: "STIXTwoText";
+}
+.hero21-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero21-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.hero21-container2 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.hero21-root-class-name {
+  height: auto;
+}
+.hero21-root-class-name1 {
+  height: auto;
+}
+.hero21-root-class-name2 {
+  height: 100%;
+}
+.hero21-root-class-name3 {
+  height: 100%;
+}
+.hero21-root-class-name4 {
+  height: 100%;
+}
+.hero21-root-class-name5 {
+  height: 100%;
+}
+.hero21-root-class-name6 {
+  height: 100%;
+}
+@media(max-width: 767px) {
+  .hero21-header5 {
+    justify-content: center;
+  }
+  .hero21-max-width {
+    justify-content: center;
+  }
+  .hero21-column {
+    width: 100%;
+  }
+  .hero21-text {
+    font-size: 30px;
+    text-align: left;
+  }
+  .hero21-text1 {
+    font-size: 16px;
+  }
+  .hero21-actions {
+    width: 100%;
+    align-self: flex-start;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .hero21-actions {
+    flex-direction: column;
+  }
+  .hero21-container1 {
+    width: 100%;
+  }
+  .hero21-container2 {
+    width: 100%;
+  }
+}
+
+.dealer-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.dealer-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.dealer-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.dealer-text {
+  font-size: 40px;
+  margin-top: var(--dl-space-space-unit);
+  font-family: "PlayfairDisplay-Bold";
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dealer-desktop-menu {
+  top: 0px;
+  right: 0px;
+  width: auto;
+  bottom: 0px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-end;
+  padding-top: auto;
+  padding-left: auto;
+  padding-right: auto;
+  flex-direction: row;
+  padding-bottom: auto;
+  justify-content: space-between;
+}
+.dealer-nav {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+}
+.dealer-navlink {
+  color: #000000;
+  font-size: 30px;
+  text-decoration: none;
+}
+.dealer-link {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-decoration: none;
+}
+.dealer-link01 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-decoration: none;
+}
+.dealer-link02 {
+  fill: #000000;
+  color: #000000;
+  font-size: 30px;
+}
+.dealer-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.dealer-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.dealer-dropdown-arrow {
+  transition: 0.3s;
+}
+.dealer-link03 {
+  fill: #000000;
+  color: #000000;
+  font-size: 30px;
+}
+.dealer-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-black);
+  list-style-position: inside;
+}
+.dealer-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.dealer-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  padding: var(--dl-space-space-unit);
+  transition: 0.3s;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
+}
+.dealer-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.dealer-text01 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+.dealer-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.dealer-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dealer-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.dealer-text02 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+.dealer-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.dealer-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.dealer-actions {
+  display: flex;
+  align-self: center;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dealer-button {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  align-self: flex-start;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-left: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: ridge;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.dealer-text03 {
+  fill: #ffffff;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+}
+.dealer-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.dealer-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dealer-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.dealer-nav1 {
+  display: flex;
+  z-index: 20;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.dealer-container02 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.dealer-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dealer-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dealer-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.dealer-link06 {
+  text-decoration: none;
+}
+.dealer-navlink1 {
+  text-decoration: none;
+}
+.dealer-navlink2 {
+  text-decoration: none;
+}
+.dealer-navlink3 {
+  text-decoration: none;
+}
+.dealer-link07 {
+  text-decoration: none;
+}
+.dealer-link08 {
+  text-decoration: none;
+}
+.dealer-text04 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  width: auto;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 200px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 200px;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.dealer-text05 {
+  font-size: 36px;
+}
+.dealer-text11 {
+  font-size: 30px;
+}
+.dealer-text23 {
+  font-size: 30px;
+}
+.dealer-text41 {
+  font-size: 30px;
+}
+.dealer-form {
+  width: var(--dl-size-size-xxlarge);
+  height: auto;
+  display: flex;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.dealer-input {
+  opacity: 0;
+}
+.dealer-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.dealer-text66 {
+  fill: #000000;
+  color: #000000;
+  font-size: 16px;
+  font-family: "STIXTwoText";
+}
+.dealer-text67 {
+  color: var(--dl-color-danger-700);
+}
+.dealer-textinput {
+  width: auto;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.dealer-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.dealer-text68 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "STIXTwoText";
+}
+.dealer-text69 {
+  color: var(--dl-color-danger-700);
+}
+.dealer-textinput1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.dealer-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.dealer-text70 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "STIXTwoText";
+}
+.dealer-text71 {
+  color: var(--dl-color-danger-700);
+}
+.dealer-textinput2 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.dealer-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.dealer-text72 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "STIXTwoText";
+}
+.dealer-text73 {
+  color: var(--dl-color-danger-700);
+}
+.dealer-textinput3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.dealer-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.dealer-text74 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "STIXTwoText";
+}
+.dealer-textarea {
+  height: var(--dl-size-size-xxlarge);
+}
+.dealer-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.dealer-checkbox {
+  align-self: center;
+}
+.dealer-link09 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  align-self: center;
+  font-family: "STIXTwoText";
+  margin-left: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.dealer-text80 {
+  color: var(--dl-color-theme-primary1);
+}
+.dealer-button1 {
+  fill: #ffffff;
+  color: #ffffff;
+  margin-top: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #000000;
+}
+.dealer-text81 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.dealer-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-color: #000000;
+}
+.dealer-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.dealer-container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.dealer-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.dealer-description {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 0px;
+}
+.dealer-description1 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 0px;
+}
+.dealer-container12 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  justify-content: center;
+}
+.dealer-link10 {
+  display: contents;
+}
+.dealer-icon04 {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dealer-link11 {
+  display: contents;
+}
+.dealer-icon06 {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dealer-link12 {
+  display: contents;
+}
+.dealer-icon08 {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+}
+.dealer-navlink4 {
+  display: contents;
+}
+.dealer-image {
+  top: 0px;
+  right: 0px;
+  width: var(--dl-size-size-xxlarge);
+  bottom: 0px;
+  height: auto;
+  position: absolute;
+  align-self: center;
+  margin-top: auto;
+  object-fit: cover;
+  margin-left: auto;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: auto;
+  text-decoration: none;
+}
+.dealer-copyright {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  line-height: 21px;
+}
+@media(max-width: 991px) {
+  .dealer-navbar {
+    width: 958px;
+  }
+  .dealer-nav {
+    align-self: center;
+  }
+  .dealer-navlink {
+    font-size: 16px;
+  }
+  .dealer-link {
+    font-size: 16px;
+  }
+  .dealer-link01 {
+    font-size: 16px;
+  }
+  .dealer-link02 {
+    font-size: 16px;
+  }
+  .dealer-link03 {
+    font-size: 16px;
+  }
+  .dealer-actions {
+    align-self: center;
+  }
+  .dealer-text03 {
+    font-size: 16px;
+  }
+  .dealer-text04 {
+    color: rgb(0, 0, 0);
+  }
+  .dealer-text05 {
+    font-size: 36px;
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text06 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text07 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text08 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text09 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text10 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text11 {
+    font-size: 30px;
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text12 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text13 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text14 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text15 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text16 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text17 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text18 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text19 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text20 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text21 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text22 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text23 {
+    font-size: 30px;
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text24 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text25 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text26 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text27 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text28 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text29 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text30 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text31 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text32 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text33 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text34 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text35 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text36 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text37 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text38 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text39 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text40 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text41 {
+    font-size: 30px;
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text42 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text43 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text44 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text45 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text46 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text47 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text48 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text49 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text50 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text51 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text52 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text53 {
+    font-family: STIXTwoText-Bold;
+  }
+  .dealer-text54 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text55 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text56 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text57 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text58 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text59 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text60 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text61 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text62 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text63 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text64 {
+    font-family: STIXTwoText;
+  }
+  .dealer-text65 {
+    font-family: STIXTwoText;
+  }
+  .dealer-footer {
+    margin-top: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-fourunits);
+  }
+  .dealer-description {
+    line-height: 27px;
+  }
+  .dealer-description1 {
+    color: rgb(255, 255, 255);
+  }
+  .dealer-image {
+    right: 0px;
+    width: var(--dl-size-size-xlarge);
+  }
+  .dealer-copyright {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media(max-width: 767px) {
+  .dealer-navbar {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    padding-bottom: var(--dl-space-space-unit);
+    justify-content: space-between;
+  }
+  .dealer-desktop-menu {
+    display: none;
+  }
+  .dealer-burger-menu {
+    display: flex;
+    align-self: center;
+  }
+  .dealer-icon {
+    fill: #000000;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    align-self: center;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .dealer-mobile-menu {
+    height: 100%;
+    background-color: #ffffff;
+  }
+  .dealer-nav1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    height: auto;
+  }
+  .dealer-container02 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .dealer-menu-close {
+    width: 100%;
+    position: relative;
+    justify-content: flex-end;
+  }
+  .dealer-icon02 {
+    fill: #000000;
+    width: var(--dl-size-size-small);
+    height: auto;
+  }
+  .dealer-nav2 {
+    gap: var(--dl-space-space-unit);
+    color: #ffffff;
+    width: 250px;
+    height: 173px;
+    align-self: center;
+  }
+  .dealer-link06 {
+    fill: #000000;
+    color: #000000;
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-decoration: none;
+  }
+  .dealer-navlink1 {
+    fill: #000000;
+    color: #000000;
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-decoration: none;
+  }
+  .dealer-navlink2 {
+    fill: #000000;
+    color: #000000;
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-decoration: none;
+  }
+  .dealer-navlink3 {
+    fill: #000000;
+    color: #000000;
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-decoration: none;
+  }
+  .dealer-link07 {
+    fill: #000000;
+    color: #000000;
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-decoration: none;
+  }
+  .dealer-link08 {
+    fill: #000000;
+    color: #000000;
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-decoration: none;
+  }
+  .dealer-text04 {
+    color: rgb(0, 0, 0);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .dealer-text05 {
+    font-size: 30px;
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text06 {
+    font-size: 30px;
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text07 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text08 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text09 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text10 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text11 {
+    font-size: 24px;
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text12 {
+    font-size: 24px;
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text13 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text14 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text15 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text16 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text17 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text18 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text19 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text20 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text21 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text22 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text23 {
+    font-size: 24px;
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text24 {
+    font-size: 24px;
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text25 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text26 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text27 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text28 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text29 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text30 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text31 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text32 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text33 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text34 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text35 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text36 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text37 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text38 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text39 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text40 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text41 {
+    font-size: 24px;
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text42 {
+    font-size: 24px;
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text43 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text44 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text45 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text46 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text47 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text48 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text49 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text50 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text51 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text52 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text53 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text54 {
+    font-family: PlayfairDisplay-Bold;
+  }
+  .dealer-text55 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text56 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text57 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text58 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text59 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text60 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text61 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text62 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text63 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text64 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-footer {
+    height: auto;
+    margin-top: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .dealer-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .dealer-description1 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .dealer-image {
+    right: 0px;
+    width: var(--dl-size-size-large);
+    height: auto;
+  }
+}
+@media(max-width: 479px) {
+  .dealer-navbar {
+    width: 100%;
+  }
+  .dealer-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .dealer-button {
+    width: 100%;
+  }
+  .dealer-mobile-menu {
+    padding: 16px;
+    background-color: #ffffff;
+  }
+  .dealer-nav1 {
+    height: 100%;
+  }
+  .dealer-menu-close {
+    width: 100%;
+    position: relative;
+    justify-content: flex-end;
+  }
+  .dealer-icon02 {
+    fill: #000000;
+    width: var(--dl-size-size-small);
+    height: auto;
+    position: static;
+  }
+  .dealer-nav2 {
+    color: #ffffff;
+    height: auto;
+  }
+  .dealer-link06 {
+    fill: #000000;
+    color: #000000;
+    text-decoration: none;
+  }
+  .dealer-navlink2 {
+    fill: #000000;
+    color: #000000;
+  }
+  .dealer-navlink3 {
+    fill: #000000;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .dealer-link07 {
+    fill: #000000;
+    color: #000000;
+    text-decoration: none;
+  }
+  .dealer-link08 {
+    fill: #000000;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .dealer-text04 {
+    font-size: 15px;
+    align-self: center;
+    text-align: left;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .dealer-footer {
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .dealer-container09 {
+    width: auto;
+  }
+  .dealer-description {
+    align-self: center;
+    text-align: center;
+  }
+  .dealer-description1 {
+    align-self: center;
+    text-align: center;
+  }
+  .dealer-container12 {
+    width: auto;
+    margin: var(--dl-space-space-halfunit);
+    position: static;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .dealer-icon04 {
+    width: 24px;
+  }
+  .dealer-icon06 {
+    width: 24px;
+  }
+  .dealer-icon08 {
+    width: 24px;
+  }
+  .dealer-image {
+    top: 0px;
+    right: 0px;
+    width: var(--dl-size-size-medium);
+    bottom: 0px;
+    height: auto;
+    position: static;
+    margin-top: var(--dl-space-space-unit);
+    margin-right: auto;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .dealer-copyright {
+    width: auto;
+    font-size: 10px;
+  }
+}

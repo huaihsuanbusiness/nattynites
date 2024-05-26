@@ -1,0 +1,202 @@
+.stats1-max-width {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stats1-container1 {
+  align-self: center;
+  align-items: flex-start;
+}
+.stats1-text {
+  font-size: 36px;
+  font-family: "STIXTwoText-Bold";
+}
+.stats1-text01 {
+  font-family: "STIXTwoText";
+}
+.stats1-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.stats1-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.stats1-text02 {
+  font-size: 30px;
+  font-family: "STIXTwoText-Bold";
+}
+.stats1-text03 {
+  font-family: "STIXTwoText";
+}
+.stats1-container4 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.stats1-text04 {
+  font-size: 30px;
+  font-family: "STIXTwoText-Bold";
+}
+.stats1-text05 {
+  font-family: "STIXTwoText";
+}
+.stats1-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.stats1-container6 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.stats1-text06 {
+  font-size: 30px;
+  font-family: "STIXTwoText-Bold";
+}
+.stats1-text07 {
+  font-family: "STIXTwoText";
+}
+.stats1-container7 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.stats1-text08 {
+  font-size: 30px;
+  font-family: "STIXTwoText-Bold";
+}
+.stats1-text09 {
+  font-family: "STIXTwoText";
+}
+.stats1-image {
+  width: 400px;
+  height: 363px;
+}
+.stats1-text10 {
+  font-size: 16px;
+  text-align: center;
+  font-family: "STIXTwoText";
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+}
+.stats1-text11 {
+  font-size: 16px;
+  font-family: "STIXTwoText";
+}
+.stats1-button {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: ridge;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.stats1-text12 {
+  fill: #ffffff;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+}
+@media(max-width: 991px) {
+  .stats1-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .stats1-container8 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .stats1-container1 {
+    align-self: center;
+  }
+  .stats1-text {
+    font-size: 30px;
+  }
+  .stats1-text02 {
+    font-size: 24px;
+  }
+  .stats1-text04 {
+    font-size: 24px;
+  }
+  .stats1-text06 {
+    font-size: 24px;
+  }
+  .stats1-text08 {
+    font-size: 24px;
+  }
+  .stats1-text12 {
+    font-size: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .stats1-container1 {
+    align-self: center;
+  }
+  .stats1-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .stats1-text02 {
+    font-size: 24px;
+  }
+  .stats1-text04 {
+    font-size: 24px;
+  }
+  .stats1-text06 {
+    font-size: 24px;
+  }
+  .stats1-text08 {
+    font-size: 24px;
+  }
+  .stats1-image {
+    width: 100%;
+  }
+  .stats1-text10 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .stats1-text11 {
+    text-align: center;
+  }
+  .stats1-button {
+    width: 100%;
+  }
+  .stats1-text12 {
+    font-size: 24px;
+  }
+}
