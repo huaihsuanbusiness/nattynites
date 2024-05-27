@@ -1241,6 +1241,12 @@
   border-radius: var(--dl-radius-radius-radius8);
   grid-template-columns: 1fr 1fr;
 }
+.home-text05 {
+  font-size: 26px;
+  align-self: center;
+  font-family: "PlayfairDisplay-Bold";
+  padding-top: var(--dl-space-space-halfunit);
+}
 .home-button1 {
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
@@ -1292,6 +1298,12 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
   grid-template-columns: 1fr 1fr;
+}
+.home-text13 {
+  font-size: 26px;
+  align-self: center;
+  font-family: "PlayfairDisplay-Bold";
+  padding-top: var(--dl-space-space-halfunit);
 }
 .home-button2 {
   fill: var(--dl-color-gray-black);
@@ -1359,6 +1371,12 @@
   align-items: center;
   justify-content: flex-end;
 }
+.home-text19 {
+  font-size: 26px;
+  align-self: center;
+  font-family: "PlayfairDisplay-Bold";
+  padding-top: var(--dl-space-space-halfunit);
+}
 .home-button3 {
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
@@ -1424,6 +1442,12 @@
   border-radius: var(--dl-radius-radius-radius8);
   grid-template-columns: 1fr 1fr;
 }
+.home-text27 {
+  font-size: 26px;
+  align-self: center;
+  font-family: "PlayfairDisplay-Bold";
+  padding-top: var(--dl-space-space-halfunit);
+}
 .home-button4 {
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
@@ -1476,6 +1500,12 @@
   border-radius: var(--dl-radius-radius-radius8);
   grid-template-columns: 1fr 1fr;
 }
+.home-text35 {
+  font-size: 26px;
+  align-self: center;
+  font-family: "PlayfairDisplay-Bold";
+  padding-top: var(--dl-space-space-halfunit);
+}
 .home-button5 {
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
@@ -1527,6 +1557,12 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
   grid-template-columns: 1fr 1fr;
+}
+.home-text43 {
+  font-size: 26px;
+  align-self: center;
+  font-family: "PlayfairDisplay-Bold";
+  padding-top: var(--dl-space-space-halfunit);
 }
 .home-button6 {
   fill: var(--dl-color-gray-black);
