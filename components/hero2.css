@@ -45,11 +45,11 @@
   flex-direction: column;
 }
 .hero2-text {
-  font-size: 50px;
+  font-size: 36px;
   font-family: "STIXTwoText-Bold";
 }
 .hero2-text1 {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "STIXTwoText";
 }
 .hero2-actions {
@@ -95,7 +95,7 @@
     width: 100%;
   }
   .hero2-text {
-    font-size: 36px;
+    font-size: 26px;
     text-align: left;
   }
   .hero2-text1 {
@@ -110,10 +110,10 @@
 }
 @media(max-width: 479px) {
   .hero2-text {
-    font-size: 36px;
+    font-size: 26px;
   }
   .hero2-text1 {
-    font-size: 24px;
+    font-size: 16px;
   }
   .hero2-actions {
     flex-direction: column;

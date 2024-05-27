@@ -36,13 +36,14 @@
   font-size: 3em;
   align-self: flex-start;
   text-align: center;
-  font-family: "Source Sans Pro";
+  font-family: "STIXTwoText-Bold";
 }
 .hero9-text1 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 3em;
   align-self: flex-start;
+  font-family: "STIXTwoText-Bold";
 }
 .hero9-actions {
   gap: var(--dl-space-space-unit);
@@ -64,7 +65,7 @@
 .hero9-text2 {
   fill: #ffffff;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
 }
 .hero9-root-class-name {
@@ -72,7 +73,11 @@
 }
 @media(max-width: 991px) {
   .hero9-text {
+    font-size: 2.5em;
     text-align: center;
+  }
+  .hero9-text1 {
+    font-size: 2.5em;
   }
 }
 @media(max-width: 767px) {
@@ -111,10 +116,12 @@
   }
   .hero9-text {
     width: 100%;
+    font-size: 1.5em;
     align-self: flex-start;
     text-align: left;
   }
   .hero9-text1 {
+    font-size: 1.5em;
     align-self: flex-start;
   }
   .hero9-actions {
@@ -122,6 +129,9 @@
     flex-direction: column;
   }
   .hero9-button {
-    width: 100%;
+    width: auto;
+  }
+  .hero9-text2 {
+    font-size: 20px;
   }
 }

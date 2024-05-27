@@ -145,19 +145,19 @@
     align-self: center;
   }
   .stats1-text {
-    font-size: 30px;
+    font-size: 26px;
   }
   .stats1-text02 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .stats1-text04 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .stats1-text06 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .stats1-text08 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .stats1-text12 {
     font-size: 24px;
@@ -168,20 +168,35 @@
     align-self: center;
   }
   .stats1-text {
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
   }
+  .stats1-text01 {
+    font-size: 16px;
+  }
   .stats1-text02 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .stats1-text03 {
+    font-size: 16px;
   }
   .stats1-text04 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .stats1-text05 {
+    font-size: 16px;
   }
   .stats1-text06 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .stats1-text07 {
+    font-size: 16px;
   }
   .stats1-text08 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .stats1-text09 {
+    font-size: 16px;
   }
   .stats1-image {
     width: 100%;

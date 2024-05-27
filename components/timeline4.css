@@ -432,28 +432,28 @@
     flex-direction: column;
   }
   .timeline4-text {
-    font-size: 30px;
+    font-size: 26px;
   }
   .timeline4-text01 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .timeline4-text02 {
     text-align: left;
   }
   .timeline4-heading {
-    font-size: 24px;
+    font-size: 20px;
   }
   .timeline4-text08 {
     text-align: left;
   }
   .timeline4-text12 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .timeline4-text13 {
     text-align: left;
   }
   .timeline4-text17 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media(max-width: 479px) {

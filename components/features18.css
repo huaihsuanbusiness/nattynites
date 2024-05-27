@@ -32,7 +32,7 @@
   flex-direction: column;
 }
 .features18-text {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "STIXTwoText";
 }
 .features18-image-container {
@@ -45,5 +45,15 @@
   .features18-max-width {
     gap: var(--dl-space-space-twounits);
     flex-direction: column-reverse;
+  }
+}
+@media(max-width: 767px) {
+  .features18-text {
+    font-size: 20px;
+  }
+}
+@media(max-width: 479px) {
+  .features18-text {
+    font-size: 20px;
   }
 }

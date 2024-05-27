@@ -26,6 +26,7 @@
   flex-direction: column;
 }
 .gallery7-text {
+  font-size: 32px;
   text-align: center;
   font-family: "STIXTwoText-Bold";
 }
@@ -132,7 +133,7 @@
 .gallery7-text2 {
   fill: #ffffff;
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   font-family: "Source Sans Pro";
 }
@@ -167,6 +168,9 @@
   }
 }
 @media(max-width: 479px) {
+  .gallery7-text {
+    font-size: 26px;
+  }
   .gallery7-image1 {
     height: 120;
   }
@@ -189,6 +193,9 @@
     height: 220;
   }
   .gallery7-button {
-    width: 100%;
+    width: auto;
+  }
+  .gallery7-text2 {
+    font-size: 20px;
   }
 }
