@@ -709,6 +709,10 @@
   .nft-navbar {
     width: 958px;
   }
+  .nft-desktop-menu {
+    right: 0px;
+    width: auto;
+  }
   .nft-nav {
     align-self: center;
   }

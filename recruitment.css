@@ -73,6 +73,11 @@
 .hero21-root-class-name6 {
   height: 100%;
 }
+@media(max-width: 991px) {
+  .hero21-text1 {
+    font-size: 22px;
+  }
+}
 @media(max-width: 767px) {
   .hero21-header5 {
     justify-content: center;
@@ -592,6 +597,9 @@
 @media(max-width: 991px) {
   .recruitment-navbar {
     width: 958px;
+  }
+  .recruitment-desktop-menu {
+    right: 0px;
   }
   .recruitment-nav {
     align-self: center;

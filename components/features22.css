@@ -260,6 +260,9 @@
   font-family: "STIXTwoText";
 }
 @media(max-width: 991px) {
+  .features22-layout349 {
+    padding: var(--dl-space-space-fourunits);
+  }
   .features22-max-width {
     position: relative;
     flex-direction: column;
@@ -340,6 +343,9 @@
   }
 }
 @media(max-width: 479px) {
+  .features22-layout349 {
+    padding: var(--dl-space-space-unit);
+  }
   .features22-text {
     font-size: 26px;
   }

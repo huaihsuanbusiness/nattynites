@@ -865,6 +865,7 @@
 }
 .team14-social-icons8 {
   gap: var(--dl-space-space-unit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
 }
@@ -1513,13 +1514,13 @@
     font-size: 24px;
   }
   .timeline4-button {
-    width: 100%;
+    width: auto;
   }
   .timeline4-button1 {
-    width: 100%;
+    width: auto;
   }
   .timeline4-button2 {
-    width: 100%;
+    width: auto;
   }
   .timeline4-container07 {
     width: 100%;
@@ -1977,24 +1978,6 @@
   align-items: center;
   justify-content: center;
 }
-.about-testimonial4 {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.about-features5 {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .about-team5 {
   flex: 0 0 auto;
   width: 100%;
@@ -2133,6 +2116,12 @@
   .about-navbar {
     width: 958px;
   }
+  .about-desktop-menu {
+    top: 0px;
+    right: 0px;
+    padding: auto;
+    position: absolute;
+  }
   .about-nav {
     align-self: center;
   }
@@ -2150,6 +2139,7 @@
   }
   .about-link03 {
     font-size: 16px;
+    align-self: center;
   }
   .about-actions {
     align-self: center;
