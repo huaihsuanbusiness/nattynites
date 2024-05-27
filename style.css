@@ -592,7 +592,7 @@
   }
   .thq-grid-3 {
     grid-gap: var(--dl-space-space-oneandhalfunits);
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .thq-grid-4 {
     grid-gap: var(--dl-space-space-oneandhalfunits);
