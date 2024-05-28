@@ -1919,7 +1919,10 @@
     padding-left: var(--dl-space-space-twounits);
   }
   .home-container04 {
-    width: 100%;
+    align-self: stretch;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .home-row {
     width: 50%;

@@ -865,6 +865,7 @@
 .programs-content {
   align-self: stretch;
   align-items: center;
+  padding-bottom: var(--dl-space-space-unit);
 }
 .programs-feature1 {
   align-items: flex-start;
@@ -926,6 +927,7 @@
 .programs-content1 {
   align-self: stretch;
   align-items: center;
+  padding-bottom: var(--dl-space-space-unit);
 }
 .programs-feature11 {
   align-items: flex-start;
@@ -964,6 +966,7 @@
 .programs-content2 {
   align-self: stretch;
   align-items: center;
+  padding-bottom: var(--dl-space-space-unit);
 }
 .programs-feature12 {
   align-items: flex-start;
@@ -1724,7 +1727,7 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .programs-button1 {
-    width: 100%;
+    width: auto;
   }
   .programs-feature2 {
     padding-top: var(--dl-space-space-twounits);
