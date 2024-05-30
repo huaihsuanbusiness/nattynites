@@ -641,12 +641,85 @@
   .features222-layout349 {
     padding: var(--dl-space-space-unit);
   }
+  .features222-textinput {
+    width: auto;
+    align-self: stretch;
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 0.5rem;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-right: 0px;
+    padding-bottom: 0.5rem;
+  }
+  .features222-container1 {
+    position: relative;
+    flex-direction: column;
+  }
+  .features222-textinput1 {
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 0.5rem;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-right: 0px;
+    padding-bottom: 0.5rem;
+  }
+  .features222-textinput2 {
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 0.5rem;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-right: 0px;
+    padding-bottom: 0.5rem;
+  }
+  .features222-text1 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .features222-select {
+    width: auto;
+    align-self: stretch;
+    margin-left: 0px;
+    padding-top: 0.5rem;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0.5rem;
+  }
+  .features222-select1 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-left: 0px;
+    padding-top: 0.5rem;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-right: 0px;
+    padding-bottom: 0.5rem;
+  }
+  .features222-select2 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-left: 0px;
+    padding-top: 0.5rem;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-right: 0px;
+    padding-bottom: 0.5rem;
+  }
   .features222-actions {
     width: 100%;
     flex-direction: column;
   }
   .features222-button {
     width: auto;
+    align-self: center;
   }
   .features222-text4 {
     font-size: 20px;
