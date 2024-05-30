@@ -1676,6 +1676,7 @@
   align-self: center;
   object-fit: cover;
   margin-right: var(--dl-space-space-twounits);
+  border-radius: 8px;
 }
 .about-container05 {
   flex: 0 0 auto;
@@ -1694,6 +1695,7 @@
   align-self: center;
   object-fit: cover;
   margin-left: var(--dl-space-space-twounits);
+  border-radius: 8px;
 }
 .about-container06 {
   flex: 0 0 auto;
