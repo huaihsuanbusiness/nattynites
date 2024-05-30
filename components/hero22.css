@@ -51,6 +51,7 @@
   fill: #ffffff;
   color: #ffffff;
   font-size: 36px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .hero22-actions {
   gap: var(--dl-space-space-unit);

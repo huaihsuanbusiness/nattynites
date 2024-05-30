@@ -12,10 +12,10 @@
 }
 .stats1-text {
   font-size: 36px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .stats1-text01 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .stats1-container2 {
   flex: 0 0 auto;
@@ -33,10 +33,10 @@
 }
 .stats1-text02 {
   font-size: 30px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .stats1-text03 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .stats1-container4 {
   flex: 0 0 auto;
@@ -49,10 +49,10 @@
 }
 .stats1-text04 {
   font-size: 30px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .stats1-text05 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .stats1-container5 {
   flex: 0 0 auto;
@@ -70,10 +70,10 @@
 }
 .stats1-text06 {
   font-size: 30px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .stats1-text07 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .stats1-container7 {
   flex: 0 0 auto;
@@ -86,10 +86,10 @@
 }
 .stats1-text08 {
   font-size: 30px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .stats1-text09 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .stats1-image {
   width: 400px;
@@ -98,14 +98,14 @@
 .stats1-text10 {
   font-size: 16px;
   text-align: center;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
 }
 .stats1-text11 {
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .stats1-button {
   fill: var(--dl-color-theme-accent2);
@@ -127,7 +127,7 @@
 .stats1-text12 {
   fill: #ffffff;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   font-family: "Source Sans Pro";
 }
@@ -160,7 +160,7 @@
     font-size: 20px;
   }
   .stats1-text12 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media(max-width: 479px) {
@@ -209,9 +209,9 @@
     text-align: center;
   }
   .stats1-button {
-    width: 100%;
+    width: auto;
   }
   .stats1-text12 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }

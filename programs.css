@@ -47,10 +47,11 @@
 .hero21-text {
   width: auto;
   font-size: 36px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .hero21-text1 {
-  font-size: 26px;
-  font-family: "STIXTwoText";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Regular";
 }
 .hero21-root-class-name {
   height: auto;
@@ -91,6 +92,14 @@
   .hero21-text {
     font-size: 26px;
     text-align: left;
+  }
+  .hero21-text1 {
+    font-size: 16px;
+  }
+}
+@media(max-width: 479px) {
+  .hero21-text {
+    font-size: 26px;
   }
   .hero21-text1 {
     font-size: 16px;
@@ -162,29 +171,29 @@
 }
 .programs-navlink {
   color: #000000;
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
   text-decoration: none;
 }
 .programs-link {
   fill: #000000;
   color: rgb(0, 0, 0);
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
   text-decoration: none;
 }
 .programs-link01 {
   fill: #000000;
   color: rgb(0, 0, 0);
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
   text-decoration: none;
 }
 .programs-link02 {
   fill: #000000;
   color: #000000;
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-thq-dropdown {
   cursor: pointer;
@@ -210,8 +219,8 @@
 .programs-link03 {
   fill: #000000;
   color: #000000;
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-dropdown-list {
   left: 0%;
@@ -334,7 +343,7 @@
 .programs-text03 {
   fill: #ffffff;
   color: rgb(255, 255, 255);
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
   font-family: "Source Sans Pro";
 }
@@ -437,7 +446,7 @@
 .programs-text04 {
   font-size: 32px;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-twounits);
 }
@@ -445,7 +454,7 @@
   width: 100%;
   align-self: center;
   text-align: center;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   margin-left: 0px;
   margin-right: 0px;
@@ -510,13 +519,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text07 {
   color: rgb(255, 255, 255);
   margin-top: 0px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -549,13 +558,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text09 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -588,13 +597,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text11 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -626,13 +635,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text13 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -650,7 +659,7 @@
 .programs-text14 {
   font-size: 32px;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-twounits);
 }
@@ -658,7 +667,7 @@
   width: 100%;
   align-self: center;
   text-align: center;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   margin-left: 0px;
   margin-right: 0px;
@@ -723,13 +732,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text19 {
   color: rgb(255, 255, 255);
   margin-top: 0px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -762,13 +771,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text21 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -801,13 +810,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text23 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -839,13 +848,13 @@
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   align-self: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
   margin-left: var(--dl-space-space-halfunit);
 }
 .programs-text25 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   line-height: 2;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
@@ -862,6 +871,9 @@
 .programs-section-title {
   align-items: center;
 }
+.programs-text26 {
+  font-family: "PlayfairDisplay-Bold";
+}
 .programs-content {
   align-self: stretch;
   align-items: center;
@@ -875,9 +887,10 @@
 .programs-feature1-title {
   font-size: 26px;
   text-align: center;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature1-description {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-button1 {
   fill: var(--dl-color-theme-accent2);
@@ -908,9 +921,10 @@
 }
 .programs-feature2-title {
   font-size: 26px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature2-description {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-feature3 {
   height: 100%;
@@ -920,9 +934,10 @@
 }
 .programs-feature3-title {
   font-size: 26px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature3-description {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-content1 {
   align-self: stretch;
@@ -937,9 +952,10 @@
 .programs-feature1-title1 {
   font-size: 26px;
   text-align: center;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature1-description1 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-feature21 {
   align-items: flex-start;
@@ -948,9 +964,10 @@
 }
 .programs-feature2-title1 {
   font-size: 26px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature2-description1 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-feature31 {
   align-items: flex-start;
@@ -959,9 +976,10 @@
 }
 .programs-feature3-title1 {
   font-size: 26px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature3-description1 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-content2 {
   align-self: stretch;
@@ -976,9 +994,10 @@
 .programs-feature1-title2 {
   font-size: 26px;
   text-align: center;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature1-description2 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-feature22 {
   align-items: flex-start;
@@ -987,9 +1006,10 @@
 }
 .programs-feature2-title2 {
   font-size: 26px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature2-description2 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-feature32 {
   align-items: flex-start;
@@ -998,9 +1018,10 @@
 }
 .programs-feature3-title2 {
   font-size: 26px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .programs-feature3-description2 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .programs-footer {
   width: 100%;
@@ -1031,6 +1052,7 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
+  position: relative;
   align-self: center;
   align-items: center;
   flex-direction: column;
@@ -1042,6 +1064,7 @@
   font-size: 18px;
   align-self: center;
   text-align: center;
+  font-family: "PlayfairDisplay-Regular";
   line-height: 27px;
   margin-left: 0px;
 }
@@ -1051,6 +1074,7 @@
   font-size: 18px;
   align-self: center;
   text-align: center;
+  font-family: "PlayfairDisplay-Regular";
   line-height: 27px;
   margin-left: 0px;
 }
@@ -1092,24 +1116,30 @@
   height: 30px;
   text-decoration: none;
 }
-.programs-navlink4 {
-  display: contents;
-}
-.programs-image2 {
-  top: 0px;
+.programs-container28 {
+  flex: 0 0 auto;
   right: 0px;
-  width: var(--dl-size-size-xxlarge);
+  width: auto;
   bottom: 0px;
-  height: auto;
+  height: 100%;
+  display: flex;
   position: absolute;
   align-self: center;
-  margin-top: auto;
-  object-fit: cover;
-  margin-left: auto;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  margin-right: var(--dl-space-space-threeunits);
-  margin-bottom: auto;
+  align-items: center;
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.programs-text35 {
+  fill: #ffffff;
+  color: #ffffff;
+  font-size: 36px;
+  margin-top: 0px;
+  font-family: "PlayfairDisplay-Bold";
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: 0px;
   text-decoration: none;
 }
 .programs-copyright {
@@ -1118,6 +1148,7 @@
   font-size: 14px;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
+  font-family: "PlayfairDisplay-Regular";
   line-height: 21px;
 }
 @media(max-width: 991px) {
@@ -1125,7 +1156,9 @@
     width: 958px;
   }
   .programs-desktop-menu {
+    top: 0px;
     right: 0px;
+    position: absolute;
   }
   .programs-nav {
     align-self: center;
@@ -1144,7 +1177,6 @@
   }
   .programs-link03 {
     font-size: 16px;
-    align-self: center;
   }
   .programs-actions {
     align-self: center;
@@ -1252,10 +1284,6 @@
   }
   .programs-description1 {
     color: rgb(255, 255, 255);
-  }
-  .programs-image2 {
-    right: 0px;
-    width: var(--dl-size-size-xlarge);
   }
   .programs-copyright {
     color: rgb(255, 255, 255);
@@ -1499,10 +1527,8 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .programs-image2 {
-    right: 0px;
-    width: var(--dl-size-size-large);
-    height: auto;
+  .programs-text35 {
+    font-size: 30px;
   }
 }
 @media(max-width: 479px) {
@@ -1782,16 +1808,9 @@
   .programs-icon24 {
     width: 24px;
   }
-  .programs-image2 {
-    top: 0px;
-    right: 0px;
-    width: var(--dl-size-size-medium);
-    bottom: 0px;
-    height: auto;
+  .programs-container28 {
     position: static;
-    margin-top: var(--dl-space-space-unit);
-    margin-right: auto;
-    margin-bottom: var(--dl-space-space-unit);
+    padding-right: 0px;
   }
   .programs-copyright {
     width: auto;

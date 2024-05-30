@@ -46,11 +46,11 @@
 }
 .hero2-text {
   font-size: 36px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .hero2-text1 {
-  font-size: 26px;
-  font-family: "STIXTwoText";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Regular";
 }
 .hero2-actions {
   gap: var(--dl-space-space-unit);
@@ -122,7 +122,7 @@
     width: 100%;
   }
   .hero2-button {
-    width: 100%;
+    width: auto;
   }
   .hero2-container2 {
     width: 100%;

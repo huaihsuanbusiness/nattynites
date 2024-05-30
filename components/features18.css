@@ -55,5 +55,6 @@
 @media(max-width: 479px) {
   .features18-text {
     font-size: 20px;
+    font-family: PlayfairDisplay-Regular;
   }
 }

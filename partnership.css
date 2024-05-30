@@ -47,10 +47,11 @@
 .hero21-text {
   width: auto;
   font-size: 36px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .hero21-text1 {
-  font-size: 26px;
-  font-family: "STIXTwoText";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Regular";
 }
 .hero21-root-class-name {
   height: auto;
@@ -91,6 +92,14 @@
   .hero21-text {
     font-size: 26px;
     text-align: left;
+  }
+  .hero21-text1 {
+    font-size: 16px;
+  }
+}
+@media(max-width: 479px) {
+  .hero21-text {
+    font-size: 26px;
   }
   .hero21-text1 {
     font-size: 16px;
@@ -164,29 +173,29 @@
 }
 .partnership-navlink {
   color: #000000;
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
   text-decoration: none;
 }
 .partnership-link {
   fill: #000000;
   color: rgb(0, 0, 0);
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
   text-decoration: none;
 }
 .partnership-link01 {
   fill: #000000;
   color: rgb(0, 0, 0);
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
   text-decoration: none;
 }
 .partnership-link02 {
   fill: #000000;
   color: #000000;
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .partnership-thq-dropdown {
   cursor: pointer;
@@ -212,8 +221,8 @@
 .partnership-link03 {
   fill: #000000;
   color: #000000;
-  font-size: 26px;
-  font-family: "STIXTwoText-Bold";
+  font-size: 20px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .partnership-dropdown-list {
   left: 0%;
@@ -336,7 +345,7 @@
 .partnership-text03 {
   fill: #ffffff;
   color: rgb(255, 255, 255);
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
   font-family: "Source Sans Pro";
 }
@@ -434,10 +443,10 @@
 .partnership-feature1-title {
   font-size: 30px;
   text-align: left;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .partnership-feature1-description {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-feature2 {
   height: 100%;
@@ -450,10 +459,10 @@
 }
 .partnership-feature2-title {
   font-size: 30px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .partnership-feature2-description {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-content1 {
   align-self: stretch;
@@ -468,11 +477,11 @@
 }
 .partnership-feature1-title1 {
   font-size: 30px;
-  text-align: center;
-  font-family: "STIXTwoText-Bold";
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold";
 }
 .partnership-feature1-description1 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-feature21 {
   height: 100%;
@@ -483,14 +492,14 @@
 }
 .partnership-feature2-title1 {
   font-size: 30px;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .partnership-feature2-description1 {
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-text22 {
   fill: #000000;
-  color: #000000;
+  color: rgb(0, 0, 0);
   width: auto;
   font-size: 16px;
   align-self: center;
@@ -525,7 +534,7 @@
   fill: #000000;
   color: #000000;
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-text38 {
   color: var(--dl-color-danger-700);
@@ -546,7 +555,7 @@
   fill: #000000;
   color: #000000;
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-text40 {
   color: var(--dl-color-danger-700);
@@ -566,7 +575,7 @@
   fill: #000000;
   color: #000000;
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-text42 {
   color: var(--dl-color-danger-700);
@@ -586,7 +595,7 @@
   fill: #000000;
   color: #000000;
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-text44 {
   color: var(--dl-color-danger-700);
@@ -606,7 +615,7 @@
   fill: #000000;
   color: #000000;
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-text46 {
   color: var(--dl-color-danger-700);
@@ -626,7 +635,7 @@
   fill: #000000;
   color: #000000;
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-text48 {
   color: var(--dl-color-danger-700);
@@ -646,7 +655,7 @@
   fill: #000000;
   color: rgb(0, 0, 0);
   font-size: 16px;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .partnership-textarea {
   height: var(--dl-size-size-xxlarge);
@@ -667,7 +676,7 @@
   color: rgb(0, 0, 0);
   font-size: 16px;
   align-self: center;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
   margin-left: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
@@ -719,6 +728,7 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
+  position: relative;
   align-self: center;
   align-items: center;
   flex-direction: column;
@@ -730,6 +740,7 @@
   font-size: 18px;
   align-self: center;
   text-align: center;
+  font-family: "PlayfairDisplay-Regular";
   line-height: 27px;
   margin-left: 0px;
 }
@@ -739,6 +750,7 @@
   font-size: 18px;
   align-self: center;
   text-align: center;
+  font-family: "PlayfairDisplay-Regular";
   line-height: 27px;
   margin-left: 0px;
 }
@@ -780,24 +792,30 @@
   height: 30px;
   text-decoration: none;
 }
-.partnership-navlink4 {
-  display: contents;
-}
-.partnership-image {
-  top: 0px;
+.partnership-container16 {
+  flex: 0 0 auto;
   right: 0px;
-  width: var(--dl-size-size-xxlarge);
+  width: auto;
   bottom: 0px;
-  height: auto;
+  height: 100%;
+  display: flex;
   position: absolute;
   align-self: center;
-  margin-top: auto;
-  object-fit: cover;
-  margin-left: auto;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  margin-right: var(--dl-space-space-threeunits);
-  margin-bottom: auto;
+  align-items: center;
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.partnership-text61 {
+  fill: #ffffff;
+  color: #ffffff;
+  font-size: 36px;
+  margin-top: 0px;
+  font-family: "PlayfairDisplay-Bold";
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: 0px;
   text-decoration: none;
 }
 .partnership-copyright {
@@ -806,6 +824,7 @@
   font-size: 14px;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
+  font-family: "PlayfairDisplay-Regular";
   line-height: 21px;
 }
 @media(max-width: 991px) {
@@ -815,6 +834,7 @@
   .partnership-desktop-menu {
     top: 0px;
     right: 0px;
+    position: absolute;
   }
   .partnership-nav {
     align-self: center;
@@ -852,6 +872,10 @@
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
+  .partnership-feature1-title1 {
+    font-size: 30px;
+    text-align: left;
+  }
   .partnership-feature21 {
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -865,10 +889,6 @@
   }
   .partnership-description1 {
     color: rgb(255, 255, 255);
-  }
-  .partnership-image {
-    right: 0px;
-    width: var(--dl-size-size-xlarge);
   }
   .partnership-copyright {
     color: rgb(255, 255, 255);
@@ -1054,10 +1074,8 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .partnership-image {
-    right: 0px;
-    width: var(--dl-size-size-large);
-    height: auto;
+  .partnership-text61 {
+    font-size: 30px;
   }
 }
 @media(max-width: 479px) {
@@ -1164,16 +1182,9 @@
   .partnership-icon08 {
     width: 24px;
   }
-  .partnership-image {
-    top: 0px;
-    right: 0px;
-    width: var(--dl-size-size-medium);
-    bottom: 0px;
-    height: auto;
+  .partnership-container16 {
     position: static;
-    margin-top: var(--dl-space-space-unit);
-    margin-right: auto;
-    margin-bottom: var(--dl-space-space-unit);
+    padding-right: 0px;
   }
   .partnership-copyright {
     width: auto;

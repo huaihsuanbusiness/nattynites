@@ -1,4 +1,4 @@
-.hero9-header30 {
+.hero92-header30 {
   height: 750px;
   align-items: center;
   padding-top: 300px;
@@ -6,7 +6,7 @@
   padding-bottom: 200px;
   justify-content: center;
 }
-.hero9-image {
+.hero92-image {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -18,7 +18,7 @@
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.hero9-max-width {
+.hero92-max-width {
   gap: var(--dl-space-space-oneandhalfunits);
   width: auto;
   display: flex;
@@ -27,7 +27,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.hero9-content {
+.hero92-content {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: center;
@@ -35,7 +35,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.hero9-text {
+.hero92-text {
   fill: #ffffff;
   color: #ffffff;
   font-size: 3em;
@@ -43,107 +43,141 @@
   text-align: center;
   font-family: "PlayfairDisplay-Bold";
 }
-.hero9-text1 {
+.hero92-text1 {
   fill: #ffffff;
   color: #ffffff;
-  font-size: 3em;
+  font-size: 1.5em;
   align-self: flex-start;
   font-family: "PlayfairDisplay-Bold";
 }
-.hero9-actions {
-  gap: var(--dl-space-space-unit);
+.hero92-text2 {
+  fill: #ffffff;
+  color: #ffffff;
+  width: 60%;
+  font-family: "PlayfairDisplay-Regular";
+  line-height: 1.5;
+}
+.hero92-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 0px;
+}
+.hero92-icon {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+}
+.hero92-text3 {
+  fill: #ffffff;
+  color: #ffffff;
+  align-self: center;
+  font-family: "PlayfairDisplay-Regular";
+  padding-left: var(--dl-space-space-unit);
+}
+.hero92-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
   display: flex;
   align-self: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
+  padding-top: 0px;
+  justify-content: flex-start;
 }
-.hero9-button {
-  fill: var(--dl-color-theme-accent2);
-  color: var(--dl-color-theme-accent2);
-  align-self: flex-start;
-  border-color: var(--dl-color-theme-neutral-dark);
-  border-style: ridge;
-  border-width: 2px;
-  border-radius: var(--dl-radius-radius-radius8);
-  text-decoration: none;
-  background-color: var(--dl-color-theme-neutral-dark);
+.hero92-icon2 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
 }
-.hero9-text2 {
+.hero92-link {
   fill: #ffffff;
   color: #ffffff;
-  font-size: 20px;
-  text-align: center;
+  font-family: "PlayfairDisplay-Regular";
+  padding-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.hero9-root-class-name {
-  height: auto;
-}
+
 @media(max-width: 991px) {
-  .hero9-text {
+  .hero92-text {
     font-size: 2.5em;
     text-align: center;
   }
-  .hero9-text1 {
+  .hero92-text1 {
     font-size: 2.5em;
   }
 }
 @media(max-width: 767px) {
-  .hero9-header30 {
+  .hero92-header30 {
     padding-top: 200px;
     padding-left: var(--dl-space-space-twounits);
     padding-bottom: 100px;
   }
-  .hero9-image {
+  .hero92-image {
     border-color: transparent;
   }
-  .hero9-content {
+  .hero92-content {
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .hero9-text {
+  .hero92-text {
     font-size: 2em;
   }
-  .hero9-text1 {
+  .hero92-text1 {
     font-size: 2em;
   }
-  .hero9-text2 {
-    font-size: 24px;
+  .hero92-icon {
+    align-self: center;
+  }
+  .hero92-icon2 {
+    align-self: center;
   }
 }
 @media(max-width: 479px) {
-  .hero9-header30 {
+  .hero92-header30 {
     padding-top: 200px;
     padding-bottom: 100px;
   }
-  .hero9-image {
+  .hero92-image {
     top: 25px;
     right: 25px;
     position: absolute;
   }
-  .hero9-max-width {
+  .hero92-max-width {
     width: 100%;
     justify-content: center;
   }
-  .hero9-content {
+  .hero92-content {
     width: 100%;
+    padding-left: var(--dl-space-space-twounits);
   }
-  .hero9-text {
+  .hero92-text {
     width: 100%;
     font-size: 1.5em;
     align-self: flex-start;
     text-align: left;
   }
-  .hero9-text1 {
+  .hero92-text1 {
     font-size: 1.5em;
     align-self: flex-start;
   }
-  .hero9-actions {
-    width: 100%;
-    flex-direction: column;
+  .hero92-container {
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
   }
-  .hero9-button {
-    width: auto;
+  .hero92-icon {
+    align-self: center;
   }
-  .hero9-text2 {
-    font-size: 20px;
+  .hero92-container1 {
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .hero92-icon2 {
+    align-self: center;
   }
 }

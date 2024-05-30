@@ -28,12 +28,12 @@
 .gallery72-text {
   font-size: 32px;
   text-align: center;
-  font-family: "STIXTwoText-Bold";
+  font-family: "PlayfairDisplay-Bold";
 }
 .gallery72-text1 {
   font-size: 16px;
   text-align: center;
-  font-family: "STIXTwoText";
+  font-family: "PlayfairDisplay-Regular";
 }
 .gallery72-container {
   gap: var(--dl-space-space-oneandhalfunits);
