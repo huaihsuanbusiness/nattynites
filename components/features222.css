@@ -159,34 +159,21 @@
     padding-top: 0.5rem;
     margin-right: 0px;
     padding-left: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-    padding-right: 0px;
     padding-bottom: 0.5rem;
   }
   .features222-container1 {
-    position: relative;
     flex-direction: column;
   }
   .features222-textinput1 {
-    margin-top: var(--dl-space-space-halfunit);
-    text-align: center;
     margin-left: 0px;
     padding-top: 0.5rem;
     margin-right: 0px;
-    padding-left: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-    padding-right: 0px;
     padding-bottom: 0.5rem;
   }
   .features222-textinput2 {
-    margin-top: var(--dl-space-space-halfunit);
-    text-align: center;
     margin-left: 0px;
     padding-top: 0.5rem;
     margin-right: 0px;
-    padding-left: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-    padding-right: 0px;
     padding-bottom: 0.5rem;
   }
   .features222-text1 {
@@ -204,22 +191,18 @@
     padding-bottom: 0.5rem;
   }
   .features222-select1 {
-    margin-top: var(--dl-space-space-halfunit);
     margin-left: 0px;
     padding-top: 0.5rem;
     margin-right: 0px;
     padding-left: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
     padding-right: 0px;
     padding-bottom: 0.5rem;
   }
   .features222-select2 {
-    margin-top: var(--dl-space-space-halfunit);
     margin-left: 0px;
     padding-top: 0.5rem;
     margin-right: 0px;
     padding-left: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
     padding-right: 0px;
     padding-bottom: 0.5rem;
   }

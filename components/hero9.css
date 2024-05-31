@@ -146,4 +146,7 @@
   .hero9-text2 {
     font-size: 20px;
   }
+  .hero9-root-class-name {
+    height: 500px;
+  }
 }
