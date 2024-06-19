@@ -392,6 +392,26 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+  .team14-placeholder-image {
+    width: 90px;
+    height: 90px;
+    align-self: center;
+  }
+  .team14-content1 {
+    align-self: flex-start;
+  }
+  .team14-placeholder-image1 {
+    width: 90px;
+    height: 90px;
+  }
+  .team14-placeholder-image2 {
+    width: 90px;
+    height: 90px;
+  }
+  .team14-placeholder-image3 {
+    width: 90px;
+    height: 90px;
+  }
   .team14-card4 {
     padding-left: 0px;
     padding-right: 0px;
