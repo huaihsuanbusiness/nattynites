@@ -34,6 +34,8 @@
   border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
   justify-content: center;
+  background-color: #E0D1CB;
+  opacity: 0.7;
 }
 .hero92-text {
   fill: #000000;
