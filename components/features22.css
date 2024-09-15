@@ -4,7 +4,9 @@
   overflow: hidden;
   position: relative;
   align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
 }
 .features22-max-width {
   display: flex;
