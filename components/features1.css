@@ -17,7 +17,7 @@
 .features1-column {
   flex-shrink: 0;
 }
-.features1-content {
+.features1-content1 {
   gap: 48px;
   display: flex;
   align-self: stretch;
@@ -30,21 +30,21 @@
 .features1-feature1 {
   flex: 1;
 }
-.features1-content1 {
+.features1-content2 {
   align-self: stretch;
   align-items: flex-start;
 }
 .features1-feature2 {
   flex: 1;
 }
-.features1-content2 {
+.features1-content3 {
   align-self: stretch;
   align-items: flex-start;
 }
 .features1-feature3 {
   flex: 1;
 }
-.features1-content3 {
+.features1-content4 {
   align-self: stretch;
   align-items: flex-start;
 }
@@ -75,7 +75,7 @@
   .features1-column {
     width: 100%;
   }
-  .features1-text1 {
+  .features1-text2 {
     text-align: center;
   }
   .features1-row {
@@ -99,10 +99,10 @@
     width: 100%;
     flex-direction: column;
   }
-  .features1-button {
+  .features1-button1 {
     width: 100%;
   }
-  .features1-button1 {
+  .features1-button2 {
     width: 100%;
   }
 }

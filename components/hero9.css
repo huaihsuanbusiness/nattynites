@@ -35,7 +35,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.hero9-text {
+.hero9-text1 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 3em;
@@ -43,7 +43,7 @@
   text-align: center;
   font-family: "PlayfairDisplay-Bold";
 }
-.hero9-text1 {
+.hero9-text2 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 3em;
@@ -67,21 +67,21 @@
   text-decoration: none;
   background-color: var(--dl-color-theme-neutral-dark);
 }
-.hero9-text2 {
+.hero9-text3 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 20px;
   text-align: center;
 }
-.hero9-root-class-name {
+.hero9root-class-name {
   height: auto;
 }
 @media(max-width: 991px) {
-  .hero9-text {
+  .hero9-text1 {
     font-size: 2.5em;
     text-align: center;
   }
-  .hero9-text1 {
+  .hero9-text2 {
     font-size: 2.5em;
   }
 }
@@ -99,13 +99,13 @@
     padding-left: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .hero9-text {
-    font-size: 2em;
-  }
   .hero9-text1 {
     font-size: 2em;
   }
   .hero9-text2 {
+    font-size: 2em;
+  }
+  .hero9-text3 {
     font-size: 24px;
   }
 }
@@ -126,13 +126,13 @@
   .hero9-content {
     width: 100%;
   }
-  .hero9-text {
+  .hero9-text1 {
     width: 100%;
     font-size: 1.5em;
     align-self: flex-start;
     text-align: left;
   }
-  .hero9-text1 {
+  .hero9-text2 {
     font-size: 1.5em;
     align-self: flex-start;
   }
@@ -143,10 +143,10 @@
   .hero9-button {
     width: auto;
   }
-  .hero9-text2 {
+  .hero9-text3 {
     font-size: 20px;
   }
-  .hero9-root-class-name {
+  .hero9root-class-name {
     height: 500px;
   }
 }

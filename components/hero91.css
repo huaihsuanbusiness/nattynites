@@ -37,10 +37,10 @@
   align-items: center;
   flex-direction: column;
 }
-.hero91-text {
+.hero91-text1 {
   text-align: center;
 }
-.hero91-text1 {
+.hero91-text2 {
   text-align: center;
 }
 .hero91-actions {
@@ -48,17 +48,17 @@
   display: flex;
   align-items: flex-start;
 }
-.hero91-text2 {
-  text-align: center;
-}
 .hero91-text3 {
   text-align: center;
 }
+.hero91-text4 {
+  text-align: center;
+}
 @media(max-width: 991px) {
-  .hero91-text {
+  .hero91-text1 {
     text-align: center;
   }
-  .hero91-text1 {
+  .hero91-text2 {
     text-align: center;
   }
 }
@@ -67,10 +67,10 @@
     width: 100%;
     flex-direction: column;
   }
-  .hero91-button {
+  .hero91-button1 {
     width: 100%;
   }
-  .hero91-button1 {
+  .hero91-button2 {
     width: 100%;
   }
 }

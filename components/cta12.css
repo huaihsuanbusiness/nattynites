@@ -1,4 +1,4 @@
-.cta12-container {
+.cta12-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -19,7 +19,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.cta12-container1 {
+.cta12-container2 {
   gap: var(--dl-space-space-fiveunits);
   display: flex;
   align-self: stretch;
@@ -49,7 +49,7 @@
   object-fit: cover;
 }
 @media(max-width: 767px) {
-  .cta12-container1 {
+  .cta12-container2 {
     gap: var(--dl-space-space-threeunits);
   }
   .cta12-content {
@@ -57,7 +57,7 @@
   }
 }
 @media(max-width: 479px) {
-  .cta12-container1 {
+  .cta12-container2 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
 }

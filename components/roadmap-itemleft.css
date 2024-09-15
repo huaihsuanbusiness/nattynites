@@ -1,4 +1,4 @@
-.roadmap-itemleft-container {
+.roadmap-itemleft-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.roadmap-itemleft-container1 {
+.roadmap-itemleft-container2 {
   display: flex;
   align-self: center;
   align-items: center;
@@ -16,14 +16,9 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.roadmap-itemleft-text {
-  color: #ffffff;
-  font-size: 1.8em;
-}
 .roadmap-itemleft-text1 {
   color: #ffffff;
-  font-size: 20px;
-  text-align: center;
+  font-size: 1.8em;
 }
 .roadmap-itemleft-text2 {
   color: #ffffff;
@@ -35,10 +30,15 @@
   font-size: 20px;
   text-align: center;
 }
+.roadmap-itemleft-text4 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
 
 
 @media(max-width: 767px) {
-  .roadmap-itemleft-container1 {
+  .roadmap-itemleft-container2 {
     width: 100%;
     align-items: flex-start;
     padding-top: var(--dl-space-space-twounits);
@@ -48,18 +48,14 @@
   }
 }
 @media(max-width: 479px) {
-  .roadmap-itemleft-container1 {
+  .roadmap-itemleft-container2 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .roadmap-itemleft-text {
-    font-size: 1em;
-    align-self: center;
-  }
   .roadmap-itemleft-text1 {
-    font-size: 15px;
+    font-size: 1em;
     align-self: center;
   }
   .roadmap-itemleft-text2 {
@@ -70,7 +66,11 @@
     font-size: 15px;
     align-self: center;
   }
-  .roadmap-itemleft-root-class-name {
+  .roadmap-itemleft-text4 {
+    font-size: 15px;
+    align-self: center;
+  }
+  .roadmap-itemleftroot-class-name {
     height: auto;
     align-self: stretch;
   }

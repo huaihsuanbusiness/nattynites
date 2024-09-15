@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: row;
 }
-.testimonial2-text {
+.testimonial2-text1 {
   text-align: center;
 }
 .testimonial2-avatar {
@@ -26,11 +26,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.testimonial2-text1 {
+.testimonial2-text2 {
   text-align: left;
   font-weight: 600;
 }
-.testimonial2-text2 {
+.testimonial2-text3 {
   text-align: left;
 }
 .testimonial2-logo {

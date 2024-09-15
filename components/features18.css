@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
 }
-.features18-content {
+.features18-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   display: flex;
@@ -24,7 +24,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.features18-content1 {
+.features18-content2 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;

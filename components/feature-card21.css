@@ -11,13 +11,13 @@
   width: 150px;
   object-fit: cover;
 }
-.feature-card21-container {
+.feature-card21-container1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.feature-card21-container1 {
+.feature-card21-container2 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -25,7 +25,7 @@
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-unit);
 }
-.feature-card21-text {
+.feature-card21-text1 {
   color: #c6a577;
   font-size: 30px;
   align-self: center;
@@ -37,18 +37,12 @@
 .feature-card21-link {
   display: contents;
 }
-.feature-card21-icon {
+.feature-card21-icon1 {
   fill: var(--dl-color-primary-500);
   width: 24px;
   height: 24px;
   align-self: flex-end;
   text-decoration: none;
-}
-.feature-card21-text1 {
-  color: #ffffff;
-  font-size: 20px;
-  margin-left: var(--dl-space-space-oneandhalfunits);
-  margin-bottom: var(--dl-space-space-halfunit);
 }
 .feature-card21-text2 {
   color: #ffffff;
@@ -66,17 +60,20 @@
   color: #ffffff;
   font-size: 20px;
   margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.feature-card21-text5 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
 }
 
 @media(max-width: 991px) {
   .feature-card21-image {
     width: 100px;
   }
-  .feature-card21-text {
-    font-size: 1.5rem;
-  }
   .feature-card21-text1 {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
   .feature-card21-text2 {
     font-size: 15px;
@@ -85,6 +82,9 @@
     font-size: 15px;
   }
   .feature-card21-text4 {
+    font-size: 15px;
+  }
+  .feature-card21-text5 {
     font-size: 15px;
   }
 }
@@ -92,7 +92,7 @@
   .feature-card21-feature-card {
     flex-direction: row;
   }
-  .feature-card21-container {
+  .feature-card21-container1 {
     flex-direction: column;
   }
 }
@@ -100,15 +100,11 @@
   .feature-card21-image {
     width: var(--dl-size-size-medium);
   }
-  .feature-card21-container {
+  .feature-card21-container1 {
     flex-direction: column;
   }
-  .feature-card21-text {
-    font-size: 1.5rem;
-    margin-left: var(--dl-space-space-halfunit);
-  }
   .feature-card21-text1 {
-    font-size: 15px;
+    font-size: 1.5rem;
     margin-left: var(--dl-space-space-halfunit);
   }
   .feature-card21-text2 {
@@ -120,6 +116,10 @@
     margin-left: var(--dl-space-space-halfunit);
   }
   .feature-card21-text4 {
+    font-size: 15px;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .feature-card21-text5 {
     font-size: 15px;
     margin-left: var(--dl-space-space-halfunit);
   }

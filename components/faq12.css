@@ -1,4 +1,4 @@
-.faq12-faq8 {
+.faq12faq8 {
   width: 100%;
   height: auto;
   display: flex;
@@ -37,7 +37,7 @@
   border-width: 1px;
   flex-direction: column;
 }
-.faq12-trigger {
+.faq12-trigger1 {
   display: flex;
   padding: var(--dl-space-space-unit);
   align-self: stretch;
@@ -50,21 +50,21 @@
   text-align: center;
   font-weight: 600;
 }
-.faq12-icons-container {
+.faq12-icons-container1 {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
 }
-.faq12-icon {
+.faq12-icon10 {
   width: 24px;
   height: 24px;
 }
-.faq12-icon02 {
+.faq12-icon12 {
   width: 24px;
   height: 24px;
 }
-.faq12-container02 {
+.faq12-container12 {
   display: flex;
   padding: var(--dl-space-space-unit);
   align-self: stretch;
@@ -73,49 +73,6 @@
   justify-content: space-between;
 }
 .faq12-faq2 {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  border-color: var(--dl-color-theme-neutral-dark);
-  border-width: 1px;
-  flex-direction: column;
-}
-.faq12-trigger1 {
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  align-self: stretch;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.faq12-faq2-question {
-  font-style: normal;
-  text-align: center;
-  font-weight: 600;
-}
-.faq12-icons-container1 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.faq12-icon04 {
-  width: 24px;
-  height: 24px;
-}
-.faq12-icon06 {
-  width: 24px;
-  height: 24px;
-}
-.faq12-container05 {
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.faq12-faq3 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -142,15 +99,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.faq12-icon08 {
+.faq12-icon14 {
   width: 24px;
   height: 24px;
 }
-.faq12-icon10 {
+.faq12-icon16 {
   width: 24px;
   height: 24px;
 }
-.faq12-container08 {
+.faq12-container15 {
   display: flex;
   padding: var(--dl-space-space-unit);
   align-self: stretch;
@@ -158,7 +115,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.faq12-faq4 {
+.faq12-faq3 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -185,15 +142,58 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.faq12-icon12 {
+.faq12-icon18 {
   width: 24px;
   height: 24px;
 }
-.faq12-icon14 {
+.faq12-icon20 {
   width: 24px;
   height: 24px;
 }
-.faq12-container11 {
+.faq12-container18 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.faq12-faq4 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+}
+.faq12-trigger4 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.faq12-faq2-question3 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.faq12-icons-container4 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.faq12-icon22 {
+  width: 24px;
+  height: 24px;
+}
+.faq12-icon24 {
+  width: 24px;
+  height: 24px;
+}
+.faq12-container21 {
   display: flex;
   padding: var(--dl-space-space-unit);
   align-self: stretch;

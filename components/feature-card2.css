@@ -17,18 +17,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.feature-card2-text {
+.feature-card2-text1 {
   color: #c6a577;
   font-size: 30px;
   font-weight: 600;
   margin-left: var(--dl-space-space-oneandhalfunits);
   margin-bottom: var(--dl-space-space-unit);
-}
-.feature-card2-text1 {
-  color: #ffffff;
-  font-size: 20px;
-  margin-left: var(--dl-space-space-oneandhalfunits);
-  margin-bottom: var(--dl-space-space-halfunit);
 }
 .feature-card2-text2 {
   color: #ffffff;
@@ -43,6 +37,12 @@
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .feature-card2-text4 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.feature-card2-text5 {
   color: #ffffff;
   font-size: 20px;
   margin-left: var(--dl-space-space-oneandhalfunits);
@@ -64,11 +64,8 @@
   .feature-card2-image {
     width: 100px;
   }
-  .feature-card2-text {
-    font-size: 1.5rem;
-  }
   .feature-card2-text1 {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
   .feature-card2-text2 {
     font-size: 15px;
@@ -77,6 +74,9 @@
     font-size: 15px;
   }
   .feature-card2-text4 {
+    font-size: 15px;
+  }
+  .feature-card2-text5 {
     font-size: 15px;
   }
 }
@@ -87,10 +87,10 @@
   .feature-card2-container {
     flex-direction: column;
   }
-  .feature-card2-root-class-name5 {
+  .feature-card2root-class-name5 {
     width: 100%;
   }
-  .feature-card2-root-class-name13 {
+  .feature-card2root-class-name13 {
     width: 100%;
   }
 }
@@ -101,12 +101,8 @@
   .feature-card2-container {
     flex-direction: column;
   }
-  .feature-card2-text {
-    font-size: 1.5rem;
-    margin-left: var(--dl-space-space-halfunit);
-  }
   .feature-card2-text1 {
-    font-size: 15px;
+    font-size: 1.5rem;
     margin-left: var(--dl-space-space-halfunit);
   }
   .feature-card2-text2 {
@@ -121,26 +117,30 @@
     font-size: 15px;
     margin-left: var(--dl-space-space-halfunit);
   }
-  .feature-card2-root-class-name5 {
+  .feature-card2-text5 {
+    font-size: 15px;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .feature-card2root-class-name5 {
     width: auto;
     height: auto;
     margin-right: 0px;
   }
-  .feature-card2-root-class-name6 {
+  .feature-card2root-class-name6 {
     width: auto;
   }
-  .feature-card2-root-class-name8 {
+  .feature-card2root-class-name8 {
     width: auto;
   }
-  .feature-card2-root-class-name11 {
+  .feature-card2root-class-name11 {
     width: auto;
   }
-  .feature-card2-root-class-name13 {
+  .feature-card2root-class-name13 {
     width: auto;
     height: auto;
     margin-right: 0px;
   }
-  .feature-card2-root-class-name15 {
+  .feature-card2root-class-name15 {
     width: auto;
   }
 }

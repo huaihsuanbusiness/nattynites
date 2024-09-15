@@ -20,10 +20,10 @@
   align-items: center;
   flex-direction: column;
 }
-.hero8-text {
+.hero8-text1 {
   text-align: center;
 }
-.hero8-text1 {
+.hero8-text2 {
   text-align: center;
 }
 .hero8-actions {
@@ -36,10 +36,10 @@
     width: 100%;
     flex-direction: column;
   }
-  .hero8-button {
+  .hero8-button1 {
     width: 100%;
   }
-  .hero8-button1 {
+  .hero8-button2 {
     width: 100%;
   }
 }

@@ -1,4 +1,4 @@
-.roadmap-itemcentre1-container {
+.roadmap-itemcentre1-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.roadmap-itemcentre1-container1 {
+.roadmap-itemcentre1-container2 {
   display: flex;
   align-self: center;
   align-items: center;
@@ -16,14 +16,9 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.roadmap-itemcentre1-text {
-  color: #ffffff;
-  font-size: 1.8em;
-}
 .roadmap-itemcentre1-text1 {
   color: #ffffff;
-  font-size: 20px;
-  text-align: center;
+  font-size: 1.8em;
 }
 .roadmap-itemcentre1-text2 {
   color: #ffffff;
@@ -35,19 +30,24 @@
   font-size: 20px;
   text-align: center;
 }
+.roadmap-itemcentre1-text4 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
 
 
 
 
 
 @media(max-width: 991px) {
-  .roadmap-itemcentre1-root-class-name2 {
+  .roadmap-itemcentre1root-class-name2 {
     align-self: stretch;
     margin-top: 0px;
   }
 }
 @media(max-width: 767px) {
-  .roadmap-itemcentre1-container1 {
+  .roadmap-itemcentre1-container2 {
     width: 100%;
     align-items: flex-start;
     padding-top: var(--dl-space-space-twounits);
@@ -57,18 +57,14 @@
   }
 }
 @media(max-width: 479px) {
-  .roadmap-itemcentre1-container1 {
+  .roadmap-itemcentre1-container2 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .roadmap-itemcentre1-text {
-    font-size: 1em;
-    align-self: center;
-  }
   .roadmap-itemcentre1-text1 {
-    font-size: 15px;
+    font-size: 1em;
     align-self: center;
   }
   .roadmap-itemcentre1-text2 {
@@ -79,11 +75,15 @@
     font-size: 15px;
     align-self: center;
   }
-  .roadmap-itemcentre1-root-class-name {
+  .roadmap-itemcentre1-text4 {
+    font-size: 15px;
+    align-self: center;
+  }
+  .roadmap-itemcentre1root-class-name {
     height: auto;
     align-self: stretch;
   }
-  .roadmap-itemcentre1-root-class-name2 {
+  .roadmap-itemcentre1root-class-name2 {
     height: auto;
     align-self: stretch;
   }

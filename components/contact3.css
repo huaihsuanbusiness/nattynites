@@ -20,23 +20,23 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.contact3-content {
+.contact3-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-direction: column;
 }
-.contact3-text {
+.contact3-text1 {
   font-size: 32px;
   font-family: "PlayfairDisplay-Bold";
 }
-.contact3-text1 {
+.contact3-text2 {
   font-size: 16px;
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.contact3-text2 {
+.contact3-text3 {
   font-family: "PlayfairDisplay-Regular";
 }
 .contact3-row {
@@ -46,7 +46,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.contact3-content1 {
+.contact3-content2 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   width: auto;
@@ -56,24 +56,24 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.contact3-icon {
+.contact3-icon1 {
   align-self: center;
 }
-.contact3-contact-info {
+.contact3-contact-info1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-direction: column;
 }
-.contact3-content2 {
+.contact3-content3 {
   gap: 16px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact3-text3 {
+.contact3-text4 {
   font-size: 26px;
   align-self: center;
   text-align: center;
@@ -84,7 +84,7 @@
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.contact3-content3 {
+.contact3-content4 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   width: auto;
@@ -93,21 +93,21 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.contact3-contact-info1 {
+.contact3-contact-info2 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-direction: column;
 }
-.contact3-content4 {
+.contact3-content5 {
   gap: 16px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact3-text4 {
+.contact3-text5 {
   font-size: 26px;
   align-self: stretch;
   text-align: center;

@@ -1,4 +1,4 @@
-.logos21-container {
+.logos21-container1 {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
   display: flex;
@@ -39,7 +39,7 @@
   }
 }
 @media(max-width: 767px) {
-  .logos21-container {
+  .logos21-container1 {
     gap: var(--dl-space-space-twounits);
   }
   .logos21-max-width {

@@ -36,7 +36,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.hero93-text {
+.hero93-text1 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 3em;
@@ -44,7 +44,7 @@
   text-align: center;
   font-family: "PlayfairDisplay-Bold";
 }
-.hero93-text1 {
+.hero93-text2 {
   fill: #ffffff;
   color: #ffffff;
   width: 50%;
@@ -66,24 +66,24 @@
   text-decoration: none;
   background-color: var(--dl-color-theme-neutral-dark);
 }
-.hero93-text2 {
+.hero93-text3 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 20px;
   text-align: center;
 }
-.hero93-root-class-name {
+.hero93root-class-name {
   height: auto;
 }
-.hero93-root-class-name1 {
+.hero93root-class-name1 {
   height: auto;
 }
-.hero93-root-class-name2 {
+.hero93root-class-name2 {
   height: auto;
 }
 
 @media(max-width: 991px) {
-  .hero93-text {
+  .hero93-text1 {
     font-size: 2.5em;
     text-align: center;
   }
@@ -103,13 +103,13 @@
     padding-left: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .hero93-text {
+  .hero93-text1 {
     font-size: 2em;
   }
-  .hero93-text1 {
+  .hero93-text2 {
     width: 70%;
   }
-  .hero93-text2 {
+  .hero93-text3 {
     font-size: 24px;
   }
 }
@@ -133,13 +133,13 @@
     align-self: flex-start;
     padding-left: var(--dl-space-space-twounits);
   }
-  .hero93-text {
+  .hero93-text1 {
     width: 100%;
     font-size: 1.5em;
     align-self: flex-start;
     text-align: left;
   }
-  .hero93-text1 {
+  .hero93-text2 {
     fill: #ffffff;
     color: #ffffff;
     width: 70%;
@@ -152,7 +152,7 @@
   .hero93-button {
     width: auto;
   }
-  .hero93-text2 {
+  .hero93-text3 {
     font-size: 20px;
   }
 }

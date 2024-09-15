@@ -1,4 +1,4 @@
-.roadmap-itemright1-container {
+.roadmap-itemright1-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.roadmap-itemright1-container1 {
+.roadmap-itemright1-container2 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -17,7 +17,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.roadmap-itemright1-line {
+.roadmap-itemright1-line1 {
   flex: 1;
   height: 0px;
   display: flex;
@@ -30,7 +30,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.roadmap-itemright1-container2 {
+.roadmap-itemright1-container3 {
   flex: 0 0 auto;
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
@@ -41,12 +41,12 @@
   justify-content: center;
   background-color: #f5f5f5ff;
 }
-.roadmap-itemright1-icon {
+.roadmap-itemright1-icon1 {
   fill: var(--dl-color-gray-500);
   width: 24px;
   height: 24px;
 }
-.roadmap-itemright1-line1 {
+.roadmap-itemright1-line2 {
   flex: 1;
   height: 0px;
   display: flex;
@@ -59,7 +59,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.roadmap-itemright1-container3 {
+.roadmap-itemright1-container4 {
   display: flex;
   align-self: center;
   align-items: center;
@@ -69,14 +69,9 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.roadmap-itemright1-text {
-  color: #ffffff;
-  font-size: 1.8em;
-}
 .roadmap-itemright1-text1 {
   color: #ffffff;
-  font-size: 20px;
-  text-align: center;
+  font-size: 1.8em;
 }
 .roadmap-itemright1-text2 {
   color: #ffffff;
@@ -88,12 +83,17 @@
   font-size: 20px;
   text-align: center;
 }
+.roadmap-itemright1-text4 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
 
 
 
 
 @media(max-width: 767px) {
-  .roadmap-itemright1-container1 {
+  .roadmap-itemright1-container2 {
     width: var(--dl-size-size-small);
     height: auto;
     align-self: stretch;
@@ -104,13 +104,13 @@
     padding-bottom: 2px;
     justify-content: space-between;
   }
-  .roadmap-itemright1-line1 {
+  .roadmap-itemright1-line2 {
     border-color: var(--dl-color-gray-900);
     border-style: dashed;
     border-top-width: 0px;
     border-left-width: 2px;
   }
-  .roadmap-itemright1-container3 {
+  .roadmap-itemright1-container4 {
     width: 100%;
     align-items: flex-start;
     padding-top: var(--dl-space-space-twounits);
@@ -120,7 +120,7 @@
   }
 }
 @media(max-width: 479px) {
-  .roadmap-itemright1-container3 {
+  .roadmap-itemright1-container4 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: 0px;

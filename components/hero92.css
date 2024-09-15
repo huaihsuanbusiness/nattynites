@@ -30,14 +30,15 @@
 .hero92-content {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
+  opacity: 0.7;
+  padding: var(--dl-space-space-twounits);
   align-self: center;
   border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
   justify-content: center;
-  background-color: #E0D1CB;
-  opacity: 0.7;
+  background-color: var(--dl-color-theme-secondary1);
 }
-.hero92-text {
+.hero92-text1 {
   fill: #000000;
   color: #000000;
   font-size: 3em;
@@ -45,21 +46,25 @@
   text-align: center;
   font-family: "PlayfairDisplay-Bold";
 }
-.hero92-text1 {
+.hero92-text2 {
   fill: #000000;
   color: #000000;
-  font-size: 1.7em;
+  font-size: 2em;
   align-self: flex-start;
   font-family: "PlayfairDisplay-Bold";
 }
-.hero92-text2 {
+.hero92-text3 {
+  font-size: 1.2em;
+  font-family: "PlayfairDisplay-Regular";
+}
+.hero92-text4 {
   fill: #000000;
   color: #000000;
   width: 60%;
   font-family: "PlayfairDisplay-Regular";
   line-height: 1.5;
 }
-.hero92-container {
+.hero92-container1 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -67,19 +72,19 @@
   align-items: flex-end;
   padding-top: 0px;
 }
-.hero92-icon {
+.hero92-icon1 {
   fill: #000000;
   width: 24px;
   height: 24px;
 }
-.hero92-text3 {
+.hero92-text5 {
   fill: #000000;
   color: #000000;
   align-self: center;
   font-family: "PlayfairDisplay-Regular";
   padding-left: var(--dl-space-space-unit);
 }
-.hero92-container1 {
+.hero92-container2 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -89,7 +94,7 @@
   padding-top: 0px;
   justify-content: flex-start;
 }
-.hero92-icon2 {
+.hero92-icon3 {
   fill: #000000;
   width: 24px;
   height: 24px;
@@ -107,11 +112,11 @@
     padding-left: 150px;
     padding-right: 150px;
   }
-  .hero92-text {
+  .hero92-text1 {
     font-size: 2.5em;
     text-align: center;
   }
-  .hero92-text1 {
+  .hero92-text2 {
     font-size: 2.5em;
   }
 }
@@ -122,32 +127,34 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: 0px;
     padding-bottom: 50px;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .hero92-image {
     margin: 0px;
     border-color: transparent;
   }
   .hero92-content {
+    width: auto;
     align-self: flex-start;
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-unit);
     justify-content: center;
-  }
-  .hero92-text {
-    font-size: 2em;
   }
   .hero92-text1 {
     font-size: 2em;
   }
   .hero92-text2 {
+    font-size: 2em;
+  }
+  .hero92-text4 {
     width: 80%;
   }
-  .hero92-icon {
+  .hero92-icon1 {
     align-self: center;
   }
-  .hero92-icon2 {
+  .hero92-icon3 {
     align-self: center;
   }
 }
@@ -155,11 +162,11 @@
   .hero92-header30 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+    justify-content: center;
   }
   .hero92-image {
-    top: 25px;
-    right: 25px;
-    position: absolute;
+    height: 100%;
+    position: 0px;
   }
   .hero92-max-width {
     width: 100%;
@@ -168,36 +175,37 @@
   }
   .hero92-content {
     width: 100%;
+    opacity: 0.7;
+    align-self: flex-start;
+    align-items: flex-start;
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
-    background-color:#F5F5DC;
-    opacity:0.7;
   }
-  .hero92-text {
+  .hero92-text1 {
     width: 100%;
     font-size: 1.5em;
     align-self: flex-start;
     text-align: left;
   }
-  .hero92-text1 {
+  .hero92-text2 {
     font-size: 1.5em;
     align-self: flex-start;
-  }
-  .hero92-container {
-    align-items: flex-end;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .hero92-icon {
-    align-self: center;
   }
   .hero92-container1 {
     align-items: flex-end;
     flex-direction: row;
     justify-content: flex-start;
   }
-  .hero92-icon2 {
+  .hero92-icon1 {
+    align-self: center;
+  }
+  .hero92-container2 {
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .hero92-icon3 {
     align-self: center;
   }
 }

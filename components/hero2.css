@@ -15,7 +15,7 @@
   position: absolute;
   object-fit: cover;
 }
-.hero2-container {
+.hero2-container1 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -44,11 +44,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.hero2-text {
+.hero2-text1 {
   font-size: 36px;
   font-family: "PlayfairDisplay-Bold";
 }
-.hero2-text1 {
+.hero2-text2 {
   font-size: 20px;
   font-family: "PlayfairDisplay-Regular";
 }
@@ -57,7 +57,7 @@
   display: flex;
   align-items: flex-start;
 }
-.hero2-container1 {
+.hero2-container2 {
   display: flex;
   align-items: flex-start;
 }
@@ -73,15 +73,15 @@
   justify-content: center;
   background-color: var(--dl-color-theme-primary1);
 }
-.hero2-text3 {
+.hero2-text4 {
   font-family: "Source Sans Pro";
 }
-.hero2-container2 {
+.hero2-container3 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
 }
-.hero2-root-class-name {
+.hero2root-class-name {
   height: auto;
 }
 @media(max-width: 767px) {
@@ -94,11 +94,11 @@
   .hero2-column {
     width: 100%;
   }
-  .hero2-text {
+  .hero2-text1 {
     font-size: 26px;
     text-align: left;
   }
-  .hero2-text1 {
+  .hero2-text2 {
     font-size: 16px;
     text-align: left;
   }
@@ -109,22 +109,22 @@
   }
 }
 @media(max-width: 479px) {
-  .hero2-text {
+  .hero2-text1 {
     font-size: 26px;
   }
-  .hero2-text1 {
+  .hero2-text2 {
     font-size: 16px;
   }
   .hero2-actions {
     flex-direction: column;
   }
-  .hero2-container1 {
+  .hero2-container2 {
     width: 100%;
   }
   .hero2-button {
     width: auto;
   }
-  .hero2-container2 {
+  .hero2-container3 {
     width: 100%;
   }
 }
