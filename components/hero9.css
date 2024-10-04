@@ -4,19 +4,9 @@
   padding-top: 300px;
   padding-left: 150px;
   padding-bottom: 200px;
+  background-size: cover;
   justify-content: center;
-}
-.hero9-image {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  position: absolute;
-  object-fit: cover;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
+  background-image: url("public/hotel_night-1500w.webp");
 }
 .hero9-max-width {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -68,10 +58,9 @@
   background-color: var(--dl-color-theme-neutral-dark);
 }
 .hero9-text3 {
-  fill: #ffffff;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 20px;
-  text-align: center;
+  font-family: "Open Sans";
 }
 .hero9root-class-name {
   height: auto;
@@ -90,9 +79,6 @@
     padding-top: 200px;
     padding-left: var(--dl-space-space-twounits);
     padding-bottom: 100px;
-  }
-  .hero9-image {
-    border-color: transparent;
   }
   .hero9-content {
     padding-top: var(--dl-space-space-threeunits);
@@ -113,11 +99,6 @@
   .hero9-header30 {
     padding-top: 200px;
     padding-bottom: 100px;
-  }
-  .hero9-image {
-    top: 25px;
-    right: 25px;
-    position: absolute;
   }
   .hero9-max-width {
     width: 100%;

@@ -1,0 +1,17 @@
+.outline-black-button-container {
+  display: flex;
+  position: relative;
+}
+.outline-black-button-button {
+  color: var(--dl-color-secondary-700);
+  border-radius: 5px;
+}
+.outline-black-button-button:hover {
+  transform: scale(1.02);
+}
+.outline-black-button-fragment {
+  display: contents;
+}
+.outline-black-button-text2 {
+  display: inline-block;
+}

@@ -1,0 +1,14 @@
+.list-item1-container {
+  flex: 0 0 auto;
+  display: flex;
+  padding: 1rem;
+  max-width: 500px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.list-item1-fragment {
+  display: contents;
+}
+.list-item1-text3 {
+  display: inline-block;
+}

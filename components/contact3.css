@@ -31,14 +31,6 @@
   font-size: 32px;
   font-family: "PlayfairDisplay-Bold";
 }
-.contact3-text2 {
-  font-size: 16px;
-  text-align: center;
-  font-family: "PlayfairDisplay-Regular";
-}
-.contact3-text3 {
-  font-family: "PlayfairDisplay-Regular";
-}
 .contact3-row {
   gap: 48px;
   display: flex;
@@ -73,7 +65,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact3-text4 {
+.contact3-text3 {
   font-size: 26px;
   align-self: center;
   text-align: center;
@@ -107,7 +99,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact3-text5 {
+.contact3-text4 {
   font-size: 26px;
   align-self: stretch;
   text-align: center;
@@ -116,6 +108,14 @@
 .contact3-address {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
+}
+.contact3-fragment {
+  display: contents;
+}
+.contact3-text5 {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Open Sans";
 }
 @media(max-width: 767px) {
   .contact3-row {

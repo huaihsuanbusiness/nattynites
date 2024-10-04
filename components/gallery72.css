@@ -33,8 +33,7 @@
 }
 .gallery72-text2 {
   font-size: 16px;
-  text-align: center;
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .gallery72-container1 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -143,12 +142,19 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
 }
+.gallery72-link1 {
+  display: contents;
+}
 .gallery72-image8 {
   width: 200px;
   align-self: center;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gallery72-link2 {
+  display: contents;
 }
 .gallery72-image9 {
   width: 200px;
@@ -156,6 +162,10 @@
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gallery72-link3 {
+  display: contents;
 }
 .gallery72-image10 {
   width: 200px;
@@ -163,6 +173,7 @@
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery72-container8 {
   flex: 0 0 auto;
@@ -171,12 +182,19 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
 }
+.gallery72-link4 {
+  display: contents;
+}
 .gallery72-image11 {
   width: 200px;
   align-self: center;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gallery72-link5 {
+  display: contents;
 }
 .gallery72-image12 {
   width: 200px;
@@ -184,12 +202,17 @@
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gallery72-link6 {
+  display: contents;
 }
 .gallery72-image13 {
   width: 200px;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery72-container9 {
   flex: 0 0 auto;
@@ -198,12 +221,16 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
 }
+.gallery72-link7 {
+  display: contents;
+}
 .gallery72-image14 {
   width: 200px;
   align-self: center;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery72-button {
   fill: var(--dl-color-theme-accent2);

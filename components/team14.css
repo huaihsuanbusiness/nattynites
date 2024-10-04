@@ -1,5 +1,5 @@
 .team14-team8 {
-  padding: 100px;
+  padding: var(--dl-space-space-twounits);
 }
 .team14-max-width {
   gap: var(--dl-space-space-twounits);
@@ -66,15 +66,12 @@
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-text13 {
-  overflow: auto;
-  max-height: var(--dl-size-size-large);
-  text-align: left;
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-textm12 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text14 {
+.team14-text15 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons1 {
@@ -106,23 +103,23 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text15 {
+.team14-text16 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text16 {
+.team14-text17 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text17 {
+.team14-text18 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text18 {
+.team14-text19 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text19 {
+.team14-text20 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons2 {
@@ -154,23 +151,23 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text20 {
+.team14-text21 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text21 {
+.team14-text22 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text22 {
+.team14-text23 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text23 {
+.team14-text24 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text24 {
+.team14-text25 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons3 {
@@ -202,14 +199,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text25 {
+.team14-text26 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text26 {
+.team14-text27 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text27 {
+.team14-text28 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
@@ -248,13 +245,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text28 {
+.team14-text29 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text31 {
+.team14-text32 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text32 {
+.team14-text33 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons5 {
@@ -283,14 +280,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text33 {
+.team14-text34 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text34 {
+.team14-text35 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text37 {
+.team14-text38 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
@@ -317,29 +314,28 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text41 {
+.team14-text42 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text42 {
+.team14-text43 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text45 {
+.team14-text46 {
   font-size: 16px;
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-slider-pagination {
   display: block;
 }
-.team14-text46 {
-  font-family: "PlayfairDisplay-Regular";
+.team14-text47 {
+  font-family: "Open Sans";
 }
 .team14-button {
   fill: var(--dl-color-theme-accent2);
   color: var(--dl-color-theme-accent2);
   align-self: center;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
-  margin-top: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-theme-neutral-dark);
   border-style: ridge;
@@ -351,15 +347,23 @@
   text-decoration: none;
   background-color: var(--dl-color-theme-neutral-dark);
 }
-.team14-text47 {
-  fill: #ffffff;
+.team14-text48 {
   color: rgb(255, 255, 255);
   font-size: 20px;
-  text-align: center;
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
+}
+.team14-fragment {
+  display: contents;
+}
+.team14-text49 {
+  display: inline-block;
+  font-family: "PlayfairDisplay-Regular";
 }
 @media(max-width: 991px) {
-  .team14-text47 {
+  .team14-text15 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .team14-text48 {
     font-size: 20px;
   }
 }
@@ -374,7 +378,7 @@
   .team14-text10 {
     font-size: 30px;
   }
-  .team14-text47 {
+  .team14-text48 {
     font-size: 20px;
   }
 }
@@ -400,17 +404,57 @@
   .team14-content2 {
     align-self: flex-start;
   }
+  .team14-text12 {
+    font-size: 12px;
+  }
+  .team14-text13 {
+    font-size: 12px;
+    font-family: PlayfairDisplay-Regular;
+  }
+  .team14-textm12 {
+    font-size: 12px;
+  }
   .team14-placeholder-image2 {
     width: 90px;
     height: 90px;
+  }
+  .team14-text17 {
+    font-size: 12px;
+  }
+  .team14-text18 {
+    font-size: 12px;
+  }
+  .team14-text19 {
+    font-size: 12px;
+  }
+  .team14-text20 {
+    font-size: 12px;
   }
   .team14-placeholder-image3 {
     width: 90px;
     height: 90px;
   }
+  .team14-text22 {
+    font-size: 12px;
+  }
+  .team14-text23 {
+    font-size: 12px;
+  }
+  .team14-text24 {
+    font-size: 12px;
+  }
+  .team14-text25 {
+    font-size: 12px;
+  }
   .team14-placeholder-image4 {
     width: 90px;
     height: 90px;
+  }
+  .team14-text27 {
+    font-size: 12px;
+  }
+  .team14-text28 {
+    font-size: 12px;
   }
   .team14-card5 {
     padding-left: 0px;
@@ -424,13 +468,16 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .team14-text46 {
+  .team14-text47 {
     text-align: center;
   }
   .team14-button {
     width: auto;
   }
-  .team14-text47 {
+  .team14-text48 {
     font-size: 20px;
+  }
+  .team14-text49 {
+    font-size: 12px;
   }
 }

@@ -47,14 +47,22 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.hero21-text1 {
+.dealer-fragment2 {
+  display: contents;
+}
+.dealer-text15 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Open Sans";
+}
+.dealer-fragment1 {
+  display: contents;
+}
+.dealer-text14 {
   width: auto;
+  display: inline-block;
   font-size: 36px;
   font-family: "PlayfairDisplay-Bold";
-}
-.hero21-text2 {
-  font-size: 20px;
-  font-family: "PlayfairDisplay-Regular";
 }
 .hero21root-class-name {
   height: auto;
@@ -78,7 +86,7 @@
   height: 100%;
 }
 @media(max-width: 991px) {
-  .hero21-text2 {
+  .dealer-text15 {
     font-size: 22px;
   }
 }
@@ -92,20 +100,20 @@
   .hero21-column {
     width: 100%;
   }
-  .hero21-text1 {
+  .dealer-text15 {
+    font-size: 16px;
+  }
+  .dealer-text14 {
     font-size: 26px;
     text-align: left;
   }
-  .hero21-text2 {
-    font-size: 16px;
-  }
 }
 @media(max-width: 479px) {
-  .hero21-text1 {
-    font-size: 26px;
-  }
-  .hero21-text2 {
+  .dealer-text15 {
     font-size: 16px;
+  }
+  .dealer-text14 {
+    font-size: 26px;
   }
 }
 
@@ -422,7 +430,24 @@
 .dealer-link18 {
   text-decoration: none;
 }
+.dealer-fragment1 {
+  display: contents;
+}
 .dealer-text14 {
+  width: auto;
+  display: inline-block;
+  font-size: 36px;
+  font-family: "PlayfairDisplay-Bold";
+}
+.dealer-fragment2 {
+  display: contents;
+}
+.dealer-text15 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Open Sans";
+}
+.dealer-text16 {
   fill: #000000;
   color: rgb(0, 0, 0);
   width: auto;
@@ -436,195 +461,195 @@
   padding-right: 200px;
   padding-bottom: var(--dl-space-space-threeunits);
 }
-.dealer-text15 {
-  font-size: 30px;
-  font-family: "PlayfairDisplay-Bold";
-}
-.dealer-text16 {
-  font-size: 30px;
-  font-family: "PlayfairDisplay-Bold";
-}
 .dealer-text17 {
-  font-family: "PlayfairDisplay-Regular";
+  font-size: 30px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .dealer-text18 {
-  font-family: "PlayfairDisplay-Regular";
+  font-size: 30px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .dealer-text19 {
   font-family: "PlayfairDisplay-Regular";
 }
 .dealer-text20 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text21 {
-  font-size: 30px;
-  font-family: "PlayfairDisplay-Bold";
+  font-family: "Open Sans";
 }
 .dealer-text22 {
+  font-family: "PlayfairDisplay-Regular";
+}
+.dealer-text23 {
   font-size: 30px;
   font-family: "PlayfairDisplay-Bold";
 }
-.dealer-text23 {
-  font-family: "PlayfairDisplay-Regular";
-}
 .dealer-text24 {
-  font-family: "PlayfairDisplay-Regular";
+  font-size: 30px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .dealer-text25 {
   font-family: "PlayfairDisplay-Regular";
 }
 .dealer-text26 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text27 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text28 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text29 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text30 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text31 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text32 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text33 {
-  font-size: 30px;
-  font-family: "PlayfairDisplay-Bold";
+  font-family: "Open Sans";
 }
 .dealer-text34 {
+  font-family: "Open Sans";
+}
+.dealer-text35 {
   font-size: 30px;
   font-family: "PlayfairDisplay-Bold";
 }
-.dealer-text35 {
-  font-family: "PlayfairDisplay-Regular";
-}
 .dealer-text36 {
-  font-family: "PlayfairDisplay-Regular";
+  font-size: 30px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .dealer-text37 {
   font-family: "PlayfairDisplay-Regular";
 }
 .dealer-text38 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text39 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text40 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text41 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text42 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text43 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text44 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text45 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text46 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text47 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text48 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text49 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text50 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text51 {
-  font-size: 30px;
-  font-family: "PlayfairDisplay-Bold";
+  font-family: "Open Sans";
 }
 .dealer-text52 {
+  font-family: "PlayfairDisplay-Regular";
+}
+.dealer-text53 {
   font-size: 30px;
   font-family: "PlayfairDisplay-Bold";
 }
-.dealer-text53 {
-  font-family: "PlayfairDisplay-Regular";
-}
 .dealer-text54 {
-  font-family: "PlayfairDisplay-Regular";
+  font-size: 30px;
+  font-family: "PlayfairDisplay-Bold";
 }
 .dealer-text55 {
   font-family: "PlayfairDisplay-Regular";
 }
 .dealer-text56 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text57 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text58 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text59 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text60 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text61 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text62 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text63 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text64 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text65 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text66 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text67 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text68 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text69 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text70 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text71 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text72 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text73 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text74 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Open Sans";
 }
 .dealer-text75 {
+  font-family: "Open Sans";
+}
+.dealer-text76 {
+  font-family: "Open Sans";
+}
+.dealer-text77 {
   font-family: "PlayfairDisplay-Regular";
 }
 .dealer-form {
@@ -646,13 +671,13 @@
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.dealer-text76 {
+.dealer-text78 {
   fill: #000000;
   color: #000000;
   font-size: 16px;
   font-family: "PlayfairDisplay-Regular";
 }
-.dealer-text77 {
+.dealer-text79 {
   color: var(--dl-color-danger-700);
 }
 .dealer-textinput1 {
@@ -660,26 +685,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .dealer-container14 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.dealer-text78 {
-  fill: #000000;
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  font-family: "PlayfairDisplay-Regular";
-}
-.dealer-text79 {
-  color: var(--dl-color-danger-700);
-}
-.dealer-textinput2 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.dealer-container15 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -696,10 +701,10 @@
 .dealer-text81 {
   color: var(--dl-color-danger-700);
 }
-.dealer-textinput3 {
+.dealer-textinput2 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.dealer-container16 {
+.dealer-container15 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -716,6 +721,26 @@
 .dealer-text83 {
   color: var(--dl-color-danger-700);
 }
+.dealer-textinput3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.dealer-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.dealer-text84 {
+  fill: #000000;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "PlayfairDisplay-Regular";
+}
+.dealer-text85 {
+  color: var(--dl-color-danger-700);
+}
 .dealer-textinput4 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -727,7 +752,7 @@
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.dealer-text84 {
+.dealer-text86 {
   fill: #000000;
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -756,19 +781,20 @@
   margin-left: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.dealer-text90 {
+.dealer-text92 {
   color: var(--dl-color-theme-primary1);
 }
 .dealer-button2 {
   fill: #ffffff;
   color: #ffffff;
   margin-top: var(--dl-space-space-unit);
+  font-family: "Open Sans";
   padding-top: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius8);
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: #000000;
 }
-.dealer-text91 {
+.dealer-text93 {
   color: rgb(255, 255, 255);
   font-size: 12px;
   align-self: flex-start;
@@ -883,7 +909,7 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.dealer-text96 {
+.dealer-text98 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 36px;
@@ -936,25 +962,22 @@
   .dealer-text13 {
     font-size: 16px;
   }
-  .dealer-text14 {
+  .dealer-text15 {
+    font-size: 22px;
+  }
+  .dealer-text16 {
     color: rgb(0, 0, 0);
     font-family: STIXTwoText;
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
   }
-  .dealer-text15 {
-    font-size: 32px;
-    font-family: PlayfairDisplay-Bold;
-  }
-  .dealer-text16 {
-    font-size: 32px;
-    font-family: PlayfairDisplay-Bold;
-  }
   .dealer-text17 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 32px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text18 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 32px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text19 {
     font-family: PlayfairDisplay-Regular;
@@ -963,18 +986,18 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text21 {
-    font-size: 26px;
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text22 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text23 {
     font-size: 26px;
     font-family: PlayfairDisplay-Bold;
   }
-  .dealer-text23 {
-    font-family: PlayfairDisplay-Regular;
-  }
   .dealer-text24 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 26px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text25 {
     font-family: PlayfairDisplay-Regular;
@@ -1001,18 +1024,18 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text33 {
-    font-size: 26px;
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text34 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text35 {
     font-size: 26px;
     font-family: PlayfairDisplay-Bold;
   }
-  .dealer-text35 {
-    font-family: PlayfairDisplay-Regular;
-  }
   .dealer-text36 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 26px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text37 {
     font-family: PlayfairDisplay-Regular;
@@ -1057,18 +1080,18 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text51 {
-    font-size: 26px;
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text52 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text53 {
     font-size: 26px;
     font-family: PlayfairDisplay-Bold;
   }
-  .dealer-text53 {
-    font-family: PlayfairDisplay-Regular;
-  }
   .dealer-text54 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 26px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text55 {
     font-family: PlayfairDisplay-Regular;
@@ -1128,6 +1151,12 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text74 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text75 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text76 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-footer {
@@ -1273,6 +1302,13 @@
     text-decoration: none;
   }
   .dealer-text14 {
+    font-size: 26px;
+    text-align: left;
+  }
+  .dealer-text15 {
+    font-size: 16px;
+  }
+  .dealer-text16 {
     color: rgb(0, 0, 0);
     font-family: STIXTwoText;
     padding-left: var(--dl-space-space-twounits);
@@ -1292,7 +1328,7 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .dealer-text96 {
+  .dealer-text98 {
     font-size: 30px;
   }
 }
@@ -1360,6 +1396,12 @@
     text-decoration: none;
   }
   .dealer-text14 {
+    font-size: 26px;
+  }
+  .dealer-text15 {
+    font-size: 16px;
+  }
+  .dealer-text16 {
     color: rgb(0, 0, 0);
     font-size: 15px;
     align-self: center;
@@ -1367,19 +1409,13 @@
     font-family: STIXTwoText;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .dealer-text15 {
-    font-size: 26px;
-    font-family: PlayfairDisplay-Bold;
-  }
-  .dealer-text16 {
-    font-size: 26px;
-    font-family: PlayfairDisplay-Bold;
-  }
   .dealer-text17 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 26px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text18 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 26px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text19 {
     font-family: PlayfairDisplay-Regular;
@@ -1388,36 +1424,36 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text21 {
-    font-size: 20px;
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text22 {
-    font-size: 20px;
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text23 {
+    font-size: 20px;
     font-family: PlayfairDisplay-Bold;
   }
   .dealer-text24 {
-    font-family: PlayfairDisplay-Bold;
+    font-size: 20px;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text25 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text26 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text27 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text28 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text29 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text30 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text31 {
     font-family: PlayfairDisplay-Regular;
@@ -1426,54 +1462,54 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text33 {
-    font-size: 20px;
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text34 {
-    font-size: 24px;
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text35 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 20px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text36 {
-    font-family: PlayfairDisplay-Bold;
+    font-size: 24px;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text37 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text38 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text39 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text40 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text41 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text42 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text43 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text44 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text45 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text46 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text47 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text48 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text49 {
     font-family: PlayfairDisplay-Regular;
@@ -1482,54 +1518,54 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text51 {
-    font-size: 20px;
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text52 {
-    font-size: 24px;
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text53 {
-    font-family: PlayfairDisplay-Regular;
+    font-size: 20px;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text54 {
-    font-family: PlayfairDisplay-Bold;
+    font-size: 24px;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text55 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text56 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text57 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text58 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text59 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text60 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text61 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text62 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text63 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
   }
   .dealer-text64 {
     font-family: PlayfairDisplay-Bold;
   }
   .dealer-text65 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text66 {
-    font-family: PlayfairDisplay-Regular;
+    font-family: PlayfairDisplay-Bold;
   }
   .dealer-text67 {
     font-family: PlayfairDisplay-Regular;
@@ -1553,6 +1589,12 @@
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-text74 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text75 {
+    font-family: PlayfairDisplay-Regular;
+  }
+  .dealer-text76 {
     font-family: PlayfairDisplay-Regular;
   }
   .dealer-footer {
