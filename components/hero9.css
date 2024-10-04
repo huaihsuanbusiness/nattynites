@@ -1,12 +1,13 @@
 .hero9-header30 {
-  height: 750px;
+  width: 100%;
+  height: 100%;
   align-items: center;
   padding-top: 300px;
   padding-left: 150px;
   padding-bottom: 200px;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/hotel_night-1500w.webp");
+  background-image: url("public/hotel_night-1500h.webp");
 }
 .hero9-max-width {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -34,10 +35,8 @@
   font-family: "PlayfairDisplay-Bold";
 }
 .hero9-text2 {
-  fill: #ffffff;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 3em;
-  align-self: flex-start;
   font-family: "PlayfairDisplay-Bold";
 }
 .hero9-actions {
@@ -61,9 +60,6 @@
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: "Open Sans";
-}
-.hero9root-class-name {
-  height: auto;
 }
 @media(max-width: 991px) {
   .hero9-text1 {
@@ -126,8 +122,5 @@
   }
   .hero9-text3 {
     font-size: 20px;
-  }
-  .hero9root-class-name {
-    height: 500px;
   }
 }
