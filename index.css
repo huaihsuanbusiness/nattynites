@@ -2134,8 +2134,7 @@
   transition: 0.3s;
 }
 .home-link13 {
-  fill: #000000;
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: "PlayfairDisplay-Bold";
 }
