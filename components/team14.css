@@ -151,23 +151,23 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text21 {
+.team14-text22 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text22 {
+.team14-text23 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text23 {
+.team14-text24 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text24 {
+.team14-text25 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text25 {
+.team14-text26 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons3 {
@@ -199,17 +199,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text26 {
+.team14-text27 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text27 {
+.team14-text28 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text28 {
-  overflow: auto;
-  max-height: var(--dl-size-size-large);
-  text-align: left;
+.team14-text29 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons4 {
@@ -245,13 +242,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text29 {
+.team14-text30 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text32 {
+.team14-text33 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text33 {
+.team14-text34 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons5 {
@@ -280,14 +277,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text34 {
+.team14-text35 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text35 {
+.team14-text36 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text38 {
+.team14-text39 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
@@ -314,21 +311,21 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text42 {
+.team14-text43 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text43 {
+.team14-text44 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text46 {
+.team14-text47 {
   font-size: 16px;
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-slider-pagination {
   display: block;
 }
-.team14-text47 {
+.team14-text48 {
   font-family: "Open Sans";
 }
 .team14-button {
@@ -347,15 +344,22 @@
   text-decoration: none;
   background-color: var(--dl-color-theme-neutral-dark);
 }
-.team14-text48 {
+.team14-text49 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: "Open Sans";
 }
-.team14-fragment {
+.team14-fragment1 {
   display: contents;
 }
-.team14-text49 {
+.team14-text50 {
+  display: inline-block;
+  font-family: "PlayfairDisplay-Regular";
+}
+.team14-fragment2 {
+  display: contents;
+}
+.team14-text51 {
   display: inline-block;
   font-family: "PlayfairDisplay-Regular";
 }
@@ -363,7 +367,7 @@
   .team14-text15 {
     font-family: PlayfairDisplay-Regular;
   }
-  .team14-text48 {
+  .team14-text49 {
     font-size: 20px;
   }
 }
@@ -378,7 +382,7 @@
   .team14-text10 {
     font-size: 30px;
   }
-  .team14-text48 {
+  .team14-text49 {
     font-size: 20px;
   }
 }
@@ -434,9 +438,6 @@
     width: 90px;
     height: 90px;
   }
-  .team14-text22 {
-    font-size: 12px;
-  }
   .team14-text23 {
     font-size: 12px;
   }
@@ -446,14 +447,17 @@
   .team14-text25 {
     font-size: 12px;
   }
+  .team14-text26 {
+    font-size: 12px;
+  }
   .team14-placeholder-image4 {
     width: 90px;
     height: 90px;
   }
-  .team14-text27 {
+  .team14-text28 {
     font-size: 12px;
   }
-  .team14-text28 {
+  .team14-text29 {
     font-size: 12px;
   }
   .team14-card5 {
@@ -468,16 +472,19 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .team14-text47 {
+  .team14-text48 {
     text-align: center;
   }
   .team14-button {
     width: auto;
   }
-  .team14-text48 {
+  .team14-text49 {
     font-size: 20px;
   }
-  .team14-text49 {
+  .team14-text50 {
+    font-size: 12px;
+  }
+  .team14-text51 {
     font-size: 12px;
   }
 }

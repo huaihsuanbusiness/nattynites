@@ -227,28 +227,28 @@
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   border-radius: var(--dl-radius-radius-radius1);
 }
-.about-fragment2 {
+.about-fragment11 {
   display: contents;
 }
 .about-text150 {
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment1 {
+.about-fragment10 {
   display: contents;
 }
 .about-text146 {
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment3 {
+.about-fragment12 {
   display: contents;
 }
 .about-text156 {
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment4 {
+.about-fragment13 {
   display: contents;
 }
 .about-text160 {
@@ -480,23 +480,23 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text21 {
+.team14-text22 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text22 {
+.team14-text23 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text23 {
+.team14-text24 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text24 {
+.team14-text25 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text25 {
+.team14-text26 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons3 {
@@ -528,17 +528,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text26 {
+.team14-text27 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text27 {
+.team14-text28 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text28 {
-  overflow: auto;
-  max-height: var(--dl-size-size-large);
-  text-align: left;
+.team14-text29 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons4 {
@@ -574,13 +571,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text29 {
+.team14-text30 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text32 {
+.team14-text33 {
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text33 {
+.team14-text34 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons5 {
@@ -609,14 +606,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text34 {
+.team14-text35 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text35 {
+.team14-text36 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text38 {
+.team14-text39 {
   overflow: auto;
   max-height: var(--dl-size-size-large);
   text-align: left;
@@ -643,21 +640,21 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team14-text42 {
+.team14-text43 {
   font-family: "PlayfairDisplay-Bold";
 }
-.team14-text43 {
+.team14-text44 {
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
 }
-.team14-text46 {
+.team14-text47 {
   font-size: 16px;
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-slider-pagination {
   display: block;
 }
-.team14-text47 {
+.team14-text48 {
   font-family: "Open Sans";
 }
 .team14-button {
@@ -676,15 +673,22 @@
   text-decoration: none;
   background-color: var(--dl-color-theme-neutral-dark);
 }
-.team14-text48 {
+.team14-text49 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: "Open Sans";
 }
-.about-fragment5 {
+.about-fragment14 {
   display: contents;
 }
 .about-text175 {
+  display: inline-block;
+  font-family: "PlayfairDisplay-Regular";
+}
+.about-fragment15 {
+  display: contents;
+}
+.about-text176 {
   display: inline-block;
   font-family: "PlayfairDisplay-Regular";
 }
@@ -692,7 +696,7 @@
   .team14-text15 {
     font-family: PlayfairDisplay-Regular;
   }
-  .team14-text48 {
+  .team14-text49 {
     font-size: 20px;
   }
 }
@@ -707,7 +711,7 @@
   .team14-text10 {
     font-size: 30px;
   }
-  .team14-text48 {
+  .team14-text49 {
     font-size: 20px;
   }
 }
@@ -763,9 +767,6 @@
     width: 90px;
     height: 90px;
   }
-  .team14-text22 {
-    font-size: 12px;
-  }
   .team14-text23 {
     font-size: 12px;
   }
@@ -775,14 +776,17 @@
   .team14-text25 {
     font-size: 12px;
   }
+  .team14-text26 {
+    font-size: 12px;
+  }
   .team14-placeholder-image4 {
     width: 90px;
     height: 90px;
   }
-  .team14-text27 {
+  .team14-text28 {
     font-size: 12px;
   }
-  .team14-text28 {
+  .team14-text29 {
     font-size: 12px;
   }
   .team14-card5 {
@@ -797,16 +801,19 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .team14-text47 {
+  .team14-text48 {
     text-align: center;
   }
   .team14-button {
     width: auto;
   }
-  .team14-text48 {
+  .team14-text49 {
     font-size: 20px;
   }
   .about-text175 {
+    font-size: 12px;
+  }
+  .about-text176 {
     font-size: 12px;
   }
 }
@@ -1248,43 +1255,43 @@
   font-family: "Open Sans";
   text-decoration: none;
 }
-.about-fragment6 {
+.about-fragment16 {
   display: contents;
-}
-.about-text188 {
-  fill: white;
-  color: white;
-  width: 50%;
-  display: inline-block;
-  font-family: "Open Sans";
 }
 .about-text189 {
+  fill: white;
+  color: white;
+  width: 50%;
+  display: inline-block;
+  font-family: "Open Sans";
+}
+.about-text190 {
   font-size: 16px;
 }
-.about-fragment7 {
+.about-fragment17 {
   display: contents;
 }
-.about-text191 {
+.about-text192 {
   fill: white;
   color: white;
   width: 50%;
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment9 {
+.about-fragment19 {
   display: contents;
 }
-.about-text197 {
+.about-text198 {
   fill: white;
   color: white;
   width: 50%;
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment8 {
+.about-fragment18 {
   display: contents;
 }
-.about-text194 {
+.about-text195 {
   fill: white;
   color: white;
   width: 50%;
@@ -1885,28 +1892,28 @@
   align-items: center;
   justify-content: center;
 }
-.about-fragment1 {
+.about-fragment10 {
   display: contents;
 }
 .about-text146 {
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment2 {
+.about-fragment11 {
   display: contents;
 }
 .about-text150 {
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment3 {
+.about-fragment12 {
   display: contents;
 }
 .about-text156 {
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment4 {
+.about-fragment13 {
   display: contents;
 }
 .about-text160 {
@@ -1967,10 +1974,17 @@
   align-items: center;
   justify-content: center;
 }
-.about-fragment5 {
+.about-fragment14 {
   display: contents;
 }
 .about-text175 {
+  display: inline-block;
+  font-family: "PlayfairDisplay-Regular";
+}
+.about-fragment15 {
+  display: contents;
+}
+.about-text176 {
   display: inline-block;
   font-family: "PlayfairDisplay-Regular";
 }
@@ -1988,11 +2002,11 @@
   justify-content: center;
   background-color: #D9E5E7;
 }
-.about-text176 {
+.about-text177 {
   font-size: 30px;
   font-family: "PlayfairDisplay-Bold";
 }
-.about-text179 {
+.about-text180 {
   align-self: flex-start;
   font-family: "Open Sans";
 }
@@ -2004,43 +2018,43 @@
   align-items: center;
   justify-content: center;
 }
-.about-fragment6 {
+.about-fragment16 {
   display: contents;
-}
-.about-text188 {
-  fill: white;
-  color: white;
-  width: 50%;
-  display: inline-block;
-  font-family: "Open Sans";
 }
 .about-text189 {
+  fill: white;
+  color: white;
+  width: 50%;
+  display: inline-block;
+  font-family: "Open Sans";
+}
+.about-text190 {
   font-size: 16px;
 }
-.about-fragment7 {
+.about-fragment17 {
   display: contents;
 }
-.about-text191 {
+.about-text192 {
   fill: white;
   color: white;
   width: 50%;
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment8 {
+.about-fragment18 {
   display: contents;
 }
-.about-text194 {
+.about-text195 {
   fill: white;
   color: white;
   width: 50%;
   display: inline-block;
   font-family: "Open Sans";
 }
-.about-fragment9 {
+.about-fragment19 {
   display: contents;
 }
-.about-text197 {
+.about-text198 {
   fill: white;
   color: white;
   width: 50%;
@@ -2155,7 +2169,7 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.about-text200 {
+.about-text201 {
   fill: #ffffff;
   color: #ffffff;
   font-size: 36px;
@@ -2401,7 +2415,7 @@
   .about-text174 {
     font-size: 20px;
   }
-  .about-text176 {
+  .about-text177 {
     font-size: 20px;
   }
   .about-footer {
@@ -2417,7 +2431,7 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .about-text200 {
+  .about-text201 {
     font-size: 30px;
   }
 }
@@ -2567,12 +2581,15 @@
   .about-text175 {
     font-size: 12px;
   }
+  .about-text176 {
+    font-size: 12px;
+  }
   .about-container20 {
     width: 100%;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .about-text176 {
+  .about-text177 {
     font-size: 20px;
   }
   .about-footer {
