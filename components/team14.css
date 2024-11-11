@@ -71,6 +71,9 @@
 .team14-textm12 {
   font-family: "PlayfairDisplay-Regular";
 }
+.team14-text14 {
+  font-family: "PlayfairDisplay-Regular";
+}
 .team14-text15 {
   font-family: "PlayfairDisplay-Regular";
 }
@@ -120,6 +123,9 @@
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-text20 {
+  font-family: "PlayfairDisplay-Regular";
+}
+.team14-text21 {
   font-family: "PlayfairDisplay-Regular";
 }
 .team14-social-icons2 {
@@ -354,14 +360,12 @@
 }
 .team14-text50 {
   display: inline-block;
-  font-family: "PlayfairDisplay-Regular";
 }
 .team14-fragment2 {
   display: contents;
 }
 .team14-text51 {
   display: inline-block;
-  font-family: "PlayfairDisplay-Regular";
 }
 @media(max-width: 991px) {
   .team14-text15 {
@@ -418,6 +422,9 @@
   .team14-textm12 {
     font-size: 12px;
   }
+  .team14-text14 {
+    font-size: 12px;
+  }
   .team14-placeholder-image2 {
     width: 90px;
     height: 90px;
@@ -432,6 +439,9 @@
     font-size: 12px;
   }
   .team14-text20 {
+    font-size: 12px;
+  }
+  .team14-text21 {
     font-size: 12px;
   }
   .team14-placeholder-image3 {
@@ -480,11 +490,5 @@
   }
   .team14-text49 {
     font-size: 20px;
-  }
-  .team14-text50 {
-    font-size: 12px;
-  }
-  .team14-text51 {
-    font-size: 12px;
   }
 }

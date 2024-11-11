@@ -41,6 +41,13 @@
   font-size: 3em;
   font-family: "PlayfairDisplay-Bold";
 }
+.hero921-text2 {
+  fill: #ffffff;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 3em;
+  font-family: "PlayfairDisplay-Bold";
+}
 .hero921-actions {
   gap: var(--dl-space-space-unit);
   display: flex;
@@ -67,12 +74,7 @@
   display: contents;
 }
 .hero921-text4 {
-  fill: #ffffff;
-  color: #ffffff;
   display: inline-block;
-  opacity: 1;
-  font-size: 3em;
-  font-family: "PlayfairDisplay-Bold";
 }
 
 

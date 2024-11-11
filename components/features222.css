@@ -156,16 +156,18 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
+.features222-text14 {
+  fill: white;
+  color: white;
+  height: auto;
+  font-size: 30px;
+  vertical-align: middle;
+}
 .features222-fragment {
   display: contents;
 }
 .features222-text15 {
-  fill: white;
-  color: white;
-  height: auto;
   display: inline-block;
-  font-size: 30px;
-  vertical-align: middle;
 }
 
 @media(max-width: 991px) {
@@ -294,7 +296,7 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
-  .features222-text15 {
+  .features222-text14 {
     font-size: 20px;
     text-align: center;
   }
@@ -395,7 +397,7 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
-  .features222-text15 {
+  .features222-text14 {
     width: 100%;
     font-size: 20px;
     text-align: center;

@@ -39,6 +39,9 @@
   font-size: 21px;
   font-family: "PlayfairDisplay-Bold";
 }
+.stats1-text13 {
+  font-family: "Open Sans";
+}
 .stats1-container5 {
   flex: 0 0 auto;
   width: 50%;
@@ -51,6 +54,9 @@
 .stats1-text14 {
   font-size: 21px;
   font-family: "PlayfairDisplay-Bold";
+}
+.stats1-text15 {
+  font-family: "Open Sans";
 }
 .stats1-container6 {
   flex: 0 0 auto;
@@ -70,6 +76,9 @@
   font-size: 21px;
   font-family: "PlayfairDisplay-Bold";
 }
+.stats1-text17 {
+  font-family: "Open Sans";
+}
 .stats1-container8 {
   flex: 0 0 auto;
   width: 50%;
@@ -83,6 +92,9 @@
   font-size: 21px;
   font-family: "PlayfairDisplay-Bold";
 }
+.stats1-text19 {
+  font-family: "Open Sans";
+}
 .stats1-image {
   width: 400px;
   height: 363px;
@@ -94,28 +106,24 @@
 }
 .stats1-text20 {
   display: inline-block;
-  font-family: "Open Sans";
 }
 .stats1-fragment2 {
   display: contents;
 }
 .stats1-text22 {
   display: inline-block;
-  font-family: "Open Sans";
 }
 .stats1-fragment3 {
   display: contents;
 }
 .stats1-text24 {
   display: inline-block;
-  font-family: "Open Sans";
 }
 .stats1-fragment4 {
   display: contents;
 }
 .stats1-text26 {
   display: inline-block;
-  font-family: "Open Sans";
 }
 @media(max-width: 991px) {
   .stats1-max-width {
@@ -160,28 +168,28 @@
   .stats1-text12 {
     font-size: 20px;
   }
+  .stats1-text13 {
+    font-size: 16px;
+  }
   .stats1-text14 {
     font-size: 20px;
+  }
+  .stats1-text15 {
+    font-size: 16px;
   }
   .stats1-text16 {
     font-size: 20px;
   }
+  .stats1-text17 {
+    font-size: 16px;
+  }
   .stats1-text18 {
     font-size: 20px;
   }
+  .stats1-text19 {
+    font-size: 16px;
+  }
   .stats1-image {
     width: 100%;
-  }
-  .stats1-text20 {
-    font-size: 16px;
-  }
-  .stats1-text22 {
-    font-size: 16px;
-  }
-  .stats1-text24 {
-    font-size: 16px;
-  }
-  .stats1-text26 {
-    font-size: 16px;
   }
 }

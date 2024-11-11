@@ -86,6 +86,12 @@
   font-size: 36px;
   font-family: "PlayfairDisplay-Bold";
 }
+.timeline4-text12 {
+  fill: white;
+  color: white;
+  width: 50%;
+  font-family: "Open Sans";
+}
 .timeline4-container14 {
   flex: 0 0 auto;
   width: 100%;
@@ -254,6 +260,12 @@
   font-size: 36px;
   font-family: "PlayfairDisplay-Bold";
 }
+.timeline4-text19 {
+  fill: white;
+  color: white;
+  width: 50%;
+  font-family: "Open Sans";
+}
 .timeline4-text20 {
   color: white;
   font-size: 16px;
@@ -342,6 +354,12 @@
   font-size: 36px;
   font-family: "PlayfairDisplay-Bold";
 }
+.timeline4-text25 {
+  fill: white;
+  color: white;
+  width: 50%;
+  font-family: "Open Sans";
+}
 .timeline4-text26 {
   color: white;
   font-size: 16px;
@@ -409,6 +427,12 @@
   font-size: 36px;
   font-family: "PlayfairDisplay-Bold";
 }
+.timeline4-text30 {
+  fill: white;
+  color: white;
+  width: 50%;
+  font-family: "Open Sans";
+}
 .timeline4-text31 {
   color: white;
   font-size: 16px;
@@ -436,11 +460,7 @@
   display: contents;
 }
 .timeline4-text33 {
-  fill: white;
-  color: white;
-  width: 50%;
   display: inline-block;
-  font-family: "Open Sans";
 }
 .timeline4-text34 {
   font-size: 16px;
@@ -449,31 +469,19 @@
   display: contents;
 }
 .timeline4-text36 {
-  fill: white;
-  color: white;
-  width: 50%;
   display: inline-block;
-  font-family: "Open Sans";
 }
 .timeline4-fragment3 {
   display: contents;
 }
 .timeline4-text39 {
-  fill: white;
-  color: white;
-  width: 50%;
   display: inline-block;
-  font-family: "Open Sans";
 }
 .timeline4-fragment4 {
   display: contents;
 }
 .timeline4-text42 {
-  fill: white;
-  color: white;
-  width: 50%;
   display: inline-block;
-  font-family: "Open Sans";
 }
 .timeline4root-class-name {
   fill: var(--dl-color-gray-black);

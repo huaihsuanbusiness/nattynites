@@ -6,23 +6,27 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.list-item-fragment1 {
-  display: contents;
-}
-.list-item-text3 {
-  display: inline-block;
-  font-family: "Open Sans";
-}
-.list-item-fragment2 {
-  display: contents;
-}
-.list-item-text5 {
+.list-item-text1 {
   color: var(--dl-color-secondary-600);
-  display: inline-block;
   font-size: 1.25rem;
   font-family: "Open Sans";
   font-weight: 600;
   line-height: 1.375;
   text-transform: none;
   text-decoration: none;
+}
+.list-item-text2 {
+  font-family: "Open Sans";
+}
+.list-item-fragment1 {
+  display: contents;
+}
+.list-item-text3 {
+  display: inline-block;
+}
+.list-item-fragment2 {
+  display: contents;
+}
+.list-item-text5 {
+  display: inline-block;
 }
