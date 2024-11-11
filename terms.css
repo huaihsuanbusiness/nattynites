@@ -655,6 +655,7 @@
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
   line-height: 21px;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .terms-navbar {

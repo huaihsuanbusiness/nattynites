@@ -2216,6 +2216,7 @@
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
   line-height: 21px;
+  text-decoration: none;
 }
 .about-actions3 {
   display: flex;

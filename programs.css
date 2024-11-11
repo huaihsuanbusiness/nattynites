@@ -181,7 +181,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-gn4u {
+.list-item-wrapper-xcms {
   display: contents;
 }
 .list-item-container1 {
@@ -217,7 +217,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-q5ya {
+.list-item-wrapper-xjhw {
   display: contents;
 }
 .list-item-container2 {
@@ -253,7 +253,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-o93b {
+.list-item-wrapper-g26j {
   display: contents;
 }
 .list-item-container3 {
@@ -289,7 +289,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-nqjm {
+.list-item-wrapper-pv71 {
   display: contents;
 }
 .list-item-container4 {
@@ -325,7 +325,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-kv69 {
+.list-item-wrapper-nvqm {
   display: contents;
 }
 .list-item-container5 {
@@ -361,7 +361,7 @@
   display: inline-block;
 }
 
-.outline-black-button-wrapper-uw4f {
+.outline-black-button-wrapper-pzew {
   display: contents;
 }
 .outline-black-button-container1 {
@@ -382,7 +382,7 @@
   display: inline-block;
 }
 
-.outline-black-button-wrapper-xmjm {
+.outline-black-button-wrapper-a2qb {
   display: contents;
 }
 .outline-black-button-container2 {
@@ -403,7 +403,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-e3m3 {
+.list-item-wrapper-zs08 {
   display: contents;
 }
 .list-item-container6 {
@@ -439,7 +439,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-h177 {
+.list-item-wrapper-97pl {
   display: contents;
 }
 .list-item-container7 {
@@ -475,7 +475,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-5ndf {
+.list-item-wrapper-y29p {
   display: contents;
 }
 .list-item-container8 {
@@ -511,7 +511,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-new5 {
+.list-item-wrapper-5otg {
   display: contents;
 }
 .list-item-container9 {
@@ -547,7 +547,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-slw4 {
+.list-item-wrapper-v9bn {
   display: contents;
 }
 .list-item-container10 {
@@ -583,7 +583,7 @@
   display: inline-block;
 }
 
-.list-item-wrapper-y5xd {
+.list-item-wrapper-wle9 {
   display: contents;
 }
 .list-item-container11 {
@@ -619,7 +619,7 @@
   display: inline-block;
 }
 
-.outline-black-button-wrapper-58tv {
+.outline-black-button-wrapper-q2xx {
   display: contents;
 }
 .outline-black-button-container3 {
@@ -1766,6 +1766,7 @@
   text-align: center;
   font-family: "PlayfairDisplay-Regular";
   line-height: 21px;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .programs-navbar {
